@@ -1,41 +1,63 @@
-# 🚀 ماجد السكاني - مطور برمجيات
+<p align="center">
+  <img src="https://i.imgur.com/UjTAEK8.png" alt="Majid Al-Sakani Portfolio" width="100%" height="500px" />
+</p>
 
-**مطور برمجيات متخصص في بناء حلول ويب قوية وأنظمة خلفية فعالة وأتمتة ذكية.**
+<h1 align="center">🚀 ماجد السكاني - مطور برمجيات 🚀</h1>
 
----
+<p align="center">
+  <em>مطور برمجيات <strong>مبتكر</strong> و<strong>متقدم</strong>، متخصص في بناء حلول ويب قوية، أنظمة خلفية فعالة، وأتمتة ذكية.</em>
+</p>
 
-## 📌 مقدمة
-
-أهلاً بك في ملفي الشخصي على GitHub! أنا ماجد السكاني، مطور برمجيات متحمس وطالب في علوم الحاسوب، متخصص في تحويل الأفكار إلى حلول برمجية عملية وموثوقة. أمتلك خبرة في تطوير الويب، تصميم الأنظمة الخلفية، وأتمتة العمليات باستخدام بوتات تيليجرام.
-
-أركز على تقديم حلول برمجية ذات جودة عالية، قابلة للتطوير، وموجهة نحو تحقيق أهداف الأعمال، مع الاستفادة من أحدث الأدوات والتقنيات، بما في ذلك الذكاء الاصطناعي، لضمان الكفاءة والابتكار.
-
----
-
-## 💡 عني
-
-بصفتي طالبًا في علوم الحاسوب ومطور برمجيات، أجمع بين المعرفة الأكاديمية والخبرة العملية في بناء أنظمة برمجية. شغفي يكمن في تطوير حلول تساهم في تبسيط العمليات وتحسين الإنتاجية للشركات والعملاء الأفراد. ألتزم بتقديم أنظمة:
-
--   ✔️ **موثوقة:** مصممة للعمل بكفاءة واستقرار.
--   ✔️ **قابلة للتطوير:** قادرة على النمو والتكيف مع المتطلبات المستقبلية.
--   ✔️ **موجهة للأعمال:** تلبي الاحتياجات الفعلية وتضيف قيمة تجارية.
--   ✔️ **مدفوعة بالأتمتة:** تقلل من الجهد اليدوي وتزيد من الكفاءة.
-
----
-
-## 🧠 المهارات والتقنيات
-
-| الفئة التقنية       | المهارات والتقنيات                                |
-| :------------------ | :----------------------------------------------- |
-| **لغات البرمجة**    | Python, JavaScript                               |
-| **تطوير الويب**     | HTML, CSS, JavaScript, REST APIs, Backend Architectures |
-| **الأتمتة والبوتات** | Telegram Bot Development, Business Automation Workflows, Scheduling Systems, Admin Dashboards, User & Role Management |
-| **البيانات والتخزين** | JSON, SQLite                                     |
-| **الأدوات**         | Git, GitHub, Linux, AI-assisted Development Tools |
+<p align="center">
+  <a href="mailto:majidalsakani@gmail.com">
+    <img src="https://img.shields.io/badge/Email-majidalsakani@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email">
+  </a>
+  <a href="https://github.com/majid-alsakani">
+    <img src="https://img.shields.io/badge/GitHub-majid--alsakani-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  </a>
+  <!-- أضف رابط LinkedIn هنا بعد تحديثه -->
+  <!-- <a href="[رابط ملفك الشخصي على LinkedIn]">
+    <img src="https://img.shields.io/badge/LinkedIn-YourProfile-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a> -->
+</p>
 
 ---
 
-## 🧩 مشاريع مختارة
+## 🌟 عني
+
+أهلاً بك في ملفي الشخصي! أنا ماجد السكاني، طالب علوم حاسوب ومطور برمجيات شغوف بتحويل الأفكار إلى واقع رقمي. أركز على بناء أنظمة برمجية **موثوقة**، **قابلة للتطوير**، و**موجهة للأعمال**، مع دمج أحدث التقنيات وأدوات الذكاء الاصطناعي لتقديم حلول مبتكرة وفعالة.
+
+---
+
+## 🛠️ المهارات والتقنيات
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+  <img src="https://img.shields.io/badge/REST_APIs-00599C?style=for-the-badge&logo=rest&logoColor=white" alt="REST APIs">
+  <img src="https://img.shields.io/badge/Telegram_Bots-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram Bots">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
+  <img src="https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white" alt="JSON">
+  <!-- أضف أيقونات لمهارات أخرى هنا -->
+</p>
+
+---
+
+## 📊 إحصائيات GitHub
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=majid-alsakani&show_icons=true&theme=radical&hide_border=true" alt="Majid's GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=majid-alsakani&theme=radical&hide_border=true" alt="Majid's GitHub Streak" />
+</p>
+
+---
+
+## 💡 مشاريعي المميزة
 
 ### 🏨 موقع فندق - نظام إنتاجي
 
@@ -51,10 +73,6 @@
 ### 🌍 بوت الترجمة بالذكاء الاصطناعي
 
 -   **الوصف:** بوت ترجمة متعدد اللغات يدعم النصوص والصور والملفات والروابط، مع نظام ميزات مدفوعة وتكامل مع واجهات برمجة تطبيقات الذكاء الاصطناعي.
-
-### 🎮 بوت تعليمي تفاعلي (Gamified Learning Bot)
-
--   **الوصف:** بوت تعليمي يعتمد على نظام التلعيب، يتضمن نظام نقاط خبرة (XP)، مستويات، تتبع إحصائيات المستخدمين، ومنطق تفاعل يعتمد على التقدم.
 
 ---
 
