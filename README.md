@@ -1,131 +1,75 @@
-<p align="center">
-  <img src="https://i.imgur.com/UjTAEK8.png" alt="Majid Al-Sakani Portfolio" width="100%" height="500px" />
-</p>
+# 🚀 ماجد السكاني - مطور برمجيات
+
+**مطور برمجيات متخصص في بناء حلول ويب قوية وأنظمة خلفية فعالة وأتمتة ذكية.**
 
 ---
 
-# 🚀 Majid Al-Sakani – Software Developer Portfolio
+## 📌 مقدمة
 
-**Everyone needs a place to showcase real work — this is mine.**  
-✨ **Welcome to my portfolio and resume on the web!** ✨
+أهلاً بك في ملفي الشخصي على GitHub! أنا ماجد السكاني، مطور برمجيات متحمس وطالب في علوم الحاسوب، متخصص في تحويل الأفكار إلى حلول برمجية عملية وموثوقة. أمتلك خبرة في تطوير الويب، تصميم الأنظمة الخلفية، وأتمتة العمليات باستخدام بوتات تيليجرام.
 
----
-
-## 📌 Introduction
-
-This repository represents my **professional portfolio**, showcasing real-world projects I have delivered as a **Software Developer** specializing in **Web Development, Backend Systems, Automation, and Telegram Bots**.
-
-It reflects my hands-on experience working with **businesses, hotels, traders, and individual clients**, transforming ideas into **production-ready solutions**.
-
-This `README.md` acts as a **project overview**, **skill proof**, and **technical summary** for recruiters, clients, and collaborators.
+أركز على تقديم حلول برمجية ذات جودة عالية، قابلة للتطوير، وموجهة نحو تحقيق أهداف الأعمال، مع الاستفادة من أحدث الأدوات والتقنيات، بما في ذلك الذكاء الاصطناعي، لضمان الكفاءة والابتكار.
 
 ---
 
-## 🌐 Live Projects
+## 💡 عني
 
-Here are selected **real-world projects** I have worked on:
+بصفتي طالبًا في علوم الحاسوب ومطور برمجيات، أجمع بين المعرفة الأكاديمية والخبرة العملية في بناء أنظمة برمجية. شغفي يكمن في تطوير حلول تساهم في تبسيط العمليات وتحسين الإنتاجية للشركات والعملاء الأفراد. ألتزم بتقديم أنظمة:
 
-🔗 **Hotel Website (Production)**  
-👉 https://bsafina.com  
-
-🔗 **Telegram Business Automation Bots**  
-Private production bots – demos and documentation available upon request.
-
----
-
-## 💡 About Me
-
-🚀 I am a **Computer Science student** and **Software Developer** with strong practical experience.  
-I focus on building systems that are:
-
-- ✔️ Reliable  
-- ✔️ Scalable  
-- ✔️ Business-oriented  
-- ✔️ Automation-driven  
-
-I actively use **modern tools and AI-assisted workflows** to deliver efficient and maintainable solutions.
+-   ✔️ **موثوقة:** مصممة للعمل بكفاءة واستقرار.
+-   ✔️ **قابلة للتطوير:** قادرة على النمو والتكيف مع المتطلبات المستقبلية.
+-   ✔️ **موجهة للأعمال:** تلبي الاحتياجات الفعلية وتضيف قيمة تجارية.
+-   ✔️ **مدفوعة بالأتمتة:** تقلل من الجهد اليدوي وتزيد من الكفاءة.
 
 ---
 
-## 🧠 Skills & Technologies
+## 🧠 المهارات والتقنيات
 
-### 👨‍💻 Programming Languages
-- Python
-- JavaScript
-
-### 🌐 Web & Backend
-- HTML, CSS, JavaScript
-- Backend-ready architectures
-- REST APIs
-
-### 🤖 Automation & Bots
-- Telegram Bot Development
-- Business automation workflows
-- Scheduling systems
-- Admin dashboards
-- User & role management
-
-### 🗄️ Data & Storage
-- JSON
-- SQLite
-
-### 🛠️ Tools
-- Git & GitHub
-- Linux
-- APIs
-- AI-assisted development tools
+| الفئة التقنية       | المهارات والتقنيات                                |
+| :------------------ | :----------------------------------------------- |
+| **لغات البرمجة**    | Python, JavaScript                               |
+| **تطوير الويب**     | HTML, CSS, JavaScript, REST APIs, Backend Architectures |
+| **الأتمتة والبوتات** | Telegram Bot Development, Business Automation Workflows, Scheduling Systems, Admin Dashboards, User & Role Management |
+| **البيانات والتخزين** | JSON, SQLite                                     |
+| **الأدوات**         | Git, GitHub, Linux, AI-assisted Development Tools |
 
 ---
 
-## 🧩 Highlighted Projects
+## 🧩 مشاريع مختارة
 
-### 🏨 Hotel Website – Production System
-- Designed and developed a full hotel website
-- Deployed and actively used by real customers
-- Business-ready and responsive design
-- Live website: https://bsafina.com
+### 🏨 موقع فندق - نظام إنتاجي
 
----
+-   **الوصف:** تصميم وتطوير موقع ويب متكامل لفندق، يتميز بتصميم مستجيب وجاهز للأعمال.
+-   **الحالة:** نظام إنتاجي مباشر، يستخدمه عملاء حقيقيون.
+-   **الرابط:** [https://bsafina.com](https://bsafina.com)
 
-### 🤖 Telegram Business Automation Bots
-- Channel and group management bots
-- Join request handling and moderation
-- Scheduled posting systems
-- Referral systems
-- Admin control panels
+### 🤖 بوتات أتمتة الأعمال على تيليجرام
 
----
+-   **الوصف:** تطوير بوتات مخصصة لأتمتة مهام الأعمال على تيليجرام، بما في ذلك إدارة القنوات والمجموعات، معالجة طلبات الانضمام، أنظمة النشر المجدول، وأنظمة الإحالة.
+-   **الحالة:** بوتات إنتاجية خاصة (تتوفر عروض توضيحية ووثائق عند الطلب).
 
-### 🌍 AI Translation Bot
-- Multi-language translation
-- Text, image, file, and link support
-- Premium feature system
-- AI-powered API integrations
+### 🌍 بوت الترجمة بالذكاء الاصطناعي
+
+-   **الوصف:** بوت ترجمة متعدد اللغات يدعم النصوص والصور والملفات والروابط، مع نظام ميزات مدفوعة وتكامل مع واجهات برمجة تطبيقات الذكاء الاصطناعي.
+
+### 🎮 بوت تعليمي تفاعلي (Gamified Learning Bot)
+
+-   **الوصف:** بوت تعليمي يعتمد على نظام التلعيب، يتضمن نظام نقاط خبرة (XP)، مستويات، تتبع إحصائيات المستخدمين، ومنطق تفاعل يعتمد على التقدم.
 
 ---
 
-### 🎮 Gamified Learning Bot
-- XP and level system
-- Daily streaks
-- User statistics tracking
-- Progress-based engagement logic
+## 🔒 ملاحظة حول الكود المصدري
+
+نظرًا لسرية الأعمال، فإن معظم مشاريعي الإنتاجية موجودة في مستودعات خاصة. ومع ذلك، تتوفر **عروض توضيحية، وثائق، وشروحات مفصلة عند الطلب**.
 
 ---
 
-## 🔒 Source Code Notice
+## 📬 تواصل معي
 
-Due to **business confidentiality**, most production projects are **private repositories**.
-
-📌 **Demo versions, documentation, and explanations are available upon request.**
-
----
-
-## 📬 Contact
-
-📧 Email: majidalsakani@gmail.com  
-🔗 GitHub: https://github.com/majid-alsakani  
-🔗 LinkedIn: (add your LinkedIn profile here)
+-   **البريد الإلكتروني:** [majidalsakani@gmail.com](mailto:majidalsakani@gmail.com)
+-   **GitHub:** [https://github.com/majid-alsakani](https://github.com/majid-alsakani)
+-   **LinkedIn:** (أضف رابط ملفك الشخصي على LinkedIn هنا)
 
 ---
 
-✨ *This portfolio is continuously evolving, just like my skills.* ✨
+✨ *هذا الملف الشخصي يتطور باستمرار، تمامًا مثل مهاراتي.* ✨
