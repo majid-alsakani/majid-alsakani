@@ -25,78 +25,37 @@
   <a href="https://github.com/majid-alsakani">
     <img src="https://img.shields.io/badge/GitHub-majid--alsakani-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
-  <!-- أضف رابط LinkedIn هنا بعد تحديثه -->
-  <!-- <a href="[رابط ملفك الشخصي على LinkedIn]">
-    <img src="https://img.shields.io/badge/LinkedIn-YourProfile-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-  </a> -->
+  <!-- يرجى استبدال هذا بالرابط الفعلي لملفك الشخصي على LinkedIn -->
+  <a href="https://www.linkedin.com/in/majid-alsakani">
+    <img src="https://img.shields.io/badge/LinkedIn-MajidAlSakani-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
+  </a>
 </p>
 
 ---
 
 ## Professional Summary / نبذة احترافية
 
-I am Majid Al-Sakani, an advanced Full Stack Developer specializing in backend development, automation systems, and API architecture using Python and modern technologies.
+أنا مطور برمجيات متكامل (Full Stack Developer) بخبرة متقدمة في تطوير الواجهات الخلفية (Backend Development) باستخدام **Python**، وتصميم بنى واجهات برمجة التطبيقات (API Architecture)، وبناء أنظمة الأتمتة، وتطوير بوتات تيليجرام الذكية. أمتلك القدرة على تصميم وبناء حلول برمجية قابلة للتوسع، موثوقة، وجاهزة للإنتاج، مع تركيز قوي على الأداء، البنية النظيفة، وسهولة الصيانة. كما أن لدي خبرة في تطوير الواجهات الأمامية باستخدام **TypeScript** وتقنيات الويب الحديثة، مما يمكنني من تقديم حلول برمجية شاملة ومتكاملة.
 
-I design and build scalable, reliable, and production-ready software solutions with a strong focus on performance, clean architecture, and maintainability.
-
-Experienced in developing intelligent Telegram bot platforms, workflow automation systems, and web applications that solve real business problems.
-
----
-
-أنا ماجد السكني، مطور برمجيات متقدم متخصص في تطوير الأنظمة الخلفية، أتمتة العمليات، وتصميم API باستخدام Python وتقنيات حديثة.
-
-أبني أنظمة قوية قابلة للتوسع، آمنة، ومناسبة لبيئات الإنتاج الفعلية، مع اهتمام كبير بالأداء وجودة هيكلة الكود.
+I am Majid Al-Sakani, an advanced Full Stack Developer specializing in backend development, automation systems, and API architecture using Python and modern technologies. I design and build scalable, reliable, and production-ready software solutions with a strong focus on performance, clean architecture, and maintainability. Experienced in developing intelligent Telegram bot platforms, workflow automation systems, and web applications that solve real business problems.
 
 ---
 
 ## Core Expertise / الخبرات الأساسية
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,js,html,css,react,nodejs,express,mongodb,mysql,postgresql,rest,git,github,linux,sqlite,json,docker,aws,gcp,vscode" />
-  <br>
-  <img src="https://skillicons.dev/icons?i=ai,bootstrap,tailwind,nextjs,typescript,firebase,heroku,netlify" />
+  <img src="https://skillicons.dev/icons?i=py,js,html,css,react,nodejs,express,mongodb,mysql,postgresql,rest,git,github,linux,sqlite,json,docker,aws,gcp,vscode,typescript,nextjs,tailwind,django,flask,fastapi" />
 </p>
 
-- Backend Engineering
-- API Architecture
-- Automation Systems
-- Telegram Bot Development
-- System Design
-- Database Design
-- Scalable Applications
-- Performance Optimization
-
----
-
-## Technical Skills / المهارات التقنية
-
-### Backend Development
-- Python
-- REST API Development
-- Automation Systems
-- Telegram Bot Architecture
-- Authentication Systems
-- System Design
-- Workflow Automation
-
-### Frontend
-- HTML5
-- CSS3
-- JavaScript
-- Responsive UI
-
-### Databases
-- SQL
-- SQLite
-- JSON Data Modeling
-
-### Tools & Technologies
-- Git
-- GitHub
-- Linux
-- API Integration
-- AI tools
-- System Architecture
+| الفئة | المهارات |
+| :--- | :--- |
+| **لغات البرمجة** | Python, TypeScript, JavaScript |
+| **أطر عمل الواجهة الخلفية** | Django, FastAPI, Flask, Node.js (Express) |
+| **أطر عمل الواجهة الأمامية** | React, Next.js, HTML5, CSS3, TailwindCSS |
+| **قواعد البيانات** | PostgreSQL, MySQL, MongoDB |
+| **أدوات التطوير** | Git, Docker, Redis |
+| **الأتمتة والذكاء الاصطناعي** | Telegram API, Workflow Automation, UiPath (مفاهيم), AI/ML Concepts |
+| **المنصات السحابية** | AWS, GCP (مفاهيم) |
 
 ---
 
@@ -114,7 +73,7 @@ Experienced in developing intelligent Telegram bot platforms, workflow automatio
 ---
 
 ### Telegram Automation Platforms / منصات أتمتة تيليجرام
-- Advanced automation bots designed for business workflow optimization.
+- Advanced automation bots designed for business workflow optimization using Python and Telegram API.
 - Includes:
   - Scheduled posting system
   - Channel and group management
@@ -127,8 +86,8 @@ Experienced in developing intelligent Telegram bot platforms, workflow automatio
 ---
 
 ### AI Translation Bot / بوت الترجمة بالذكاء الاصطناعي
-- AI-powered translation system supporting multiple input formats.
-- Supports:
+- AI-powered translation system supporting multiple input formats (text, image, file) with multi-language processing.
+- Features:
   - Text translation
   - Image translation
   - File translation
@@ -138,7 +97,7 @@ Experienced in developing intelligent Telegram bot platforms, workflow automatio
 ---
 
 ### Gamified Learning Bot / بوت تعليمي تفاعلي
-- Interactive educational bot applying gamification principles.
+- Interactive educational bot applying gamification principles for enhanced user engagement.
 - Features:
   - XP system
   - Levels
@@ -191,7 +150,7 @@ Experienced in developing intelligent Telegram bot platforms, workflow automatio
 
 - Email: [majidalsakani@gmail.com](mailto:majidalsakani@gmail.com)
 - GitHub: [https://github.com/majid-alsakani](https://github.com/majid-alsakani)
-- LinkedIn: (Add profile link)
+- LinkedIn: [https://www.linkedin.com/in/majid-alsakani](https://www.linkedin.com/in/majid-alsakani) (يرجى التأكد من تحديث هذا الرابط بملفك الشخصي الفعلي)
 
 ---
 
