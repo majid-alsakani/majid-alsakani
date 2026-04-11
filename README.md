@@ -60,8 +60,9 @@ I am Majid Al-Sakani, an advanced Full Stack Developer specializing in backend d
 ## 📊 GitHub Interactive Stats / إحصائيات تفاعلية
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=majid-alsakani&show_icons=true&theme=radical&hide_border=true&rank_icon=github" alt="Majid's GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=majid-alsakani&layout=compact&theme=radical&hide_border=true" alt="Majid's Top Languages" />
+  <!-- استخدام روابط بديلة ومستقرة -->
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=majid-alsakani&show_icons=true&theme=radical&hide_border=true&rank_icon=github" alt="Majid's GitHub Stats" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=majid-alsakani&layout=compact&theme=radical&hide_border=true" alt="Majid's Top Languages" />
 </p>
 
 <p align="center">
