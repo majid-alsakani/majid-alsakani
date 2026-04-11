@@ -25,7 +25,6 @@
   <a href="https://github.com/majid-alsakani">
     <img src="https://img.shields.io/badge/GitHub-majid--alsakani-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
   </a>
-  <!-- يرجى استبدال هذا بالرابط الفعلي لملفك الشخصي على LinkedIn -->
   <a href="https://www.linkedin.com/in/majid-alsakani">
     <img src="https://img.shields.io/badge/LinkedIn-MajidAlSakani-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
@@ -33,7 +32,7 @@
 
 ---
 
-## Professional Summary / نبذة احترافية
+## 🚀 Professional Summary / نبذة احترافية
 
 أنا مطور برمجيات متكامل (Full Stack Developer) بخبرة متقدمة في تطوير الواجهات الخلفية (Backend Development) باستخدام **Python**، وتصميم بنى واجهات برمجة التطبيقات (API Architecture)، وبناء أنظمة الأتمتة، وتطوير بوتات تيليجرام الذكية. أمتلك القدرة على تصميم وبناء حلول برمجية قابلة للتوسع، موثوقة، وجاهزة للإنتاج، مع تركيز قوي على الأداء، البنية النظيفة، وسهولة الصيانة. كما أن لدي خبرة في تطوير الواجهات الأمامية باستخدام **TypeScript** وتقنيات الويب الحديثة، مما يمكنني من تقديم حلول برمجية شاملة ومتكاملة.
 
@@ -41,7 +40,7 @@ I am Majid Al-Sakani, an advanced Full Stack Developer specializing in backend d
 
 ---
 
-## Core Expertise / الخبرات الأساسية
+## 🛠️ Core Expertise / الخبرات الأساسية
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=py,js,html,css,react,nodejs,express,mongodb,mysql,postgresql,rest,git,github,linux,sqlite,json,docker,aws,gcp,vscode,typescript,nextjs,tailwind,django,flask,fastapi" />
@@ -54,107 +53,62 @@ I am Majid Al-Sakani, an advanced Full Stack Developer specializing in backend d
 | **أطر عمل الواجهة الأمامية** | React, Next.js, HTML5, CSS3, TailwindCSS |
 | **قواعد البيانات** | PostgreSQL, MySQL, MongoDB |
 | **أدوات التطوير** | Git, Docker, Redis |
-| **الأتمتة والذكاء الاصطناعي** | Telegram API, Workflow Automation, UiPath (مفاهيم), AI/ML Concepts |
-| **المنصات السحابية** | AWS, GCP (مفاهيم) |
+| **الأتمتة والذكاء الاصطناعي** | Telegram API, Workflow Automation, AI/ML Concepts |
 
 ---
 
-## Featured Projects / مشاريع مختارة
-
-### Hotel Website - Production System / موقع فندق - نظام إنتاجي
-- Full production-ready hotel website with booking and management functionality.
-- Key features:
-  - Responsive UI
-  - Booking system
-  - Optimized backend logic
-  - Production deployment
-- Live project: [https://bsafina.com](https://bsafina.com)
-
----
-
-### Telegram Automation Platforms / منصات أتمتة تيليجرام
-- Advanced automation bots designed for business workflow optimization using Python and Telegram API.
-- Includes:
-  - Scheduled posting system
-  - Channel and group management
-  - Join request automation
-  - Admin control panel
-  - Custom automation workflows
-  - Database integration
-- Production systems with real usage.
-
----
-
-### AI Translation Bot / بوت الترجمة بالذكاء الاصطناعي
-- AI-powered translation system supporting multiple input formats (text, image, file) with multi-language processing.
-- Features:
-  - Text translation
-  - Image translation
-  - File translation
-  - Multi-language processing
-  - Premium features system
-
----
-
-### Gamified Learning Bot / بوت تعليمي تفاعلي
-- Interactive educational bot applying gamification principles for enhanced user engagement.
-- Features:
-  - XP system
-  - Levels
-  - User progress tracking
-  - Engagement logic
-  - Statistics tracking
-
----
-
-## Engineering Approach / منهجية الهندسة البرمجية
-
-- Clean and maintainable code
-- Scalable architecture
-- Performance-oriented development
-- Automation-first mindset
-- Reliable backend systems
-- Real-world problem solving
-
----
-
-## GitHub Profile / ملف GitHub الشخصي
+## 📊 GitHub Interactive Stats / إحصائيات تفاعلية
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=majid-alsakani&show_icons=true&theme=dark&hide_border=true&rank_icon=github" alt="Majid's GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=majid-alsakani&theme=dark&hide_border=true" alt="Majid's GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=majid-alsakani&show_icons=true&theme=radical&hide_border=true&rank_icon=github" alt="Majid's GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=majid-alsakani&layout=compact&theme=radical&hide_border=true" alt="Majid's Top Languages" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=majid-alsakani&theme=radical&hide_border=true" alt="Majid's GitHub Streak" />
 </p>
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=majid-alsakani&theme=radical&no-frame=true&no-bg=true" alt="Majid's GitHub Trophies" />
 </p>
 
-- Production-oriented development style
-- Structured repositories
-- Continuous improvement mindset
+---
+
+## ✨ Featured Projects / مشاريع مختارة
+
+### 🏨 Hotel Website - Production System / موقع فندق - نظام إنتاجي
+- Full production-ready hotel website with booking and management functionality.
+- Live project: [https://bsafina.com](https://bsafina.com)
+
+### 🤖 Telegram Automation Platforms / منصات أتمتة تيليجرام
+- Advanced automation bots designed for business workflow optimization using Python and Telegram API.
+- Production systems with real usage and database integration.
+
+### 🌍 AI Translation Bot / بوت الترجمة بالذكاء الاصطناعي
+- AI-powered translation system supporting multiple input formats (text, image, file) with multi-language processing.
 
 ---
 
-## Career Focus / التركيز المهني
+## 📈 Engineering Approach / منهجية الهندسة البرمجية
 
-- Backend Development
-- Automation Engineering
-- API Systems
-- AI Integration
-- Scalable Platforms
-- Business Automation Systems
+- **Clean Code:** Writing maintainable and readable code.
+- **Scalability:** Designing systems that grow with user needs.
+- **Automation-First:** Reducing manual tasks through intelligent scripts.
+- **Performance:** Optimizing every line for speed and efficiency.
 
 ---
 
-## Contact / تواصل معي
+## 📬 Contact / تواصل معي
 
-- Email: [majidalsakani@gmail.com](mailto:majidalsakani@gmail.com)
-- GitHub: [https://github.com/majid-alsakani](https://github.com/majid-alsakani)
-- LinkedIn: [https://www.linkedin.com/in/majid-alsakani](https://www.linkedin.com/in/majid-alsakani) (يرجى التأكد من تحديث هذا الرابط بملفك الشخصي الفعلي)
+- **Email:** [majidalsakani@gmail.com](mailto:majidalsakani@gmail.com)
+- **GitHub:** [majid-alsakani](https://github.com/majid-alsakani)
+- **LinkedIn:** [Majid Al-Sakani](https://www.linkedin.com/in/majid-alsakani)
 
 ---
 
-Always building. Always improving.
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer" />
+</p>
 
 <p align="center">
   ✨ <em>ملفي الشخصي هو انعكاس لرحلتي المستمرة في عالم البرمجة، يتطور وينمو مع كل تحدٍ جديد.</em> ✨
