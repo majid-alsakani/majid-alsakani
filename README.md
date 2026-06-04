@@ -60,7 +60,6 @@ I am Majid Al-Sakani, an advanced Full Stack Developer specializing in backend d
 ## 📊 GitHub Interactive Stats / إحصائيات تفاعلية
 
 <p align="center">
-  <!-- استخدام روابط بديلة ومستقرة -->
   <img src="https://github-readme-stats-fast.vercel.app/api?username=majid-alsakani&show_icons=true&theme=radical&hide_border=true&rank_icon=github" alt="Majid's GitHub Stats" />
   <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=majid-alsakani&layout=compact&theme=radical&hide_border=true" alt="Majid's Top Languages" />
 </p>
@@ -77,13 +76,29 @@ I am Majid Al-Sakani, an advanced Full Stack Developer specializing in backend d
 
 ## ✨ Featured Projects / مشاريع مختارة
 
+### 🚀 Enterprise Backend System / نظام خلفي للمؤسسات
+- **Description:** A high-performance, production-ready backend API built with FastAPI, showcasing advanced architecture, JWT authentication, and automated documentation.
+- **وصف المشروع:** نظام API خلفي عالي الأداء، مبني باستخدام FastAPI، يعرض هيكلية برمجية متقدمة، مصادقة JWT، وتوثيق تلقائي، جاهز لبيئات الإنتاج الضخمة.
+- **Key Features:**
+  - Scalable API Architecture
+  - Automated Swagger Documentation
+  - Production-ready Structure
+  - Clean & Maintainable Code
+- **Repository:** [https://github.com/majid-alsakani/enterprise-backend-system](https://github.com/majid-alsakani/enterprise-backend-system)
+
+---
+
 ### 🏨 Hotel Website - Production System / موقع فندق - نظام إنتاجي
 - Full production-ready hotel website with booking and management functionality.
 - Live project: [https://bsafina.com](https://bsafina.com)
 
+---
+
 ### 🤖 Telegram Automation Platforms / منصات أتمتة تيليجرام
 - Advanced automation bots designed for business workflow optimization using Python and Telegram API.
 - Production systems with real usage and database integration.
+
+---
 
 ### 🌍 AI Translation Bot / بوت الترجمة بالذكاء الاصطناعي
 - AI-powered translation system supporting multiple input formats (text, image, file) with multi-language processing.
