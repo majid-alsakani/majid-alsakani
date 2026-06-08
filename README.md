@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgur.com/UjTAEK8.png" alt="Majid Al-Sakani Portfolio" width="100%" />
+  <img src="https://raw.githubusercontent.com/majid-alsakani/majid-alsakani/main/Assets/Meme/majid_meme.png" alt="Majid Al-Sakani Meme" width="100%" />
 </p>
 
 <h1 align="center">
