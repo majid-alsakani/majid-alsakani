@@ -1,21 +1,15 @@
 <p align="center">
-  <img src="https://i.imgur.com/UjTAEK8.png" alt="Majid Al-Sakani Portfolio" width="100%" height="500px" />
+  <img src="https://i.imgur.com/UjTAEK8.png" alt="Majid Al-Sakani Portfolio" width="100%" />
 </p>
 
 <h1 align="center"># Majid Al-Sakani | ماجد السكني 👨‍💻</h1>
 
 <p align="center">
-  <a href="https://github.com/majid-alsakani">
-    <img src="https://komarev.com/ghpvc/?username=majid-alsakani&color=blue" alt="Profile views"/>
-  </a>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7DF1E&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Backend+Engineer;Automation+Specialist;Enterprise+Solution+Architect" alt="Typing SVG - English" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=F7DF1E&width=430&lines=Full+Stack+Developer;Python+Developer;Backend+Engineer;Automation+Specialist" alt="Typing SVG - English" />
-</p>
-
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=007ACC&width=430&lines=مطور+ويب+متكامل;مهندس+أنظمة+خلفية;خبير+أتمتة+وبوتات+تيليجرام;أخصائي+أتمتة" alt="Typing SVG - Arabic" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=007ACC&center=true&vCenter=true&width=600&lines=مطور+ويب+متكامل;مهندس+أنظمة+خلفية;خبير+أتمتة;معماري+حلول+مؤسسية" alt="Typing SVG - Arabic" />
 </p>
 
 <p align="center">
@@ -28,6 +22,10 @@
   <a href="https://www.linkedin.com/in/majid-alsakani">
     <img src="https://img.shields.io/badge/LinkedIn-MajidAlSakani-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
+</p>
+
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=120&section=header&text=Welcome%20to%20my%20Tech%20World&fontSize=30" />
 </p>
 
 ---
@@ -78,12 +76,6 @@ I am Majid Al-Sakani, an advanced Full Stack Developer specializing in backend d
 
 ### 🚀 Enterprise Backend System / نظام خلفي للمؤسسات
 - **Description:** A high-performance, production-ready backend API built with FastAPI, showcasing advanced architecture, JWT authentication, and automated documentation.
-- **وصف المشروع:** نظام API خلفي عالي الأداء، مبني باستخدام FastAPI، يعرض هيكلية برمجية متقدمة، مصادقة JWT، وتوثيق تلقائي، جاهز لبيئات الإنتاج الضخمة.
-- **Key Features:**
-  - Scalable API Architecture
-  - Automated Swagger Documentation
-  - Production-ready Structure
-  - Clean & Maintainable Code
 - **Repository:** [https://github.com/majid-alsakani/enterprise-backend-system](https://github.com/majid-alsakani/enterprise-backend-system)
 
 ---
@@ -96,12 +88,6 @@ I am Majid Al-Sakani, an advanced Full Stack Developer specializing in backend d
 
 ### 🤖 Telegram Automation Platforms / منصات أتمتة تيليجرام
 - Advanced automation bots designed for business workflow optimization using Python and Telegram API.
-- Production systems with real usage and database integration.
-
----
-
-### 🌍 AI Translation Bot / بوت الترجمة بالذكاء الاصطناعي
-- AI-powered translation system supporting multiple input formats (text, image, file) with multi-language processing.
 
 ---
 
@@ -122,8 +108,14 @@ I am Majid Al-Sakani, an advanced Full Stack Developer specializing in backend d
 
 ---
 
+### Profile Views
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer" />
+  <img src="https://komarev.com/ghpvc/?username=majid-alsakani&color=blue&style=flat-square" alt="Profile views"/>
+</p>
+
+#### Thanks for visiting
+<p align="center">
+  <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=100&section=footer" />
 </p>
 
 <p align="center">
