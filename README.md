@@ -97,7 +97,7 @@ I am Majid Al-Sakani, an advanced Full Stack Developer specializing in backend d
 
 ### 🏨 Hotel Website - Production System / موقع فندق - نظام إنتاجي
 - Full production-ready hotel website with booking and management functionality.
-- Live project: [https://bsafina.com](https://bsafina.com)
+- Live project: [https://bsafina.com](https://joobea.com)
 
 ---
 
