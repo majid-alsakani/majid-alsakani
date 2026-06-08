@@ -89,6 +89,20 @@ I am Majid Al-Sakani, an advanced Full Stack Developer specializing in backend d
 
 ## ✨ Featured Projects / مشاريع مختارة
 
+### 🎓 صيني عالخفيف | Sini Al-Khafif - AI-Powered Language Learning
+- **Description:** An advanced AI-powered platform for Arabic speakers to learn Chinese (HSK 1-6), featuring adaptive learning, real-life context, and 5-skill integration.
+- **Live Demo:** [https://sinialkhafifapp.com](https://sinialkhafifapp.com)
+- **Showcase Repository:** [https://github.com/majid-alsakani/sini-alkhafif-app](https://github.com/majid-alsakani/sini-alkhafif-app)
+
+---
+
+### 💼 جوبيا | Joobea - Smart Recruitment Platform
+- **Description:** A comprehensive, intelligent recruitment platform for Yemen, designed to connect job seekers with opportunities through smart matching and enterprise-grade management.
+- **Live Demo:** [https://joobea.com](https://joobea.com)
+- **Showcase Repository:** [https://github.com/majid-alsakani/joobea-platform](https://github.com/majid-alsakani/joobea-platform)
+
+---
+
 ### 🚀 Enterprise Backend System / نظام خلفي للمؤسسات
 - **Description:** A high-performance, production-ready backend API built with FastAPI, showcasing advanced architecture, JWT authentication, and automated documentation.
 - **Repository:** [https://github.com/majid-alsakani/enterprise-backend-system](https://github.com/majid-alsakani/enterprise-backend-system)
