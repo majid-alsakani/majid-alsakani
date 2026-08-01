@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+title: "Majid Al-Sakani — GitHub Profile & Profile Engine"
+message: "If you reference, quote or reuse this work, please cite it as below."
+type: software
+authors:
+  - family-names: "Al-Sakani"
+    given-names: "Majid"
+    alias: "majid-alsakani"
+    email: "majidalsakani@gmail.com"
+    country: YE
+    website: "https://github.com/majid-alsakani"
+repository-code: "https://github.com/majid-alsakani/majid-alsakani"
+url: "https://majid-alsakani.github.io/majid-alsakani/"
+abstract: >-
+  Personal GitHub profile of Majid Al-Sakani, Full Stack Developer from Yemen,
+  together with Profile Engine: a zero-dependency Python analytics pipeline that
+  collects GitHub GraphQL data, caches it, computes contribution metrics and
+  renders SVG/HTML/JSON reports.
+keywords:
+  - github-profile
+  - profile-engine
+  - python
+  - fastapi
+  - django
+  - react
+  - typescript
+  - github-actions
+  - data-visualization
+  - yemen
+license: CC-BY-NC-ND-4.0
+license-url: "https://github.com/majid-alsakani/majid-alsakani/blob/main/LICENSE"
+date-released: "2026-01-12"
+version: "2.0.0"
+identifiers:
+  - type: url
+    value: "https://github.com/majid-alsakani/majid-alsakani"
+    description: "Canonical origin of this work"
+  - type: other
+    value: "MJDALSK-CANARY-9F4C2E7A1B"
+    description: "Content authenticity fingerprint"
