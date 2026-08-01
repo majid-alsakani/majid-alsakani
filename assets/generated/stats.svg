@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="470" height="270" viewBox="0 0 470 270" role="img" aria-label="GitHub statistics for majid-alsakani">
+  <style>
+    .title { font: 600 17px 'Segoe UI', Ubuntu, Sans-Serif; fill: #58a6ff; }
+    .label { font: 400 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b949e; }
+    .value { font: 600 13px 'Segoe UI', Ubuntu, Sans-Serif; fill: #e6edf3; }
+    .score { font: 700 15px 'Segoe UI', Ubuntu, Sans-Serif; fill: #e6edf3; }
+    .caption { font: 400 9px 'Segoe UI', Ubuntu, Sans-Serif; fill: #8b949e; }
+  </style>
+  <rect x="0.5" y="0.5" rx="10" width="469" height="269" fill="#0d1117" stroke="#30363d"/>
+  <text x="28" y="40" class="title">majid-alsakani · engineering footprint</text>
+  <circle cx="408" cy="46" r="26" fill="none" stroke="#30363d" stroke-width="5"/><circle cx="408" cy="46" r="26" fill="none" stroke="#58a6ff" stroke-width="5" stroke-linecap="round" stroke-dasharray="88.22 163.36" transform="rotate(-90 408 46)"/><text x="408" y="51" class="score" text-anchor="middle">54</text>
+  <text x="28" y="96" class="label">Public repositories</text><text x="442" y="96" class="value" text-anchor="end">11</text><text x="28" y="126" class="label">Total commits</text><text x="442" y="126" class="value" text-anchor="end">171</text><text x="28" y="156" class="label">Stars earned</text><text x="442" y="156" class="value" text-anchor="end">24</text><text x="28" y="186" class="label">Forks</text><text x="442" y="186" class="value" text-anchor="end">1</text><text x="28" y="216" class="label">Active this month</text><text x="442" y="216" class="value" text-anchor="end">5</text><text x="28" y="246" class="label">Followers</text><text x="442" y="246" class="value" text-anchor="end">3</text>
+</svg>
