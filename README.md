@@ -52,6 +52,10 @@
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=120&section=header&text=Welcome%20to%20my%20Tech%20World&fontSize=30" />
 </p>
 
+<p align="center">
+  <img src="https://socialify.git.ci/majid-alsakani/majid-alsakani/image?description=1&font=Source%20Code%20Pro&forks=1&issues=1&language=1&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Dark" width="88%" alt="Majid Al-Sakani profile card">
+</p>
+
 ---
 
 ## 🚀 Professional Summary / نبذة احترافية
@@ -65,16 +69,56 @@ I am Majid Al-Sakani, an advanced Full Stack Developer specializing in backend d
 
 ---
 
+## 🧬 Developer Card / بطاقة المطوّر
+
+```yaml
+name: Majid Al-Sakani            # ماجد السكني
+located_in: Sana'a, Yemen        # صنعاء، اليمن
+availability: Remote worldwide   # متاح عن بُعد لكل العالم
+role: Full Stack Software Engineer
+focus: ["Backend Architecture", "AI Agents", "Automation Platforms"]
+company: Joobea (Founder)        # مؤسس منصة جوبيا
+languages_spoken: ["Arabic (native)", "English (professional)"]
+
+stack:
+  backend:  ["Python", "FastAPI", "Django", "Flask", "Node.js"]
+  frontend: ["React", "Next.js", "TypeScript", "TailwindCSS"]
+  data:     ["PostgreSQL", "MySQL", "MongoDB", "Redis"]
+  devops:   ["Docker", "Nginx", "GitHub Actions", "Linux", "VPS/Cloud"]
+  ai:       ["LLM Agents", "RAG", "Prompt Engineering", "Automation Pipelines"]
+
+flagship_products:
+  - ["Joobea", "AI recruitment platform fighting unemployment in Yemen", "joobea.com"]
+  - ["Sini Al-Khafif", "AI Chinese learning (HSK 1-6) for Arabic speakers", "sinialkhafifapp.com"]
+  - ["Omni Agent AI", "Planner / Executor / Critic agent runtime with SSE streaming"]
+  - ["Profile Engine", "Zero-dependency Python analytics engine powering this README"]
+
+engineering_principles: ["Clean Architecture", "Test-Driven", "Automation-First",
+                         "Security by default", "Docs as a deliverable"]
+currently_building: ["Autonomous AI agents", "Scalable SaaS for the MENA region"]
+open_to: ["Freelance projects", "Remote contracts", "Technical partnerships"]
+contact: majidalsakani@gmail.com
+```
+
+---
+
 ## 🧭 Quick Navigation / تنقّل سريع
 
-| 🔎 | Section |
-| :--- | :--- |
-| 🛠️ | [Core Expertise / الخبرات الأساسية](#️-core-expertise--الخبرات-الأساسية) |
-| 📊 | [GitHub Stats / الإحصائيات](#-github-interactive-stats--إحصائيات-تفاعلية) |
-| ✨ | [Featured Projects / المشاريع](#-featured-projects--مشاريع-مختارة) |
-| 🧩 | [Services / الخدمات](#-services-i-offer--الخدمات-التي-أقدمها) |
-| 📈 | [Engineering Approach / المنهجية](#-engineering-approach--منهجية-الهندسة-البرمجية) |
-| 📬 | [Contact / تواصل](#-contact--تواصل-معي) |
+| 🔎 | Section / القسم | |
+| :--- | :--- | :--- |
+| 🚀 | [Professional Summary / نبذة احترافية](#-professional-summary--نبذة-احترافية) | من أنا وماذا أقدّم |
+| 🧬 | [Developer Card / بطاقة المطوّر](#-developer-card--بطاقة-المطوّر) | الستاك والمنتجات باختصار |
+| 🛠️ | [Core Expertise / الخبرات الأساسية](#️-core-expertise--الخبرات-الأساسية) | اللغات والأطر والأدوات |
+| ✨ | [Featured Projects / مشاريع مختارة](#-featured-projects--مشاريع-مختارة) | المنتجات الحقيقية |
+| 🎁 | [Live Open Source Metrics / مقاييس حيّة](#-open-source-projects--live-metrics--مقاييس-حيّة-للمشاريع-مفتوحة-المصدر) | أرقام تُحدَّث لحظيًا |
+| 📊 | [GitHub Stats / الإحصائيات](#-github-interactive-stats--إحصائيات-تفاعلية) | رسوم بيانية تفاعلية |
+| ⚡ | [Recent Activity / آخر نشاط](#-recent-activity--آخر-نشاط-برمجي) | مُحدَّث آليًا كل 6 ساعات |
+| ✍️ | [Writing / كتابات](#-writing--knowledge-sharing--كتابات-ومشاركة-المعرفة) | تقارير ودراسات حالة |
+| 🧩 | [Services / الخدمات](#-services-i-offer--الخدمات-التي-أقدمها) | ما يمكنني تنفيذه لك |
+| 📈 | [Engineering Approach / المنهجية](#-engineering-approach--منهجية-الهندسة-البرمجية) | كيف أبني الأنظمة |
+| 📬 | [Contact / تواصل](#-contact--تواصل-معي) | ابدأ مشروعك معي |
+| 🌍 | [Where to find me / أين تجدني](#-where-to-find-me--أين-تجدني) | روابط رسمية |
+| 🔎 | [Keywords / كلمات مفتاحية](#-keywords--كلمات-مفتاحية) | فهرسة البحث |
 
 ---
 
@@ -109,13 +153,78 @@ I am Majid Al-Sakani, an advanced Full Stack Developer specializing in backend d
   <img src="https://img.shields.io/badge/Telegram%20Bot%20API-26A5E4?style=flat-square&logo=telegram&logoColor=white">
 </p>
 
----
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/majid-alsakani/majid-alsakani/main/Assets/Svg/git-header.svg" width="45%" alt="git header">
   <img src="https://raw.githubusercontent.com/majid-alsakani/majid-alsakani/main/Assets/Gif/kyubey.gif" width="25%" alt="animation">
   <img src="https://raw.githubusercontent.com/majid-alsakani/majid-alsakani/main/Assets/Gif/oo.gif" width="22%" alt="animation">
 </p>
+
+---
+
+## ✨ Featured Projects / مشاريع مختارة
+
+| # | Project / المشروع | Description | Tech Stack | Links |
+| :-- | :--- | :--- | :--- | :--- |
+| 🎓 | **Sini Al-Khafif / صيني عالخفيف** | AI-powered Chinese (HSK 1–6) learning platform for Arabic speakers | Python · FastAPI · React · AI | [Live](https://sinialkhafifapp.com) · [Repo](https://github.com/majid-alsakani/sini-alkhafif-app) |
+| 💼 | **Joobea / جوبيا** | Smart recruitment platform for Yemen with intelligent matching | Django · PostgreSQL · React | [Live](https://joobea.com) · [Repo](https://github.com/majid-alsakani/joobea-platform) |
+| 🚀 | **Enterprise Backend System** | Production-grade REST API, JWT auth, auto docs, clean architecture | FastAPI · PostgreSQL · Docker | [Repo](https://github.com/majid-alsakani/enterprise-backend-system) |
+| 🏨 | **Hotel Website (bsafina)** | Full production hotel website with booking & management | Python · Web | Repo & new domain — *site temporarily offline* |
+| 🤖 | **Telegram Automation Platforms** | Business workflow automation bots | Python · Telegram Bot API | [Repos](https://github.com/majid-alsakani?tab=repositories) |
+
+### 🎓 صيني عالخفيف | Sini Al-Khafif - AI-Powered Language Learning
+- **Description:** An advanced AI-powered platform for Arabic speakers to learn Chinese (HSK 1-6), featuring adaptive learning, real-life context, and 5-skill integration.
+- **Live Demo:** [https://sinialkhafifapp.com](https://sinialkhafifapp.com)
+- **Showcase Repository:** [https://github.com/majid-alsakani/sini-alkhafif-app](https://github.com/majid-alsakani/sini-alkhafif-app)
+
+---
+
+### 💼 جوبيا | Joobea - Smart Recruitment Platform
+- **Description:** A comprehensive, intelligent recruitment platform for Yemen, designed to connect job seekers with opportunities through smart matching and enterprise-grade management.
+- **Live Demo:** [https://joobea.com](https://joobea.com)
+- **Showcase Repository:** [https://github.com/majid-alsakani/joobea-platform](https://github.com/majid-alsakani/joobea-platform)
+
+---
+
+### 🚀 Enterprise Backend System / نظام خلفي للمؤسسات
+- **Description:** A high-performance, production-ready backend API built with FastAPI, showcasing advanced architecture, JWT authentication, and automated documentation.
+- **Repository:** [https://github.com/majid-alsakani/enterprise-backend-system](https://github.com/majid-alsakani/enterprise-backend-system)
+
+---
+
+### 🏨 Hotel Website - Production System / موقع فندق - نظام إنتاجي
+- Full production-ready hotel website with booking and management functionality.
+- Live project: `https://bsafina.com` — ⚠️ *الموقع متوقف مؤقتًا حاليًا / temporarily offline (domain being renewed).*
+- 📩 للاطلاع على لقطات الشاشة أو نسخة تجريبية: [majidalsakani@gmail.com](mailto:majidalsakani@gmail.com)
+
+---
+
+### 🤖 Telegram Automation Platforms / منصات أتمتة تيليجرام
+- Advanced automation bots designed for business workflow optimization using Python and Telegram API.
+- [Browse all repositories →](https://github.com/majid-alsakani?tab=repositories)
+
+---
+
+## 🎁 Open Source Projects — Live Metrics / مقاييس حيّة للمشاريع مفتوحة المصدر
+
+> كل الأرقام في الجدول تُحدَّث تلقائيًا مباشرة من GitHub في كل مرة يُفتح فيها هذا الملف.
+> Every number below is fetched live from GitHub on each page view — no manual updates.
+
+| **🎁 Project / المشروع** | **⭐ Stars** | **🍴 Forks** | **🛎 Issues** | **📬 Pull Requests** | **🕒 Last Commit** |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| [**Joobea — Smart Recruitment Platform**](https://github.com/majid-alsakani/joobea-platform) | ![Stars](https://img.shields.io/github/stars/majid-alsakani/joobea-platform?style=flat-square&labelColor=343b41) | ![Forks](https://img.shields.io/github/forks/majid-alsakani/joobea-platform?style=flat-square&labelColor=343b41) | ![Issues](https://img.shields.io/github/issues/majid-alsakani/joobea-platform?style=flat-square&labelColor=343b41) | ![Pull Requests](https://img.shields.io/github/issues-pr/majid-alsakani/joobea-platform?style=flat-square&labelColor=343b41) | ![Last commit](https://img.shields.io/github/last-commit/majid-alsakani/joobea-platform?style=flat-square&labelColor=343b41) |
+| [**Sini Al-Khafif — AI Language Learning**](https://github.com/majid-alsakani/sini-alkhafif-app) | ![Stars](https://img.shields.io/github/stars/majid-alsakani/sini-alkhafif-app?style=flat-square&labelColor=343b41) | ![Forks](https://img.shields.io/github/forks/majid-alsakani/sini-alkhafif-app?style=flat-square&labelColor=343b41) | ![Issues](https://img.shields.io/github/issues/majid-alsakani/sini-alkhafif-app?style=flat-square&labelColor=343b41) | ![Pull Requests](https://img.shields.io/github/issues-pr/majid-alsakani/sini-alkhafif-app?style=flat-square&labelColor=343b41) | ![Last commit](https://img.shields.io/github/last-commit/majid-alsakani/sini-alkhafif-app?style=flat-square&labelColor=343b41) |
+| [**Omni Agent AI — Autonomous Agent Engine**](https://github.com/majid-alsakani/omni-agent-ai) | ![Stars](https://img.shields.io/github/stars/majid-alsakani/omni-agent-ai?style=flat-square&labelColor=343b41) | ![Forks](https://img.shields.io/github/forks/majid-alsakani/omni-agent-ai?style=flat-square&labelColor=343b41) | ![Issues](https://img.shields.io/github/issues/majid-alsakani/omni-agent-ai?style=flat-square&labelColor=343b41) | ![Pull Requests](https://img.shields.io/github/issues-pr/majid-alsakani/omni-agent-ai?style=flat-square&labelColor=343b41) | ![Last commit](https://img.shields.io/github/last-commit/majid-alsakani/omni-agent-ai?style=flat-square&labelColor=343b41) |
+| [**Enterprise Backend System — FastAPI**](https://github.com/majid-alsakani/enterprise-backend-system) | ![Stars](https://img.shields.io/github/stars/majid-alsakani/enterprise-backend-system?style=flat-square&labelColor=343b41) | ![Forks](https://img.shields.io/github/forks/majid-alsakani/enterprise-backend-system?style=flat-square&labelColor=343b41) | ![Issues](https://img.shields.io/github/issues/majid-alsakani/enterprise-backend-system?style=flat-square&labelColor=343b41) | ![Pull Requests](https://img.shields.io/github/issues-pr/majid-alsakani/enterprise-backend-system?style=flat-square&labelColor=343b41) | ![Last commit](https://img.shields.io/github/last-commit/majid-alsakani/enterprise-backend-system?style=flat-square&labelColor=343b41) |
+| [**Profile Engine — Self-Updating Analytics**](https://github.com/majid-alsakani/majid-alsakani) | ![Stars](https://img.shields.io/github/stars/majid-alsakani/majid-alsakani?style=flat-square&labelColor=343b41) | ![Forks](https://img.shields.io/github/forks/majid-alsakani/majid-alsakani?style=flat-square&labelColor=343b41) | ![Issues](https://img.shields.io/github/issues/majid-alsakani/majid-alsakani?style=flat-square&labelColor=343b41) | ![Pull Requests](https://img.shields.io/github/issues-pr/majid-alsakani/majid-alsakani?style=flat-square&labelColor=343b41) | ![Last commit](https://img.shields.io/github/last-commit/majid-alsakani/majid-alsakani?style=flat-square&labelColor=343b41) |
+
+<p align="center">
+  <img src="https://img.shields.io/github/actions/workflow/status/majid-alsakani/majid-alsakani/profile-engine.yml?style=flat-square&label=README%20auto-build&labelColor=343b41" alt="README build status">
+  <img src="https://img.shields.io/github/commit-activity/m/majid-alsakani/majid-alsakani?style=flat-square&label=commits%2Fmonth&labelColor=343b41" alt="commit activity">
+  <img src="https://img.shields.io/github/languages/count/majid-alsakani/majid-alsakani?style=flat-square&label=languages&labelColor=343b41" alt="languages">
+  <img src="https://komarev.com/ghpvc/?username=majid-alsakani&style=flat-square&color=blueviolet&label=profile+views" alt="profile views">
+</p>
+
+---
 
 ## 📊 GitHub Interactive Stats / إحصائيات تفاعلية
 
@@ -224,87 +333,6 @@ I am Majid Al-Sakani, an advanced Full Stack Developer specializing in backend d
   </sub>
 </p>
 
-
----
-
-## ✨ Featured Projects / مشاريع مختارة
-
-| # | Project / المشروع | Description | Tech Stack | Links |
-| :-- | :--- | :--- | :--- | :--- |
-| 🎓 | **Sini Al-Khafif / صيني عالخفيف** | AI-powered Chinese (HSK 1–6) learning platform for Arabic speakers | Python · FastAPI · React · AI | [Live](https://sinialkhafifapp.com) · [Repo](https://github.com/majid-alsakani/sini-alkhafif-app) |
-| 💼 | **Joobea / جوبيا** | Smart recruitment platform for Yemen with intelligent matching | Django · PostgreSQL · React | [Live](https://joobea.com) · [Repo](https://github.com/majid-alsakani/joobea-platform) |
-| 🚀 | **Enterprise Backend System** | Production-grade REST API, JWT auth, auto docs, clean architecture | FastAPI · PostgreSQL · Docker | [Repo](https://github.com/majid-alsakani/enterprise-backend-system) |
-| 🏨 | **Hotel Website (bsafina)** | Full production hotel website with booking & management | Python · Web | Repo & new domain — *site temporarily offline* |
-| 🤖 | **Telegram Automation Platforms** | Business workflow automation bots | Python · Telegram Bot API | [Repos](https://github.com/majid-alsakani?tab=repositories) |
-
-### 🎓 صيني عالخفيف | Sini Al-Khafif - AI-Powered Language Learning
-- **Description:** An advanced AI-powered platform for Arabic speakers to learn Chinese (HSK 1-6), featuring adaptive learning, real-life context, and 5-skill integration.
-- **Live Demo:** [https://sinialkhafifapp.com](https://sinialkhafifapp.com)
-- **Showcase Repository:** [https://github.com/majid-alsakani/sini-alkhafif-app](https://github.com/majid-alsakani/sini-alkhafif-app)
-
----
-
-### 💼 جوبيا | Joobea - Smart Recruitment Platform
-- **Description:** A comprehensive, intelligent recruitment platform for Yemen, designed to connect job seekers with opportunities through smart matching and enterprise-grade management.
-- **Live Demo:** [https://joobea.com](https://joobea.com)
-- **Showcase Repository:** [https://github.com/majid-alsakani/joobea-platform](https://github.com/majid-alsakani/joobea-platform)
-
----
-
-### 🚀 Enterprise Backend System / نظام خلفي للمؤسسات
-- **Description:** A high-performance, production-ready backend API built with FastAPI, showcasing advanced architecture, JWT authentication, and automated documentation.
-- **Repository:** [https://github.com/majid-alsakani/enterprise-backend-system](https://github.com/majid-alsakani/enterprise-backend-system)
-
----
-
-### 🏨 Hotel Website - Production System / موقع فندق - نظام إنتاجي
-- Full production-ready hotel website with booking and management functionality.
-- Live project: `https://bsafina.com` — ⚠️ *الموقع متوقف مؤقتًا حاليًا / temporarily offline (domain being renewed).*
-- 📩 للاطلاع على لقطات الشاشة أو نسخة تجريبية: [majidalsakani@gmail.com](mailto:majidalsakani@gmail.com)
-
----
-
-### 🤖 Telegram Automation Platforms / منصات أتمتة تيليجرام
-- Advanced automation bots designed for business workflow optimization using Python and Telegram API.
-- [Browse all repositories →](https://github.com/majid-alsakani?tab=repositories)
-
----
-
-<p align="center">
-  <img src="https://socialify.git.ci/majid-alsakani/majid-alsakani/image?description=1&font=Source%20Code%20Pro&forks=1&issues=1&language=1&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Dark" width="88%" alt="Majid Al-Sakani profile card">
-</p>
-
-## 🧬 Developer Card / بطاقة المطوّر
-
-```yaml
-name: Majid Al-Sakani            # ماجد السكني
-located_in: Sana'a, Yemen        # صنعاء، اليمن
-availability: Remote worldwide   # متاح عن بُعد لكل العالم
-role: Full Stack Software Engineer
-focus: ["Backend Architecture", "AI Agents", "Automation Platforms"]
-company: Joobea (Founder)        # مؤسس منصة جوبيا
-languages_spoken: ["Arabic (native)", "English (professional)"]
-
-stack:
-  backend:  ["Python", "FastAPI", "Django", "Flask", "Node.js"]
-  frontend: ["React", "Next.js", "TypeScript", "TailwindCSS"]
-  data:     ["PostgreSQL", "MySQL", "MongoDB", "Redis"]
-  devops:   ["Docker", "Nginx", "GitHub Actions", "Linux", "VPS/Cloud"]
-  ai:       ["LLM Agents", "RAG", "Prompt Engineering", "Automation Pipelines"]
-
-flagship_products:
-  - ["Joobea", "AI recruitment platform fighting unemployment in Yemen", "joobea.com"]
-  - ["Sini Al-Khafif", "AI Chinese learning (HSK 1-6) for Arabic speakers", "sinialkhafifapp.com"]
-  - ["Omni Agent AI", "Planner / Executor / Critic agent runtime with SSE streaming"]
-  - ["Profile Engine", "Zero-dependency Python analytics engine powering this README"]
-
-engineering_principles: ["Clean Architecture", "Test-Driven", "Automation-First",
-                         "Security by default", "Docs as a deliverable"]
-currently_building: ["Autonomous AI agents", "Scalable SaaS for the MENA region"]
-open_to: ["Freelance projects", "Remote contracts", "Technical partnerships"]
-contact: majidalsakani@gmail.com
-```
-
 ---
 
 ## ⚡ Recent Activity / آخر نشاط برمجي
@@ -314,28 +342,6 @@ contact: majidalsakani@gmail.com
 <!--START_SECTION:activity-->
 <!-- سيتم تعبئة هذا القسم تلقائيًا بأحدث الـ commits و PRs و Issues خلال أول تشغيل للـ workflow -->
 <!--END_SECTION:activity-->
-
----
-
-## 🎁 Open Source Projects — Live Metrics / مقاييس حيّة للمشاريع مفتوحة المصدر
-
-> كل الأرقام في الجدول تُحدَّث تلقائيًا مباشرة من GitHub في كل مرة يُفتح فيها هذا الملف.
-> Every number below is fetched live from GitHub on each page view — no manual updates.
-
-| **🎁 Project / المشروع** | **⭐ Stars** | **🍴 Forks** | **🛎 Issues** | **📬 Pull Requests** | **🕒 Last Commit** |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| [**Joobea — Smart Recruitment Platform**](https://github.com/majid-alsakani/joobea-platform) | ![Stars](https://img.shields.io/github/stars/majid-alsakani/joobea-platform?style=flat-square&labelColor=343b41) | ![Forks](https://img.shields.io/github/forks/majid-alsakani/joobea-platform?style=flat-square&labelColor=343b41) | ![Issues](https://img.shields.io/github/issues/majid-alsakani/joobea-platform?style=flat-square&labelColor=343b41) | ![Pull Requests](https://img.shields.io/github/issues-pr/majid-alsakani/joobea-platform?style=flat-square&labelColor=343b41) | ![Last commit](https://img.shields.io/github/last-commit/majid-alsakani/joobea-platform?style=flat-square&labelColor=343b41) |
-| [**Sini Al-Khafif — AI Language Learning**](https://github.com/majid-alsakani/sini-alkhafif-app) | ![Stars](https://img.shields.io/github/stars/majid-alsakani/sini-alkhafif-app?style=flat-square&labelColor=343b41) | ![Forks](https://img.shields.io/github/forks/majid-alsakani/sini-alkhafif-app?style=flat-square&labelColor=343b41) | ![Issues](https://img.shields.io/github/issues/majid-alsakani/sini-alkhafif-app?style=flat-square&labelColor=343b41) | ![Pull Requests](https://img.shields.io/github/issues-pr/majid-alsakani/sini-alkhafif-app?style=flat-square&labelColor=343b41) | ![Last commit](https://img.shields.io/github/last-commit/majid-alsakani/sini-alkhafif-app?style=flat-square&labelColor=343b41) |
-| [**Omni Agent AI — Autonomous Agent Engine**](https://github.com/majid-alsakani/omni-agent-ai) | ![Stars](https://img.shields.io/github/stars/majid-alsakani/omni-agent-ai?style=flat-square&labelColor=343b41) | ![Forks](https://img.shields.io/github/forks/majid-alsakani/omni-agent-ai?style=flat-square&labelColor=343b41) | ![Issues](https://img.shields.io/github/issues/majid-alsakani/omni-agent-ai?style=flat-square&labelColor=343b41) | ![Pull Requests](https://img.shields.io/github/issues-pr/majid-alsakani/omni-agent-ai?style=flat-square&labelColor=343b41) | ![Last commit](https://img.shields.io/github/last-commit/majid-alsakani/omni-agent-ai?style=flat-square&labelColor=343b41) |
-| [**Enterprise Backend System — FastAPI**](https://github.com/majid-alsakani/enterprise-backend-system) | ![Stars](https://img.shields.io/github/stars/majid-alsakani/enterprise-backend-system?style=flat-square&labelColor=343b41) | ![Forks](https://img.shields.io/github/forks/majid-alsakani/enterprise-backend-system?style=flat-square&labelColor=343b41) | ![Issues](https://img.shields.io/github/issues/majid-alsakani/enterprise-backend-system?style=flat-square&labelColor=343b41) | ![Pull Requests](https://img.shields.io/github/issues-pr/majid-alsakani/enterprise-backend-system?style=flat-square&labelColor=343b41) | ![Last commit](https://img.shields.io/github/last-commit/majid-alsakani/enterprise-backend-system?style=flat-square&labelColor=343b41) |
-| [**Profile Engine — Self-Updating Analytics**](https://github.com/majid-alsakani/majid-alsakani) | ![Stars](https://img.shields.io/github/stars/majid-alsakani/majid-alsakani?style=flat-square&labelColor=343b41) | ![Forks](https://img.shields.io/github/forks/majid-alsakani/majid-alsakani?style=flat-square&labelColor=343b41) | ![Issues](https://img.shields.io/github/issues/majid-alsakani/majid-alsakani?style=flat-square&labelColor=343b41) | ![Pull Requests](https://img.shields.io/github/issues-pr/majid-alsakani/majid-alsakani?style=flat-square&labelColor=343b41) | ![Last commit](https://img.shields.io/github/last-commit/majid-alsakani/majid-alsakani?style=flat-square&labelColor=343b41) |
-
-<p align="center">
-  <img src="https://img.shields.io/github/actions/workflow/status/majid-alsakani/majid-alsakani/profile-engine.yml?style=flat-square&label=README%20auto-build&labelColor=343b41" alt="README build status">
-  <img src="https://img.shields.io/github/commit-activity/m/majid-alsakani/majid-alsakani?style=flat-square&label=commits%2Fmonth&labelColor=343b41" alt="commit activity">
-  <img src="https://img.shields.io/github/languages/count/majid-alsakani/majid-alsakani?style=flat-square&label=languages&labelColor=343b41" alt="languages">
-  <img src="https://komarev.com/ghpvc/?username=majid-alsakani&style=flat-square&color=blueviolet&label=profile+views" alt="profile views">
-</p>
 
 ---
 
@@ -349,22 +355,6 @@ contact: majidalsakani@gmail.com
   _Inside the app: real screenshots, learning engine and data model._
 - [**Omni Agent AI — Planner / Executor / Critic loop with real SSE streaming**](https://github.com/majid-alsakani/omni-agent-ai)
   _A production-shaped agent runtime with a real tool registry._
-
----
-
-## 🌍 Where to find me / أين تجدني
-
-<p align="center">
-  <a href="https://github.com/majid-alsakani"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" alt="GitHub"></a>
-  <a href="https://www.linkedin.com/in/majid-alsakani"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="mailto:majidalsakani@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
-  <a href="https://joobea.com"><img src="https://img.shields.io/badge/Website-joobea.com-2ea44f?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
-  <a href="https://sinialkhafifapp.com"><img src="https://img.shields.io/badge/Product-sinialkhafifapp.com-8A2BE2?style=for-the-badge&logo=vercel&logoColor=white" alt="Product"></a>
-</p>
-
-<p align="center">
-  <em>🇾🇪 Based in Sana'a, Yemen — building for the world, remotely. / مقيم في صنعاء، اليمن — أعمل عن بُعد مع العالم كله.</em>
-</p>
 
 ---
 
@@ -404,6 +394,22 @@ contact: majidalsakani@gmail.com
   <a href="mailto:majidalsakani@gmail.com">
     <img src="https://img.shields.io/badge/%F0%9F%92%AC%20Let's%20work%20together-Contact%20me-2ea44f?style=for-the-badge" alt="Contact me">
   </a>
+</p>
+
+---
+
+## 🌍 Where to find me / أين تجدني
+
+<p align="center">
+  <a href="https://github.com/majid-alsakani"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" alt="GitHub"></a>
+  <a href="https://www.linkedin.com/in/majid-alsakani"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:majidalsakani@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://joobea.com"><img src="https://img.shields.io/badge/Website-joobea.com-2ea44f?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
+  <a href="https://sinialkhafifapp.com"><img src="https://img.shields.io/badge/Product-sinialkhafifapp.com-8A2BE2?style=for-the-badge&logo=vercel&logoColor=white" alt="Product"></a>
+</p>
+
+<p align="center">
+  <em>🇾🇪 Based in Sana'a, Yemen — building for the world, remotely. / مقيم في صنعاء، اليمن — أعمل عن بُعد مع العالم كله.</em>
 </p>
 
 ---
