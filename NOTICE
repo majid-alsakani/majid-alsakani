@@ -1,0 +1,30 @@
+NOTICE
+======
+
+Project : majid-alsakani/majid-alsakani (GitHub profile repository)
+Author  : Majid Al-Sakani (ماجد السكني)
+Contact : majidalsakani@gmail.com
+Origin  : https://github.com/majid-alsakani/majid-alsakani
+Since   : 2026
+Content fingerprint : MJDALSK-CANARY-9F4C2E7A1B
+
+This repository contains two kinds of material with two different licenses:
+
+1. CONTENT  (CC BY-NC-ND 4.0)
+   README.md, all Arabic/English copy, section design and ordering,
+   documentation, report templates, and everything under Assets/.
+   -> Attribution required. No commercial use. No derivatives.
+
+2. CODE  (MIT)
+   profile_engine/, tools/, tests/, .github/workflows/
+   -> Free to use with the copyright notice preserved.
+
+Every published copy of the CONTENT must keep a visible line:
+
+    Content by Majid Al-Sakani — https://github.com/majid-alsakani
+
+Removing the attribution, the fingerprint above, or the embedded
+signature markers inside README.md does not remove the author's rights;
+it only makes the copy an infringing one.
+
+Reporting a copy: see COPYRIGHT.md (DMCA section).
