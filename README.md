@@ -26,6 +26,21 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/majid-alsakani?tab=repositories&sort=stargazers">
+    <img src="https://custom-icon-badges.demolab.com/github/stars/majid-alsakani?color=55960c&style=for-the-badge&labelColor=488207&logo=star" alt="Total stars earned by Majid Al-Sakani">
+  </a>
+  <a href="https://github.com/majid-alsakani?tab=followers">
+    <img src="https://custom-icon-badges.demolab.com/github/followers/majid-alsakani?color=236ad3&labelColor=1155ba&style=for-the-badge&logo=person-add&label=Follow&logoColor=white" alt="Follow Majid Al-Sakani on GitHub">
+  </a>
+  <a href="https://github.com/majid-alsakani?tab=repositories">
+    <img src="https://custom-icon-badges.demolab.com/badge/-All%20My%20Repositories-1F222E?style=for-the-badge&logoColor=white&logo=repo" alt="All repositories of Majid Al-Sakani">
+  </a>
+  <a href="https://github.com/majid-alsakani/majid-alsakani/commits/main">
+    <img src="https://custom-icon-badges.demolab.com/github/last-commit/majid-alsakani/majid-alsakani?style=for-the-badge&logo=history&logoColor=white&labelColor=1F222E&color=6f42c1&label=Last%20update" alt="Last profile update">
+  </a>
+</p>
+
+<p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F7DF1E&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Backend+Engineer;Python+%7C+FastAPI+%7C+Django;React+%7C+TypeScript+%7C+Next.js;Automation+Specialist;AI+%26+Telegram+Bots+Developer;Enterprise+Solution+Architect" alt="Typing SVG - English" />
 </p>
 
@@ -158,6 +173,29 @@ contact: majidalsakani@gmail.com
   <img src="https://raw.githubusercontent.com/majid-alsakani/majid-alsakani/main/Assets/Gif/kyubey.gif" width="25%" alt="animation">
   <img src="https://raw.githubusercontent.com/majid-alsakani/majid-alsakani/main/Assets/Gif/oo.gif" width="22%" alt="animation">
 </p>
+
+---
+
+## 🛠️ My Favorite Tools / أدواتي المفضلة
+
+> كل شارة قابلة للنقر — تفتح مباشرة الكود الحقيقي المكتوب بهذه التقنية داخل حسابي.
+> Every badge is clickable and opens the real code written with that technology.
+
+### 👨‍💻 Programming and Markup Languages / لغات البرمجة والترميز
+
+[![Python](https://img.shields.io/badge/Python-3776AB.svg?logo=python&logoColor=white)](https://github.com/search?q=user%3Amajid-alsakani+language%3Apython)[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?logo=typescript&logoColor=white)](https://github.com/search?q=user%3Amajid-alsakani+language%3Atypescript)[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?logo=javascript&logoColor=black)](https://github.com/search?q=user%3Amajid-alsakani+language%3Ajavascript)[![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?logo=html5&logoColor=white)](https://github.com/search?q=user%3Amajid-alsakani+language%3Ahtml)[![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?logo=css3&logoColor=white)](https://github.com/search?q=user%3Amajid-alsakani+language%3Acss)[![SQL](https://img.shields.io/badge/SQL-4479A1.svg?logo=postgresql&logoColor=white)](https://github.com/search?q=user%3Amajid-alsakani+language%3Asql)[![Bash](https://img.shields.io/badge/Bash-121011.svg?logo=gnu-bash&logoColor=white)](https://github.com/search?q=user%3Amajid-alsakani+language%3Ashell)[![Markdown](https://img.shields.io/badge/Markdown-000000.svg?logo=markdown&logoColor=white)](https://github.com/search?q=user%3Amajid-alsakani+language%3Amarkdown)[![YAML](https://img.shields.io/badge/YAML-CB171E.svg?logo=yaml&logoColor=white)](https://github.com/search?q=user%3Amajid-alsakani+language%3Ayaml)[![JSON](https://img.shields.io/badge/JSON-000000.svg?logo=json&logoColor=white)](https://github.com/search?q=user%3Amajid-alsakani+language%3Ajson)[![Dockerfile](https://img.shields.io/badge/Dockerfile-2496ED.svg?logo=docker&logoColor=white)](https://github.com/search?q=user%3Amajid-alsakani+language%3Adockerfile)
+
+### 🧰 Frameworks and Libraries / أطر العمل والمكتبات
+
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688.svg?logo=fastapi&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Django](https://img.shields.io/badge/Django-092E20.svg?logo=django&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Flask](https://img.shields.io/badge/Flask-000000.svg?logo=flask&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![React](https://img.shields.io/badge/React-20232A.svg?logo=react&logoColor=61DAFB)](https://github.com/majid-alsakani?tab=repositories)[![Next.js](https://img.shields.io/badge/Next.js-000000.svg?logo=nextdotjs&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Vite](https://img.shields.io/badge/Vite-646CFF.svg?logo=vite&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?logo=tailwindcss&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Node.js](https://img.shields.io/badge/Node.js-339933.svg?logo=nodedotjs&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Express](https://img.shields.io/badge/Express-404D59.svg?logo=express&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Celery](https://img.shields.io/badge/Celery-37814A.svg?logo=celery&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Pydantic](https://img.shields.io/badge/Pydantic-E92063.svg?logo=pydantic&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-D71F00.svg?logo=sqlalchemy&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Pytest](https://img.shields.io/badge/Pytest-0A9EDC.svg?logo=pytest&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Aiogram](https://img.shields.io/badge/Aiogram-2CA5E0.svg?logo=telegram&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![OpenAI](https://img.shields.io/badge/OpenAI-412991.svg?logo=openai&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![LangChain](https://img.shields.io/badge/LangChain-1C3C3C.svg?logo=langchain&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)
+
+### 🗄️ Databases and Cloud Hosting / قواعد البيانات والاستضافة السحابية
+
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192.svg?logo=postgresql&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?logo=mysql&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![SQLite](https://img.shields.io/badge/SQLite-003B57.svg?logo=sqlite&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B.svg?logo=mongodb&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Redis](https://img.shields.io/badge/Redis-DC382D.svg?logo=redis&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Supabase](https://img.shields.io/badge/Supabase-3FCF8E.svg?logo=supabase&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Firebase](https://img.shields.io/badge/Firebase-FFCA28.svg?logo=firebase&logoColor=black)](https://github.com/majid-alsakani?tab=repositories)[![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020.svg?logo=cloudflare&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Vercel](https://img.shields.io/badge/Vercel-000000.svg?logo=vercel&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-327FC7.svg?logo=github&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Nginx](https://img.shields.io/badge/Nginx-009639.svg?logo=nginx&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF.svg?logo=digitalocean&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)
+
+### 💻 Software and Tools / البرمجيات والأدوات
+
+[![Git](https://img.shields.io/badge/Git-F05032.svg?logo=git&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2671E5.svg?logo=githubactions&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Docker](https://img.shields.io/badge/Docker-2496ED.svg?logo=docker&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Linux](https://img.shields.io/badge/Linux-FCC624.svg?logo=linux&logoColor=black)](https://github.com/majid-alsakani?tab=repositories)[![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420.svg?logo=ubuntu&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![VS Code](https://img.shields.io/badge/VS%20Code-007ACC.svg?logo=visualstudiocode&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![PyCharm](https://img.shields.io/badge/PyCharm-000000.svg?logo=pycharm&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Postman](https://img.shields.io/badge/Postman-FF6C37.svg?logo=postman&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Figma](https://img.shields.io/badge/Figma-F24E1E.svg?logo=figma&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Ruff](https://img.shields.io/badge/Ruff-D7FF64.svg?logo=ruff&logoColor=black)](https://github.com/majid-alsakani?tab=repositories)[![Prettier](https://img.shields.io/badge/Prettier-F7B93E.svg?logo=prettier&logoColor=black)](https://github.com/majid-alsakani?tab=repositories)[![ESLint](https://img.shields.io/badge/ESLint-4B32C3.svg?logo=eslint&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Swagger](https://img.shields.io/badge/Swagger-85EA2D.svg?logo=swagger&logoColor=black)](https://github.com/majid-alsakani?tab=repositories)[![Notion](https://img.shields.io/badge/Notion-010101.svg?logo=notion&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)
 
 ---
 
@@ -311,6 +349,44 @@ contact: majidalsakani@gmail.com
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=majid-alsakani&theme=github-dark&hide_border=true&area=true&custom_title=Contribution%20activity%20of%20Majid%20Al-Sakani">
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=majid-alsakani&theme=github-light&hide_border=true&area=true&custom_title=Contribution%20activity%20of%20Majid%20Al-Sakani">
   <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=majid-alsakani&theme=github-compact&hide_border=true&area=true" alt="Contribution activity graph of Majid Al-Sakani over the last year">
+</picture>
+
+</div>
+
+### 🐍 Contribution Snake / أفعى المساهمات
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/majid-alsakani/majid-alsakani/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/majid-alsakani/majid-alsakani/output/github-contribution-grid-snake.svg">
+  <img width="96%" src="https://raw.githubusercontent.com/majid-alsakani/majid-alsakani/output/github-contribution-grid-snake.svg" alt="Animated snake eating the GitHub contribution grid of Majid Al-Sakani">
+</picture>
+
+<sub>يُولَّد تلقائيًا كل 12 ساعة عبر GitHub Actions من مساهماتي الحقيقية.</sub>
+
+</div>
+
+### 🧊 3D Contribution Calendar / تقويم المساهمات ثلاثي الأبعاد
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/majid-alsakani/majid-alsakani/main/profile-3d-contrib/night-view.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/majid-alsakani/majid-alsakani/main/profile-3d-contrib/day-green.svg">
+  <img width="96%" src="https://raw.githubusercontent.com/majid-alsakani/majid-alsakani/main/profile-3d-contrib/day-green.svg" alt="Isometric 3D calendar of Majid Al-Sakani GitHub contributions">
+</picture>
+
+</div>
+
+### 🔥 Streak Stats / سلسلة الالتزام اليومي
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=majid-alsakani&theme=monokai-metallian&hide_border=true&date_format=M%20j%5B%2C%20Y%5D">
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=majid-alsakani&theme=default&hide_border=true&date_format=M%20j%5B%2C%20Y%5D">
+  <img width="70%" src="https://streak-stats.demolab.com?user=majid-alsakani&hide_border=true&date_format=M%20j%5B%2C%20Y%5D" alt="Current commit streak of Majid Al-Sakani">
 </picture>
 
 </div>
