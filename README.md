@@ -372,9 +372,9 @@ contact: majidalsakani@gmail.com
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/majid-alsakani/majid-alsakani/main/profile-3d-contrib/night-view.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/majid-alsakani/majid-alsakani/main/profile-3d-contrib/day-green.svg">
-  <img width="96%" src="https://raw.githubusercontent.com/majid-alsakani/majid-alsakani/main/profile-3d-contrib/day-green.svg" alt="Isometric 3D calendar of Majid Al-Sakani GitHub contributions">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/majid-alsakani/majid-alsakani/main/profile-3d-contrib/profile-night-view.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/majid-alsakani/majid-alsakani/main/profile-3d-contrib/profile-green-animate.svg">
+  <img width="96%" src="https://raw.githubusercontent.com/majid-alsakani/majid-alsakani/main/profile-3d-contrib/profile-green-animate.svg" alt="Isometric 3D calendar of Majid Al-Sakani GitHub contributions">
 </picture>
 
 </div>
