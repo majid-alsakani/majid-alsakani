@@ -4,9 +4,10 @@ on:
   schedule:
     - cron: "0 */12 * * *"
   workflow_dispatch:
-  push:
-    branches:
-      - main
+
+concurrency:
+  group: snake-output
+  cancel-in-progress: false
 
 jobs:
   build:
