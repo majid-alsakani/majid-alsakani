@@ -159,26 +159,49 @@ I am Majid Al-Sakani, an advanced Full Stack Developer specializing in backend d
 
 </div>
 
-### 🧾 Profile Summary Cards / بطاقات ملخّص الأداء
+### 📌 Pinned Repository Cards / بطاقات المشاريع المثبتة
+
+<div align="center">
+
+<a href="https://github.com/majid-alsakani/joobea-platform">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/pin/?username=majid-alsakani&repo=joobea-platform&hide_border=true&show_owner=true&icon_color=2d77dc&title_color=2d77dc&text_color=ffffff&bg_color=0d1117">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api/pin/?username=majid-alsakani&repo=joobea-platform&hide_border=true&show_owner=true">
+    <img width="48%" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=majid-alsakani&repo=joobea-platform&hide_border=true&show_owner=true" alt="Joobea — smart recruitment platform for Yemen built with Django, PostgreSQL and React">
+  </picture>
+</a>
+<a href="https://github.com/majid-alsakani/sini-alkhafif-app">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/pin/?username=majid-alsakani&repo=sini-alkhafif-app&hide_border=true&show_owner=true&icon_color=2d77dc&title_color=2d77dc&text_color=ffffff&bg_color=0d1117">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api/pin/?username=majid-alsakani&repo=sini-alkhafif-app&hide_border=true&show_owner=true">
+    <img width="48%" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=majid-alsakani&repo=sini-alkhafif-app&hide_border=true&show_owner=true" alt="Sini Al-Khafif — AI-powered Chinese HSK learning platform for Arabic speakers">
+  </picture>
+</a>
+<a href="https://github.com/majid-alsakani/majid-alsakani">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/pin/?username=majid-alsakani&repo=majid-alsakani&hide_border=true&show_owner=true&icon_color=2d77dc&title_color=2d77dc&text_color=ffffff&bg_color=0d1117">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api/pin/?username=majid-alsakani&repo=majid-alsakani&hide_border=true&show_owner=true">
+    <img width="48%" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=majid-alsakani&repo=majid-alsakani&hide_border=true&show_owner=true" alt="Profile Engine — zero-dependency Python analytics pipeline for GitHub metrics">
+  </picture>
+</a>
+<a href="https://github.com/majid-alsakani/majid-portfolio">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/pin/?username=majid-alsakani&repo=majid-portfolio&hide_border=true&show_owner=true&icon_color=2d77dc&title_color=2d77dc&text_color=ffffff&bg_color=0d1117">
+    <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api/pin/?username=majid-alsakani&repo=majid-portfolio&hide_border=true&show_owner=true">
+    <img width="48%" src="https://github-readme-stats-fast.vercel.app/api/pin/?username=majid-alsakani&repo=majid-portfolio&hide_border=true&show_owner=true" alt="Majid Al-Sakani developer portfolio built with TypeScript and React">
+  </picture>
+</a>
+
+</div>
+
+### 📉 Contribution Activity Graph / منحنى النشاط البرمجي
 
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=majid-alsakani&theme=github_dark">
-  <img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=majid-alsakani&theme=default" alt="Majid Al-Sakani GitHub profile summary — commits, stars, pull requests and contribution overview">
-</picture>
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=majid-alsakani&theme=github_dark">
-  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=majid-alsakani&theme=default" alt="Repositories per programming language for Majid Al-Sakani">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=majid-alsakani&theme=github_dark">
-  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=majid-alsakani&theme=default" alt="Most committed programming language by Majid Al-Sakani">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=majid-alsakani&theme=github_dark&utcOffset=3">
-  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=majid-alsakani&theme=default&utcOffset=3" alt="Most productive coding hours of Majid Al-Sakani (UTC+3, Yemen)">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=majid-alsakani&theme=github-dark&hide_border=true&area=true&custom_title=Contribution%20activity%20of%20Majid%20Al-Sakani">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=majid-alsakani&theme=github-light&hide_border=true&area=true&custom_title=Contribution%20activity%20of%20Majid%20Al-Sakani">
+  <img width="96%" src="https://github-readme-activity-graph.vercel.app/graph?username=majid-alsakani&theme=github-compact&hide_border=true&area=true" alt="Contribution activity graph of Majid Al-Sakani over the last year">
 </picture>
 
 </div>
