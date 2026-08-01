@@ -1,3 +1,18 @@
+<!--
+  ─────────────────────────────────────────────────────────────────────
+  © 2026 Majid Al-Sakani (ماجد السكني) · majidalsakani@gmail.com
+  Canonical origin : https://github.com/majid-alsakani/majid-alsakani
+  Content license  : CC BY-NC-ND 4.0  (see LICENSE / COPYRIGHT.md)
+  Content fingerprint : MJDALSK-CANARY-9F4C2E7A1B
+  Authorship proof    : docs/PROVENANCE.md  (signed commits, timestamps)
+
+  This file is an original work. Copying it — in whole or in part — into
+  another profile without visible attribution is a licence violation and
+  is detected automatically by .github/workflows/copy-detector.yml
+  ─────────────────────────────────────────────────────────────────────
+-->
+<!-- canary:MJDALSK-CANARY-9F4C2E7A1B -->
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/majid-alsakani/majid-alsakani/main/Assets/Meme/majid_meme.png" alt="Majid Al-Sakani | ماجد السكني - Full Stack Developer Python FastAPI Django React - Yemen" width="100%" />
 </p>
@@ -37,6 +52,9 @@
   </a>
   <a href="https://github.com/majid-alsakani/majid-alsakani/commits/main">
     <img src="https://custom-icon-badges.demolab.com/github/last-commit/majid-alsakani/majid-alsakani?style=for-the-badge&logo=history&logoColor=white&labelColor=1F222E&color=6f42c1&label=Last%20update" alt="Last profile update">
+  </a>
+  <a href="https://github.com/majid-alsakani/majid-alsakani/blob/main/LICENSE">
+    <img src="https://custom-icon-badges.demolab.com/badge/License-CC%20BY--NC--ND%204.0-1F222E?style=for-the-badge&logo=law&logoColor=white" alt="Content licensed CC BY-NC-ND 4.0">
   </a>
 </p>
 
@@ -613,3 +631,38 @@ contact: majidalsakani@gmail.com
   <img src="https://img.shields.io/github/forks/majid-alsakani/majid-alsakani?style=flat-square&labelColor=343b41" alt="Forks">
   <img src="https://img.shields.io/github/repo-size/majid-alsakani/majid-alsakani?style=flat-square&labelColor=343b41" alt="Repo size">
 </p>
+
+---
+
+<!-- canary:MJDALSK-CANARY-9F4C2E7A1B · do not remove -->
+
+<div align="center">
+
+### 📜 Copyright & License / حقوق النشر والترخيص
+
+<a href="https://github.com/majid-alsakani/majid-alsakani/blob/main/LICENSE"><img src="https://img.shields.io/badge/Content-CC%20BY--NC--ND%204.0-EF9421?style=for-the-badge&logo=creativecommons&logoColor=white" alt="Content license CC BY-NC-ND 4.0"></a>
+<a href="https://github.com/majid-alsakani/majid-alsakani/blob/main/LICENSE"><img src="https://img.shields.io/badge/Code-MIT-3da639?style=for-the-badge&logo=opensourceinitiative&logoColor=white" alt="Code license MIT"></a>
+<a href="https://github.com/majid-alsakani/majid-alsakani/blob/main/COPYRIGHT.md"><img src="https://img.shields.io/badge/Copyright-Notice-181717?style=for-the-badge&logo=github&logoColor=white" alt="Copyright notice"></a>
+<a href="https://github.com/majid-alsakani/majid-alsakani/blob/main/CITATION.cff"><img src="https://img.shields.io/badge/Cite-CITATION.cff-blue?style=for-the-badge&logo=zenodo&logoColor=white" alt="How to cite this work"></a>
+<a href="https://github.com/majid-alsakani/majid-alsakani/blob/main/docs/PROVENANCE.md"><img src="https://img.shields.io/badge/Provenance-Signed%20commits-6f42c1?style=for-the-badge&logo=gitextensions&logoColor=white" alt="Provenance and signed commits"></a>
+
+**© 2026 Majid Al-Sakani — ماجد السكني** · First published **2026-01-12** · Yemen 🇾🇪​‌​​‌‌​‌​‌​​​​​‌​‌​​‌​‌​​‌​​‌​​‌​‌​​​‌​​​​‌​‌‌​‌​‌​​​​​‌​‌​​‌‌​​​‌​‌​​‌‌​‌​​​​​‌​‌​​‌​‌‌​‌​​​​​‌​‌​​‌‌‌​​‌​​‌​​‌​​‌​‌‌​‌​​‌‌​​‌​​​‌‌​​​​​​‌‌​​‌​​​‌‌​‌‌​
+
+<sub>
+Original work by <a href="https://github.com/majid-alsakani"><b>@majid-alsakani</b></a> ·
+Canonical source: <a href="https://github.com/majid-alsakani/majid-alsakani">github.com/majid-alsakani/majid-alsakani</a> ·
+Content licensed <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a> — attribution required, no commercial use, no derivatives ·
+Source code licensed MIT · Fingerprint <code>MJDALSK-CANARY-9F4C2E7A1B</code>
+</sub>
+
+<sub>
+جميع الحقوق محفوظة © 2026 ماجد السكني — يُسمح بالاقتباس مع ذكر المصدر والرابط،
+ويُمنع النسخ الكامل أو الاستخدام التجاري أو نشر نسخة معدّلة.
+النسخ غير المصرّح بها تُرصد آليًا كل 12 ساعة عبر
+<a href="https://github.com/majid-alsakani/majid-alsakani/blob/main/.github/workflows/copy-detector.yml">Copy Detector</a>
+وتُعالَج عبر <a href="https://github.com/contact/dmca-notice">DMCA</a>.
+</sub>
+
+</div>
+
+<!-- signature:MJDALSK-CANARY-9F4C2E7A1B:majid-alsakani:2026 -->
