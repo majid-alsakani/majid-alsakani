@@ -136,6 +136,72 @@ I am Majid Al-Sakani, an advanced Full Stack Developer specializing in backend d
   <img src="https://github-trophies.vercel.app/?username=majid-alsakani&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=8" alt="Majid's GitHub Trophies" />
 </p>
 
+### 🌗 Theme-Aware Advanced Stats / إحصائيات متقدمة تتكيّف مع وضع العرض
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api?username=majid-alsakani&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&number_format=long&rank_icon=percentile&show=reviews,prs_merged,prs_merged_percentage,discussions_started,discussions_answered&icon_color=2d77dc&title_color=2d77dc&text_color=ffffff&bg_color=0d1117&disable_animations=true">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api?username=majid-alsakani&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&number_format=long&rank_icon=percentile&show=reviews,prs_merged,prs_merged_percentage,discussions_started,discussions_answered&disable_animations=true">
+  <img width="48%" src="https://github-readme-stats-fast.vercel.app/api?username=majid-alsakani&show_icons=true&include_all_commits=true&hide_border=true&rank_icon=percentile" alt="Majid Al-Sakani GitHub statistics — commits, pull requests merged, code reviews and percentile rank">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=majid-alsakani&layout=donut&langs_count=10&size_weight=0.5&count_weight=0.5&hide_border=true&custom_title=Language%20distribution%20across%20my%20repos&icon_color=2d77dc&title_color=2d77dc&text_color=ffffff&bg_color=0d1117&disable_animations=true">
+  <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=majid-alsakani&layout=donut&langs_count=10&size_weight=0.5&count_weight=0.5&hide_border=true&custom_title=Language%20distribution%20across%20my%20repos&disable_animations=true">
+  <img width="40%" src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=majid-alsakani&layout=donut&langs_count=10&hide_border=true" alt="Programming language distribution of Majid Al-Sakani repositories — Python, TypeScript, JavaScript">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=majid-alsakani&type=svg&hide_border=true&background=0d1117&fire=2d77dc&ring=2d77dc&currStreakLabel=2d77dc&currStreakNum=ffffff&sideNums=ffffff&sideLabels=ffffff&dates=8b949e">
+  <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com?user=majid-alsakani&type=svg&hide_border=true">
+  <img width="52%" src="https://streak-stats.demolab.com?user=majid-alsakani&type=svg&hide_border=true" alt="Majid Al-Sakani contribution streak — daily commit consistency">
+</picture>
+
+</div>
+
+### 🧾 Profile Summary Cards / بطاقات ملخّص الأداء
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=majid-alsakani&theme=github_dark">
+  <img width="96%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=majid-alsakani&theme=default" alt="Majid Al-Sakani GitHub profile summary — commits, stars, pull requests and contribution overview">
+</picture>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=majid-alsakani&theme=github_dark">
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=majid-alsakani&theme=default" alt="Repositories per programming language for Majid Al-Sakani">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=majid-alsakani&theme=github_dark">
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=majid-alsakani&theme=default" alt="Most committed programming language by Majid Al-Sakani">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=majid-alsakani&theme=github_dark&utcOffset=3">
+  <img width="32%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=majid-alsakani&theme=default&utcOffset=3" alt="Most productive coding hours of Majid Al-Sakani (UTC+3, Yemen)">
+</picture>
+
+</div>
+
+### 🏅 GitHub Achievements & Open Source / الإنجازات والمساهمات مفتوحة المصدر
+
+<p align="center">
+  <a href="https://github.com/majid-alsakani?tab=achievements"><img src="https://img.shields.io/badge/GitHub-Achievements-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub achievements of Majid Al-Sakani"></a>
+  <a href="https://github.com/majid-alsakani?tab=repositories&sort=stargazers"><img src="https://img.shields.io/badge/Repositories-Top%20Starred-2d77dc?style=for-the-badge&logo=github&logoColor=white" alt="Top starred repositories"></a>
+  <a href="https://github.com/majid-alsakani?tab=stars"><img src="https://img.shields.io/badge/Stars-Given%20%26%20Earned-f7b731?style=for-the-badge&logo=github&logoColor=white" alt="Stars"></a>
+  <a href="https://github.com/majid-alsakani?tab=followers"><img src="https://img.shields.io/github/followers/majid-alsakani?label=Followers&style=for-the-badge&logo=github&color=181717" alt="GitHub followers"></a>
+  <a href="https://github.com/sponsors/majid-alsakani"><img src="https://img.shields.io/badge/Open%20Source-Contributor-ea4aaa?style=for-the-badge&logo=githubsponsors&logoColor=white" alt="Open source contributor"></a>
+</p>
+
+<p align="center">
+  <sub>
+    Open-source engineer from Yemen 🇾🇪 · production systems in <b>Python · FastAPI · Django · React · TypeScript</b> ·
+    building <a href="https://joobea.com">Joobea</a> (recruitment) and <a href="https://sinialkhafifapp.com">Sini Al-Khafif</a> (EdTech) ·
+    author of the <a href="https://github.com/majid-alsakani/majid-alsakani/tree/main/tools/profile-engine">Profile Engine</a> analytics pipeline.
+  </sub>
+</p>
+
+
 ---
 
 ## ✨ Featured Projects / مشاريع مختارة
