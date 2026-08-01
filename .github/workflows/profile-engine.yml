@@ -50,11 +50,19 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Restore the GraphQL response cache
+        uses: actions/cache@v4
+        with:
+          path: .cache/profile-engine
+          key: profile-engine-graphql-${{ github.run_id }}
+          restore-keys: |
+            profile-engine-graphql-
       - name: Run the engine
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_LOGIN: ${{ github.repository_owner }}
           PYTHONPATH: tools/profile-engine
+          PROFILE_CACHE_DIR: .cache/profile-engine
         run: python -m profile_engine --login "$PROFILE_LOGIN" --readme README.md --assets assets/generated
       - name: Commit the refreshed block
         run: |

@@ -2,7 +2,8 @@
 
 Uses only the standard library so the workflow needs no `pip install` step and
 cannot break because of a transitive dependency. Handles rate limiting,
-secondary-rate-limit backoff, cursor pagination and partial GraphQL errors.
+secondary-rate-limit backoff, cursor pagination, partial GraphQL errors and a
+TTL response cache that keeps repeat runs off the rate limiter entirely.
 """
 
 from __future__ import annotations
@@ -13,8 +14,9 @@ import random
 import time
 import urllib.error
 import urllib.request
-from typing import Any, Mapping
+from typing import Any, Mapping, Protocol
 
+from .cache import NullCache, cache_key
 from .models import ContributionDay, Profile, Repository, parse_iso8601, repository_from_graphql
 
 LOGGER = logging.getLogger("profile_engine.github")
@@ -23,9 +25,22 @@ ENDPOINT = "https://api.github.com/graphql"
 MAX_ATTEMPTS = 5
 PAGE_SIZE = 50
 
+
+class SupportsCache(Protocol):
+    """Structural type shared by ResponseCache and NullCache."""
+
+    def get(self, key: str) -> dict[str, Any] | None: ...
+
+    def stale(self, key: str) -> dict[str, Any] | None: ...
+
+    def set(self, key: str, data: Mapping[str, Any]) -> None: ...
+
+
 PROFILE_QUERY = """
 query($login: String!, $cursor: String) {
+  rateLimit { limit cost remaining resetAt }
   user(login: $login) {
+
     login
     name
     bio
@@ -67,14 +82,27 @@ class GitHubError(RuntimeError):
 
 
 class GitHubClient:
-    """Minimal, resilient GraphQL client."""
+    """Minimal, resilient GraphQL client with a TTL response cache."""
 
-    def __init__(self, token: str, *, endpoint: str = ENDPOINT, sleep=time.sleep) -> None:
+    def __init__(
+        self,
+        token: str,
+        *,
+        endpoint: str = ENDPOINT,
+        sleep=time.sleep,
+        cache: SupportsCache | None = None,
+    ) -> None:
         if not token:
             raise GitHubError("A GitHub token is required (set GITHUB_TOKEN).")
         self._token = token
         self._endpoint = endpoint
         self._sleep = sleep
+        self._cache: SupportsCache = cache if cache is not None else NullCache()
+        self.rate_limit: dict[str, Any] = {}
+
+    @property
+    def cache(self) -> SupportsCache:
+        return self._cache
 
     # -- transport ---------------------------------------------------------
     def _post(self, payload: Mapping[str, Any]) -> dict[str, Any]:
@@ -93,7 +121,12 @@ class GitHubClient:
             return json.loads(response.read().decode("utf-8"))
 
     def execute(self, query: str, variables: Mapping[str, Any]) -> dict[str, Any]:
-        """Run one query with exponential backoff and jitter."""
+        """Run one query: cache first, then network with backoff, then stale cache."""
+        key = cache_key(query, variables)
+        cached = self._cache.get(key)
+        if cached is not None:
+            return cached
+
         last_error: Exception | None = None
         for attempt in range(1, MAX_ATTEMPTS + 1):
             try:
@@ -116,14 +149,35 @@ class GitHubClient:
             if errors:
                 self._backoff(attempt)
                 continue
-            return document.get("data") or {}
 
+            data = document.get("data") or {}
+            self._record_rate_limit(data)
+            self._cache.set(key, data)
+            return data
+
+        # Every attempt failed. An expired entry beats a broken README.
+        salvaged = self._cache.stale(key)
+        if salvaged is not None:
+            return salvaged
         raise GitHubError(f"GitHub unreachable after {MAX_ATTEMPTS} attempts: {last_error}")
 
+    def _record_rate_limit(self, data: Mapping[str, Any]) -> None:
+        info = data.get("rateLimit")
+        if isinstance(info, dict) and info:
+            self.rate_limit = dict(info)
+            LOGGER.debug(
+                "Rate limit: %s/%s remaining (cost %s, resets %s)",
+                info.get("remaining"),
+                info.get("limit"),
+                info.get("cost"),
+                info.get("resetAt"),
+            )
+
     def _backoff(self, attempt: int) -> None:
-        delay = min(2 ** attempt, 32) + random.random()
+        delay = min(2**attempt, 32) + random.random()
         LOGGER.warning("Backing off %.1fs (attempt %d/%d)", delay, attempt, MAX_ATTEMPTS)
         self._sleep(delay)
+
 
     # -- domain ------------------------------------------------------------
     def fetch_profile(self, login: str) -> Profile:
