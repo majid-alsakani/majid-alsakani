@@ -270,6 +270,57 @@ I am Majid Al-Sakani, an advanced Full Stack Developer specializing in backend d
 
 ---
 
+## 🎁 Open Source Projects — Live Metrics / مقاييس حيّة للمشاريع مفتوحة المصدر
+
+> كل الأرقام في الجدول تُحدَّث تلقائيًا مباشرة من GitHub في كل مرة يُفتح فيها هذا الملف.
+> Every number below is fetched live from GitHub on each page view — no manual updates.
+
+| **🎁 Project / المشروع** | **⭐ Stars** | **🍴 Forks** | **🛎 Issues** | **📬 Pull Requests** | **🕒 Last Commit** |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| [**Joobea — Smart Recruitment Platform**](https://github.com/majid-alsakani/joobea-platform) | ![Stars](https://img.shields.io/github/stars/majid-alsakani/joobea-platform?style=flat-square&labelColor=343b41) | ![Forks](https://img.shields.io/github/forks/majid-alsakani/joobea-platform?style=flat-square&labelColor=343b41) | ![Issues](https://img.shields.io/github/issues/majid-alsakani/joobea-platform?style=flat-square&labelColor=343b41) | ![Pull Requests](https://img.shields.io/github/issues-pr/majid-alsakani/joobea-platform?style=flat-square&labelColor=343b41) | ![Last commit](https://img.shields.io/github/last-commit/majid-alsakani/joobea-platform?style=flat-square&labelColor=343b41) |
+| [**Sini Al-Khafif — AI Language Learning**](https://github.com/majid-alsakani/sini-alkhafif-app) | ![Stars](https://img.shields.io/github/stars/majid-alsakani/sini-alkhafif-app?style=flat-square&labelColor=343b41) | ![Forks](https://img.shields.io/github/forks/majid-alsakani/sini-alkhafif-app?style=flat-square&labelColor=343b41) | ![Issues](https://img.shields.io/github/issues/majid-alsakani/sini-alkhafif-app?style=flat-square&labelColor=343b41) | ![Pull Requests](https://img.shields.io/github/issues-pr/majid-alsakani/sini-alkhafif-app?style=flat-square&labelColor=343b41) | ![Last commit](https://img.shields.io/github/last-commit/majid-alsakani/sini-alkhafif-app?style=flat-square&labelColor=343b41) |
+| [**Omni Agent AI — Autonomous Agent Engine**](https://github.com/majid-alsakani/omni-agent-ai) | ![Stars](https://img.shields.io/github/stars/majid-alsakani/omni-agent-ai?style=flat-square&labelColor=343b41) | ![Forks](https://img.shields.io/github/forks/majid-alsakani/omni-agent-ai?style=flat-square&labelColor=343b41) | ![Issues](https://img.shields.io/github/issues/majid-alsakani/omni-agent-ai?style=flat-square&labelColor=343b41) | ![Pull Requests](https://img.shields.io/github/issues-pr/majid-alsakani/omni-agent-ai?style=flat-square&labelColor=343b41) | ![Last commit](https://img.shields.io/github/last-commit/majid-alsakani/omni-agent-ai?style=flat-square&labelColor=343b41) |
+| [**Enterprise Backend System — FastAPI**](https://github.com/majid-alsakani/enterprise-backend-system) | ![Stars](https://img.shields.io/github/stars/majid-alsakani/enterprise-backend-system?style=flat-square&labelColor=343b41) | ![Forks](https://img.shields.io/github/forks/majid-alsakani/enterprise-backend-system?style=flat-square&labelColor=343b41) | ![Issues](https://img.shields.io/github/issues/majid-alsakani/enterprise-backend-system?style=flat-square&labelColor=343b41) | ![Pull Requests](https://img.shields.io/github/issues-pr/majid-alsakani/enterprise-backend-system?style=flat-square&labelColor=343b41) | ![Last commit](https://img.shields.io/github/last-commit/majid-alsakani/enterprise-backend-system?style=flat-square&labelColor=343b41) |
+| [**Profile Engine — Self-Updating Analytics**](https://github.com/majid-alsakani/majid-alsakani) | ![Stars](https://img.shields.io/github/stars/majid-alsakani/majid-alsakani?style=flat-square&labelColor=343b41) | ![Forks](https://img.shields.io/github/forks/majid-alsakani/majid-alsakani?style=flat-square&labelColor=343b41) | ![Issues](https://img.shields.io/github/issues/majid-alsakani/majid-alsakani?style=flat-square&labelColor=343b41) | ![Pull Requests](https://img.shields.io/github/issues-pr/majid-alsakani/majid-alsakani?style=flat-square&labelColor=343b41) | ![Last commit](https://img.shields.io/github/last-commit/majid-alsakani/majid-alsakani?style=flat-square&labelColor=343b41) |
+
+<p align="center">
+  <img src="https://img.shields.io/github/actions/workflow/status/majid-alsakani/majid-alsakani/profile-engine.yml?style=flat-square&label=README%20auto-build&labelColor=343b41" alt="README build status">
+  <img src="https://img.shields.io/github/commit-activity/m/majid-alsakani/majid-alsakani?style=flat-square&label=commits%2Fmonth&labelColor=343b41" alt="commit activity">
+  <img src="https://img.shields.io/github/languages/count/majid-alsakani/majid-alsakani?style=flat-square&label=languages&labelColor=343b41" alt="languages">
+  <img src="https://komarev.com/ghpvc/?username=majid-alsakani&style=flat-square&color=blueviolet&label=profile+views" alt="profile views">
+</p>
+
+---
+
+## ✍️ Writing & Knowledge Sharing / كتابات ومشاركة المعرفة
+
+- [**🔥 How I built a self-updating GitHub profile with a pure-Python analytics engine**](https://majid-alsakani.github.io/majid-alsakani/)
+  _Zero dependencies, GraphQL caching, circuit breaker, SVG rendering — full interactive report._
+- [**🔥 Joobea — solving unemployment in Yemen with AI-driven job matching**](https://github.com/majid-alsakani/joobea-platform)
+  _Product story, architecture diagrams and a live product tour._
+- [**🔥 Sini Al-Khafif — teaching Chinese (HSK 1–6) to Arabic speakers with adaptive AI**](https://github.com/majid-alsakani/sini-alkhafif-app)
+  _Inside the app: real screenshots, learning engine and data model._
+- [**Omni Agent AI — Planner / Executor / Critic loop with real SSE streaming**](https://github.com/majid-alsakani/omni-agent-ai)
+  _A production-shaped agent runtime with a real tool registry._
+
+---
+
+## 🌍 Where to find me / أين تجدني
+
+<p align="center">
+  <a href="https://github.com/majid-alsakani"><img src="https://img.shields.io/badge/GitHub-%2312100E.svg?&style=for-the-badge&logo=Github&logoColor=white" alt="GitHub"></a>
+  <a href="https://www.linkedin.com/in/majid-alsakani"><img src="https://img.shields.io/badge/linkedin-%230077B5.svg?&style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="mailto:majidalsakani@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"></a>
+  <a href="https://joobea.com"><img src="https://img.shields.io/badge/Website-joobea.com-2ea44f?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website"></a>
+  <a href="https://sinialkhafifapp.com"><img src="https://img.shields.io/badge/Product-sinialkhafifapp.com-8A2BE2?style=for-the-badge&logo=vercel&logoColor=white" alt="Product"></a>
+</p>
+
+<p align="center">
+  <em>🇾🇪 Based in Sana'a, Yemen — building for the world, remotely. / مقيم في صنعاء، اليمن — أعمل عن بُعد مع العالم كله.</em>
+</p>
+
+---
+
 ## 🧩 Services I Offer / الخدمات التي أقدمها
 
 | Service | الخدمة |
@@ -425,3 +476,11 @@ I am Majid Al-Sakani, an advanced Full Stack Developer specializing in backend d
 <sub>Recomputed automatically by a GitHub Actions workflow · last run <code>2026-08-01 16:48 UTC</code></sub>
 
 <!-- PROFILE-ENGINE:END -->
+
+<p align="center">
+  <sub>♻️ This README is <strong>auto-generated and refreshed every 6 hours</strong> by my own zero-dependency <a href="https://github.com/majid-alsakani/majid-alsakani/tree/main/tools/profile-engine">Profile Engine</a> (Python · GraphQL · SVG · 66 unit tests).</sub>
+  <br>
+  <img src="https://img.shields.io/github/stars/majid-alsakani/majid-alsakani?style=flat-square&labelColor=343b41" alt="Stars">
+  <img src="https://img.shields.io/github/forks/majid-alsakani/majid-alsakani?style=flat-square&labelColor=343b41" alt="Forks">
+  <img src="https://img.shields.io/github/repo-size/majid-alsakani/majid-alsakani?style=flat-square&labelColor=343b41" alt="Repo size">
+</p>
