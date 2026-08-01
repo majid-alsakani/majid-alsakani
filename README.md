@@ -270,6 +270,53 @@ I am Majid Al-Sakani, an advanced Full Stack Developer specializing in backend d
 
 ---
 
+<p align="center">
+  <img src="https://socialify.git.ci/majid-alsakani/majid-alsakani/image?description=1&font=Source%20Code%20Pro&forks=1&issues=1&language=1&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Dark" width="88%" alt="Majid Al-Sakani profile card">
+</p>
+
+## 🧬 Developer Card / بطاقة المطوّر
+
+```yaml
+name: Majid Al-Sakani            # ماجد السكني
+located_in: Sana'a, Yemen        # صنعاء، اليمن
+availability: Remote worldwide   # متاح عن بُعد لكل العالم
+role: Full Stack Software Engineer
+focus: ["Backend Architecture", "AI Agents", "Automation Platforms"]
+company: Joobea (Founder)        # مؤسس منصة جوبيا
+languages_spoken: ["Arabic (native)", "English (professional)"]
+
+stack:
+  backend:  ["Python", "FastAPI", "Django", "Flask", "Node.js"]
+  frontend: ["React", "Next.js", "TypeScript", "TailwindCSS"]
+  data:     ["PostgreSQL", "MySQL", "MongoDB", "Redis"]
+  devops:   ["Docker", "Nginx", "GitHub Actions", "Linux", "VPS/Cloud"]
+  ai:       ["LLM Agents", "RAG", "Prompt Engineering", "Automation Pipelines"]
+
+flagship_products:
+  - ["Joobea", "AI recruitment platform fighting unemployment in Yemen", "joobea.com"]
+  - ["Sini Al-Khafif", "AI Chinese learning (HSK 1-6) for Arabic speakers", "sinialkhafifapp.com"]
+  - ["Omni Agent AI", "Planner / Executor / Critic agent runtime with SSE streaming"]
+  - ["Profile Engine", "Zero-dependency Python analytics engine powering this README"]
+
+engineering_principles: ["Clean Architecture", "Test-Driven", "Automation-First",
+                         "Security by default", "Docs as a deliverable"]
+currently_building: ["Autonomous AI agents", "Scalable SaaS for the MENA region"]
+open_to: ["Freelance projects", "Remote contracts", "Technical partnerships"]
+contact: majidalsakani@gmail.com
+```
+
+---
+
+## ⚡ Recent Activity / آخر نشاط برمجي
+
+> يُحدَّث تلقائيًا كل 6 ساعات عبر GitHub Actions — نشاط حقيقي مباشر من حسابي.
+
+<!--START_SECTION:activity-->
+<!-- سيتم تعبئة هذا القسم تلقائيًا بأحدث الـ commits و PRs و Issues خلال أول تشغيل للـ workflow -->
+<!--END_SECTION:activity-->
+
+---
+
 ## 🎁 Open Source Projects — Live Metrics / مقاييس حيّة للمشاريع مفتوحة المصدر
 
 > كل الأرقام في الجدول تُحدَّث تلقائيًا مباشرة من GitHub في كل مرة يُفتح فيها هذا الملف.
