@@ -1,0 +1,59 @@
+# profile-engine configuration
+#
+# Every key below is optional: delete a line and the engine falls back to the
+# shipped default. Unknown keys fail loudly at load time, so a typo can never
+# silently change what the pipeline publishes.
+#
+# Docs: tools/profile-engine/README.md
+
+login = "majid-alsakani"
+
+# ---------------------------------------------------------------------------
+# Which repositories take part in the analysis
+# ---------------------------------------------------------------------------
+[selection]
+# include = ["joobea-platform", "omni-agent-ai"]  # allow-list; empty = all owned repos
+include = []
+exclude = []
+exclude_forks = true
+exclude_archived = false
+require_topics = []   # e.g. ["python", "ai"] — keeps only repos carrying one of these
+min_stars = 0
+
+# ---------------------------------------------------------------------------
+# The numbers that turn raw counts into judgements
+# ---------------------------------------------------------------------------
+[thresholds]
+active_days = 30       # a repo counts as "active" if pushed within this window
+top_repositories = 6   # rows in the "most active work" table
+language_limit = 8     # slices in the language bar
+commits_ceiling = 400  # score saturation points
+stars_ceiling = 100
+active_ceiling = 6
+repos_ceiling = 15
+heatmap_buckets = 4    # colour levels in the heatmap (excluding "empty")
+
+# ---------------------------------------------------------------------------
+# Where artefacts land — defaults are GitHub-Pages ready (`docs/`)
+# ---------------------------------------------------------------------------
+[output]
+readme = "README.md"
+assets_dir = "assets/generated"
+report_dir = "docs"
+write_readme = true
+write_svg = true
+write_json = true
+write_html = true
+json_name = "profile-report.json"
+html_name = "index.html"
+heatmap_name = "heatmap.svg"
+site_title = "Engineering Report"
+site_url = "https://majid-alsakani.github.io/majid-alsakani/"
+
+# ---------------------------------------------------------------------------
+# GraphQL response cache
+# ---------------------------------------------------------------------------
+[cache]
+directory = ".cache/profile-engine"
+ttl_seconds = 10800   # 3 hours — shorter than the 6-hour schedule
+enabled = true

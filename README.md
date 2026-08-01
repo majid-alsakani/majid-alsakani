@@ -277,7 +277,7 @@ I am Majid Al-Sakani, an advanced Full Stack Developer specializing in backend d
 | Metric | Value |
 | --- | --- |
 | Public repositories | **11** |
-| Total commits | **171** |
+| Total commits | **173** |
 | Stars earned | **24** |
 | Forks | **1** |
 | Shipped in the last 30 days | **5** repositories |
@@ -287,19 +287,52 @@ I am Majid Al-Sakani, an advanced Full Stack Developer specializing in backend d
 
 ### 🧠 Language distribution
 
-**TypeScript** 71.8% · **Python** 17.8% · **JavaScript** 7.3% · **CSS** 2.4% · **HTML** 0.4% · **Dockerfile** 0.1%
+**TypeScript** 68.3% · **Python** 21.8% · **JavaScript** 7.0% · **CSS** 2.3% · **HTML** 0.4% · **Dockerfile** 0.1%
+
+### 🔥 Commit distribution — weekday × week
+
+<div align="center">
+
+<img src="assets/generated/heatmap.svg" alt="Commit heatmap by weekday and week" width="96%" />
+
+</div>
+
+| Weekday | Distribution | Contributions | Share |
+| --- | --- | --- | --- |
+| Mon | `█████████░░░` | 23 | 22.8% |
+| Tue | `███████████░` | 28 | 27.7% |
+| Wed | `████████████` | 31 | 30.7% |
+| Thu | `█░░░░░░░░░░░` | 2 | 2.0% |
+| Fri | `░░░░░░░░░░░░` | 1 | 1.0% |
+| Sat | `████░░░░░░░░` | 11 | 10.9% |
+| Sun | `██░░░░░░░░░░` | 5 | 5.0% |
+
+| Rhythm signal | Value |
+| --- | --- |
+| Window | `2025-07-27` → `2026-08-01` (53 weeks) |
+| Days with activity | **16** (4.3% of the window) |
+| Daily average | **0.27** contributions |
+| Peak weekday | **Wed** · quietest **Fri** |
+| Weekend share | **15.8%** |
+| Busiest single day | **27** on `2026-07-29` |
 
 ### 🚀 Most active work
 
 | Repository | Language | Commits | Stars | Last push |
 | --- | --- | --- | --- | --- |
 | [`joobea-platform`](https://github.com/majid-alsakani/joobea-platform) | Other | 94 | 2 | 0d ago |
-| [`majid-alsakani`](https://github.com/majid-alsakani/majid-alsakani) | Python | 29 | 4 | 0d ago |
+| [`majid-alsakani`](https://github.com/majid-alsakani/majid-alsakani) | Python | 31 | 4 | 0d ago |
 | [`sini-alkhafif-app`](https://github.com/majid-alsakani/sini-alkhafif-app) | Other | 29 | 2 | 3d ago |
 | [`majid-portfolio`](https://github.com/majid-alsakani/majid-portfolio) | TypeScript | 5 | 4 | 2d ago |
 | [`awesome-saudi-tech`](https://github.com/majid-alsakani/awesome-saudi-tech) | Other | 1 | 4 | 111d ago |
 | [`supplyhub`](https://github.com/majid-alsakani/supplyhub) | TypeScript | 2 | 2 | 112d ago |
 
-<sub>Recomputed automatically by a GitHub Actions workflow · last run <code>2026-08-01 16:27 UTC</code></sub>
+### 📈 Full interactive report
+
+**[Open the live dashboard →](docs/index.html)** · machine-readable [`JSON`](docs/profile-report.json) · rebuilt on every run.
+
+<sub>Pipeline health · cache hit rate <b>0.0%</b> (0 hit / 1 miss)</sub>
+
+<sub>Recomputed automatically by a GitHub Actions workflow · last run <code>2026-08-01 16:48 UTC</code></sub>
 
 <!-- PROFILE-ENGINE:END -->

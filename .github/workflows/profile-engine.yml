@@ -12,6 +12,8 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 concurrency:
   group: profile-engine
@@ -42,9 +44,11 @@ jobs:
         run: pytest
 
   refresh:
-    name: Recompute profile metrics
+    name: Recompute profile metrics and report
     needs: quality
     runs-on: ubuntu-latest
+    outputs:
+      published: ${{ steps.commit.outputs.published }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -62,16 +66,50 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_LOGIN: ${{ github.repository_owner }}
           PYTHONPATH: tools/profile-engine
-          PROFILE_CACHE_DIR: .cache/profile-engine
-        run: python -m profile_engine --login "$PROFILE_LOGIN" --readme README.md --assets assets/generated
-      - name: Commit the refreshed block
+        run: |
+          python -m profile_engine \
+            --config tools/profile-engine/profile-engine.toml \
+            --login "$PROFILE_LOGIN" \
+            --cache-dir .cache/profile-engine
+      - name: Validate the generated report
+        run: |
+          python - <<'PY'
+          import json, pathlib, sys
+          payload = json.loads(pathlib.Path("docs/profile-report.json").read_text())
+          assert payload["schema_version"] >= 2, payload["schema_version"]
+          assert payload["heatmap"]["days"], "heatmap series is empty"
+          html = pathlib.Path("docs/index.html").read_text()
+          assert "window.__REPORT__" in html and "<script src=" not in html
+          print("report ok:", payload["totals"]["commits"], "commits ·",
+                payload["heatmap"]["total"], "contributions ·",
+                len(payload["heatmap"]["days"]), "days")
+          PY
+      - name: Commit the refreshed artefacts
+        id: commit
         run: |
           if [[ -z "$(git status --porcelain)" ]]; then
             echo "Nothing changed."
+            echo "published=false" >> "$GITHUB_OUTPUT"
             exit 0
           fi
           git config user.name  "profile-engine[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/generated
-          git commit -m "chore(profile): refresh live metrics [skip ci]"
+          git add README.md assets/generated docs
+          git commit -m "chore(profile): refresh metrics, heatmap and report [skip ci]"
           git push
+          echo "published=true" >> "$GITHUB_OUTPUT"
+      - name: Upload the Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+
+  pages:
+    name: Publish the report to GitHub Pages
+    needs: refresh
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - id: deploy
+        uses: actions/deploy-pages@v4

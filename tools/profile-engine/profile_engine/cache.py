@@ -73,6 +73,18 @@ class CacheStats:
             f"{self.writes} write(s) — {self.hit_rate:.0f}% hit rate"
         )
 
+    def as_dict(self) -> dict[str, float | int]:
+        """Machine-readable counters for the JSON report and README block."""
+        return {
+            "hits": self.hits,
+            "misses": self.misses,
+            "stale_hits": self.stale_hits,
+            "writes": self.writes,
+            "requests": self.requests,
+            "hit_rate_percent": round(self.hit_rate, 1),
+        }
+
+
 
 class ResponseCache:
     """Filesystem-backed TTL cache. Every failure mode degrades to a miss."""
