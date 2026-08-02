@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://majid-alsakani.github.io/majid-alsakani/sitemap.xml
