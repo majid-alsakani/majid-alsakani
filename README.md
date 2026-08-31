@@ -22,10 +22,14 @@
   Majid Al-Sakani | ماجد السكني 👨‍💻
 </h1>
 
-<h3 align="center">Full Stack Developer — Python, FastAPI, Django, React | Yemen</h3>
+<h3 align="center">I build products from idea to reality.</h3>
 
 <p align="center">
-  <em>Backend Engineer · API Architect · Automation & AI Bots Specialist · مطور ويب متكامل من اليمن</em>
+  <em>I turn complex ideas into production-ready products, reliable systems, and practical AI-powered solutions.</em>
+</p>
+
+<p align="center">
+  <strong>Developer · Product Builder · AI Engineer · Python · FastAPI · Django · React · Yemen</strong>
 </p>
 
 <p align="center">
