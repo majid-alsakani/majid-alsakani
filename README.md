@@ -13,6 +13,31 @@
 -->
 <!-- canary:MJDALSK-CANARY-9F4C2E7A1B -->
 
+## Backend & AI Systems Engineer
+
+> **Backend & AI Systems Engineer | Python, FastAPI, PostgreSQL, Docker | Building reliable AI products from Yemen**
+>
+> I build production-minded backend and AI systems with Python, FastAPI, PostgreSQL, Docker, and modern LLM workflows. My work focuses on reliable APIs, governed agents, evaluation, observability, and Arabic-first products. I founded Joobea, built bilingual developer learning tools, and maintain Omni Agent AI as an open-source systems project. Open to remote Backend, AI Application, and Product Engineering opportunities.
+
+### Cloud, Platform & Production Engineering
+
+| Area | Capabilities and tools |
+| :--- | :--- |
+| **Cloud & deployment** | AWS, ECS/EKS, Docker, Terraform, cloud-native deployment patterns |
+| **CI/CD & automation** | GitHub Actions, automated testing, build pipelines, deployment workflows, release checks |
+| **Data infrastructure** | Managed PostgreSQL, Redis, object/file storage, database migrations, backup-aware workflows |
+| **Secrets & configuration** | Secure secrets management, environment configuration, least-privilege access, safe runtime defaults |
+| **Kubernetes operations** | Container orchestration, service deployment, health checks, rollout updates, rollback workflows, and production runbooks |
+| **Observability & reliability** | OpenTelemetry traces, metrics and logs, structured logging, request IDs, timeouts, retries, health endpoints, and incident runbooks |
+| **API security** | Authentication, authorization, object-level access control, rate limiting, SSRF awareness, resource protection, API versioning, and security review |
+| **AI systems engineering** | Governed agents, tool boundaries, evaluation, structured outputs, retrieval workflows, human review, and traceable execution |
+
+### Production Readiness Focus
+
+I build systems that can be **deployed, monitored, secured, updated, and rolled back**. My current engineering focus combines reliable Python backends, cloud infrastructure, infrastructure as code, automated delivery, managed data services, secure configuration, observable APIs, and practical AI workflows.
+
+---
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/majid-alsakani/majid-alsakani/main/Assets/Meme/majid_meme.png" alt="Majid Al-Sakani | ماجد السكني - Full Stack Developer Python FastAPI Django React - Yemen" width="100%" />
 </p>
