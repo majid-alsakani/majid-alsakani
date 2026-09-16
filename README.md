@@ -13,31 +13,6 @@
 -->
 <!-- canary:MJDALSK-CANARY-9F4C2E7A1B -->
 
-## Backend & AI Systems Engineer
-
-> **Backend & AI Systems Engineer | Python, FastAPI, PostgreSQL, Docker | Building reliable AI products from Yemen**
->
-> I build production-minded backend and AI systems with Python, FastAPI, PostgreSQL, Docker, and modern LLM workflows. My work focuses on reliable APIs, governed agents, evaluation, observability, and Arabic-first products. I founded Joobea, built bilingual developer learning tools, and maintain Omni Agent AI as an open-source systems project. Open to remote Backend, AI Application, and Product Engineering opportunities.
-
-### Cloud, Platform & Production Engineering
-
-| Area | Capabilities and tools |
-| :--- | :--- |
-| **Cloud & deployment** | AWS, ECS/EKS, Docker, Terraform, cloud-native deployment patterns |
-| **CI/CD & automation** | GitHub Actions, automated testing, build pipelines, deployment workflows, release checks |
-| **Data infrastructure** | Managed PostgreSQL, Redis, object/file storage, database migrations, backup-aware workflows |
-| **Secrets & configuration** | Secure secrets management, environment configuration, least-privilege access, safe runtime defaults |
-| **Kubernetes operations** | Container orchestration, service deployment, health checks, rollout updates, rollback workflows, and production runbooks |
-| **Observability & reliability** | OpenTelemetry traces, metrics and logs, structured logging, request IDs, timeouts, retries, health endpoints, and incident runbooks |
-| **API security** | Authentication, authorization, object-level access control, rate limiting, SSRF awareness, resource protection, API versioning, and security review |
-| **AI systems engineering** | Governed agents, tool boundaries, evaluation, structured outputs, retrieval workflows, human review, and traceable execution |
-
-### Production Readiness Focus
-
-I build systems that can be **deployed, monitored, secured, updated, and rolled back**. My current engineering focus combines reliable Python backends, cloud infrastructure, infrastructure as code, automated delivery, managed data services, secure configuration, observable APIs, and practical AI workflows.
-
----
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/majid-alsakani/majid-alsakani/main/Assets/Meme/majid_meme.png" alt="Majid Al-Sakani | ماجد السكني - Full Stack Developer Python FastAPI Django React - Yemen" width="100%" />
 </p>
@@ -131,13 +106,38 @@ I am Majid Al-Sakani, an advanced Full Stack Developer specializing in backend d
 
 ---
 
+## Backend & AI Systems Engineer
+
+> **Backend & AI Systems Engineer | Python, FastAPI, PostgreSQL, Docker | Building reliable AI products from Yemen**
+>
+> I build production-minded backend and AI systems with Python, FastAPI, PostgreSQL, Docker, and modern LLM workflows. My work focuses on reliable APIs, governed agents, evaluation, observability, and Arabic-first products. I founded Joobea, built bilingual developer learning tools, and maintain Omni Agent AI as an open-source systems project. Open to remote Backend, AI Application, and Product Engineering opportunities.
+
+### Cloud, Platform & Production Engineering
+
+| Area | Capabilities and tools |
+| :--- | :--- |
+| **Cloud & deployment** | AWS, ECS/EKS, Docker, Terraform, cloud-native deployment patterns |
+| **CI/CD & automation** | GitHub Actions, automated testing, build pipelines, deployment workflows, release checks |
+| **Data infrastructure** | Managed PostgreSQL, Redis, object/file storage, database migrations, backup-aware workflows |
+| **Secrets & configuration** | Secure secrets management, environment configuration, least-privilege access, safe runtime defaults |
+| **Kubernetes operations** | Container orchestration, service deployment, health checks, rollout updates, rollback workflows, and production runbooks |
+| **Observability & reliability** | OpenTelemetry traces, metrics and logs, structured logging, request IDs, timeouts, retries, health endpoints, and incident runbooks |
+| **API security** | Authentication, authorization, object-level access control, rate limiting, SSRF awareness, resource protection, API versioning, and security review |
+| **AI systems engineering** | Governed agents, tool boundaries, evaluation, structured outputs, retrieval workflows, human review, and traceable execution |
+
+### Production Readiness Focus
+
+I build systems that can be **deployed, monitored, secured, updated, and rolled back**. My current engineering focus combines reliable Python backends, cloud infrastructure, infrastructure as code, automated delivery, managed data services, secure configuration, observable APIs, and practical AI workflows.
+
+---
+
 ## 🧬 Developer Card / بطاقة المطوّر
 
 ```yaml
 name: Majid Al-Sakani            # ماجد السكني
 located_in: Sana'a, Yemen        # صنعاء، اليمن
 availability: Remote worldwide   # متاح عن بُعد لكل العالم
-role: Full Stack Software Engineer
+role: Backend & AI Systems Engineer · Product Builder
 focus: ["Backend Architecture", "AI Agents", "Automation Platforms"]
 company: Joobea (Founder)        # مؤسس منصة جوبيا
 languages_spoken: ["Arabic (native)", "English (professional)"]
@@ -146,8 +146,8 @@ stack:
   backend:  ["Python", "FastAPI", "Django", "Flask", "Node.js"]
   frontend: ["React", "Next.js", "TypeScript", "TailwindCSS"]
   data:     ["PostgreSQL", "MySQL", "MongoDB", "Redis"]
-  devops:   ["Docker", "Nginx", "GitHub Actions", "Linux", "VPS/Cloud"]
-  ai:       ["LLM Agents", "RAG", "Prompt Engineering", "Automation Pipelines"]
+  devops:   ["Docker", "Nginx", "GitHub Actions", "Terraform", "AWS ECS/EKS", "Kubernetes", "Linux", "VPS/Cloud"]
+  ai:       ["LLM Agents", "LangGraph", "RAG", "Prompt Engineering", "Evaluation", "Automation Pipelines"]
 
 flagship_products:
   - ["Joobea", "AI recruitment platform fighting unemployment in Yemen", "joobea.com"]
@@ -169,6 +169,7 @@ contact: majidalsakani@gmail.com
 | 🔎 | Section / القسم | |
 | :--- | :--- | :--- |
 | 🚀 | [Professional Summary / نبذة احترافية](#-professional-summary--نبذة-احترافية) | من أنا وماذا أقدّم |
+| 🧠 | [Backend & AI Systems Engineer](#backend--ai-systems-engineer) | أنظمة Backend وAI جاهزة للإنتاج |
 | 🧬 | [Developer Card / بطاقة المطوّر](#-developer-card--بطاقة-المطوّر) | الستاك والمنتجات باختصار |
 | 🛠️ | [Core Expertise / الخبرات الأساسية](#️-core-expertise--الخبرات-الأساسية) | اللغات والأطر والأدوات |
 | ✨ | [Featured Projects / مشاريع مختارة](#-featured-projects--مشاريع-مختارة) | المنتجات الحقيقية |
@@ -187,7 +188,7 @@ contact: majidalsakani@gmail.com
 ## 🛠️ Core Expertise / الخبرات الأساسية
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=py,js,html,css,react,nodejs,express,mongodb,mysql,postgresql,rest,git,github,linux,sqlite,json,docker,aws,gcp,vscode,typescript,nextjs,tailwind,django,flask,fastapi" />
+  <img src="https://skillicons.dev/icons?i=py,js,html,css,react,nodejs,express,mongodb,mysql,postgresql,rest,git,github,linux,sqlite,json,docker,aws,gcp,kubernetes,terraform,githubactions,prometheus,grafana,vscode,typescript,nextjs,tailwind,django,flask,fastapi" />
 </p>
 
 | الفئة | المهارات |
@@ -196,10 +197,10 @@ contact: majidalsakani@gmail.com
 | **أطر عمل الواجهة الخلفية** | Django, FastAPI, Flask, Node.js (Express) |
 | **أطر عمل الواجهة الأمامية** | React, Next.js, HTML5, CSS3, TailwindCSS |
 | **قواعد البيانات** | PostgreSQL, MySQL, MongoDB |
-| **أدوات التطوير** | Git, Docker, Redis |
+| **أدوات التطوير** | Git, Docker, Redis, GitHub Actions, Terraform, Kubernetes |
 | **الأتمتة والذكاء الاصطناعي** | Telegram API, Workflow Automation, AI/ML Concepts |
-| **البنية والنشر** | REST API Design, JWT Auth, CI/CD, Nginx, VPS & Cloud Deployment |
-| **الجودة** | Clean Architecture, Testing, Code Review, Performance Tuning |
+| **البنية والنشر** | REST API Design, JWT Auth, CI/CD, GitHub Actions, Docker, AWS ECS/EKS, Terraform, Kubernetes, Nginx, VPS & Cloud Deployment |
+| **الجودة** | Clean Architecture, Testing, Code Review, Performance Tuning, OpenTelemetry, Prometheus, Grafana |
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
@@ -238,11 +239,11 @@ contact: majidalsakani@gmail.com
 
 ### 🗄️ Databases and Cloud Hosting / قواعد البيانات والاستضافة السحابية
 
-[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192.svg?logo=postgresql&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?logo=mysql&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![SQLite](https://img.shields.io/badge/SQLite-003B57.svg?logo=sqlite&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B.svg?logo=mongodb&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Redis](https://img.shields.io/badge/Redis-DC382D.svg?logo=redis&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Supabase](https://img.shields.io/badge/Supabase-3FCF8E.svg?logo=supabase&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Firebase](https://img.shields.io/badge/Firebase-FFCA28.svg?logo=firebase&logoColor=black)](https://github.com/majid-alsakani?tab=repositories)[![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020.svg?logo=cloudflare&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Vercel](https://img.shields.io/badge/Vercel-000000.svg?logo=vercel&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-327FC7.svg?logo=github&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Nginx](https://img.shields.io/badge/Nginx-009639.svg?logo=nginx&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF.svg?logo=digitalocean&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192.svg?logo=postgresql&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?logo=mysql&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![SQLite](https://img.shields.io/badge/SQLite-003B57.svg?logo=sqlite&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B.svg?logo=mongodb&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Redis](https://img.shields.io/badge/Redis-DC382D.svg?logo=redis&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Supabase](https://img.shields.io/badge/Supabase-3FCF8E.svg?logo=supabase&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Firebase](https://img.shields.io/badge/Firebase-FFCA28.svg?logo=firebase&logoColor=black)](https://github.com/majid-alsakani?tab=repositories)[![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020.svg?logo=cloudflare&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Vercel](https://img.shields.io/badge/Vercel-000000.svg?logo=vercel&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-327FC7.svg?logo=github&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Nginx](https://img.shields.io/badge/Nginx-009639.svg?logo=nginx&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![DigitalOcean](https://img.shields.io/badge/DigitalOcean-0080FF.svg?logo=digitalocean&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![AWS](https://img.shields.io/badge/AWS-232F3E.svg?logo=amazonaws&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5.svg?logo=kubernetes&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Terraform](https://img.shields.io/badge/Terraform-844FBA.svg?logo=terraform&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)
 
 ### 💻 Software and Tools / البرمجيات والأدوات
 
-[![Git](https://img.shields.io/badge/Git-F05032.svg?logo=git&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2671E5.svg?logo=githubactions&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Docker](https://img.shields.io/badge/Docker-2496ED.svg?logo=docker&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Linux](https://img.shields.io/badge/Linux-FCC624.svg?logo=linux&logoColor=black)](https://github.com/majid-alsakani?tab=repositories)[![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420.svg?logo=ubuntu&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![VS Code](https://img.shields.io/badge/VS%20Code-007ACC.svg?logo=visualstudiocode&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![PyCharm](https://img.shields.io/badge/PyCharm-000000.svg?logo=pycharm&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Postman](https://img.shields.io/badge/Postman-FF6C37.svg?logo=postman&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Figma](https://img.shields.io/badge/Figma-F24E1E.svg?logo=figma&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Ruff](https://img.shields.io/badge/Ruff-D7FF64.svg?logo=ruff&logoColor=black)](https://github.com/majid-alsakani?tab=repositories)[![Prettier](https://img.shields.io/badge/Prettier-F7B93E.svg?logo=prettier&logoColor=black)](https://github.com/majid-alsakani?tab=repositories)[![ESLint](https://img.shields.io/badge/ESLint-4B32C3.svg?logo=eslint&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Swagger](https://img.shields.io/badge/Swagger-85EA2D.svg?logo=swagger&logoColor=black)](https://github.com/majid-alsakani?tab=repositories)[![Notion](https://img.shields.io/badge/Notion-010101.svg?logo=notion&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)
+[![Git](https://img.shields.io/badge/Git-F05032.svg?logo=git&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2671E5.svg?logo=githubactions&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Docker](https://img.shields.io/badge/Docker-2496ED.svg?logo=docker&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Linux](https://img.shields.io/badge/Linux-FCC624.svg?logo=linux&logoColor=black)](https://github.com/majid-alsakani?tab=repositories)[![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420.svg?logo=ubuntu&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![VS Code](https://img.shields.io/badge/VS%20Code-007ACC.svg?logo=visualstudiocode&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![PyCharm](https://img.shields.io/badge/PyCharm-000000.svg?logo=pycharm&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Postman](https://img.shields.io/badge/Postman-FF6C37.svg?logo=postman&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Figma](https://img.shields.io/badge/Figma-F24E1E.svg?logo=figma&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Ruff](https://img.shields.io/badge/Ruff-D7FF64.svg?logo=ruff&logoColor=black)](https://github.com/majid-alsakani?tab=repositories)[![Prettier](https://img.shields.io/badge/Prettier-F7B93E.svg?logo=prettier&logoColor=black)](https://github.com/majid-alsakani?tab=repositories)[![ESLint](https://img.shields.io/badge/ESLint-4B32C3.svg?logo=eslint&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Swagger](https://img.shields.io/badge/Swagger-85EA2D.svg?logo=swagger&logoColor=black)](https://github.com/majid-alsakani?tab=repositories)[![Notion](https://img.shields.io/badge/Notion-010101.svg?logo=notion&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-000000.svg?logo=opentelemetry&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Prometheus](https://img.shields.io/badge/Prometheus-E6522C.svg?logo=prometheus&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)[![Grafana](https://img.shields.io/badge/Grafana-F46800.svg?logo=grafana&logoColor=white)](https://github.com/majid-alsakani?tab=repositories)
 
 ---
 
