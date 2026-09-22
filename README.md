@@ -89,6 +89,10 @@
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=120&section=header&text=Welcome%20to%20my%20Tech%20World&fontSize=30" />
 </p>
 
+<p align="center">
+  <img src="https://socialify.git.ci/majid-alsakani/majid-alsakani/image?description=1&font=Source%20Code%20Pro&forks=1&issues=1&language=1&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Dark" width="88%" alt="Majid Al-Sakani profile card">
+</p>
+
 ---
 
 ## 🚀 Professional Summary / نبذة احترافية
