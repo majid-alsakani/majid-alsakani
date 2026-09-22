@@ -14,7 +14,7 @@
 <!-- canary:MJDALSK-CANARY-9F4C2E7A1B -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/majid-alsakani/majid-alsakani/main/Assets/Meme/majid_meme.png" alt="Majid Al-Sakani | ماجد السكني - Full Stack Developer Python FastAPI Django React - Yemen" width="100%" />
+  <img src="https://raw.githubusercontent.com/majid-alsakani/majid-alsakani/main/Assets/Meme/majid_meme.png" alt="Majid Al-Sakani | ماجد السكني - Backend and AI Systems Engineer - Yemen" width="100%" />
 </p>
 
 <h1 align="center">
@@ -29,7 +29,7 @@
 </p>
 
 <p align="center">
-  <strong>Developer · Product Builder · AI Engineer · Python · FastAPI · Django · React · Yemen</strong>
+  <strong>Backend &amp; AI Systems Engineer · Product Builder · Python · FastAPI · PostgreSQL · Yemen</strong>
 </p>
 
 <p align="center">
@@ -63,11 +63,11 @@
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F7DF1E&center=true&vCenter=true&width=600&lines=Full+Stack+Developer;Backend+Engineer;Python+%7C+FastAPI+%7C+Django;React+%7C+TypeScript+%7C+Next.js;Automation+Specialist;AI+%26+Telegram+Bots+Developer;Enterprise+Solution+Architect" alt="Typing SVG - English" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=F7DF1E&center=true&vCenter=true&width=600&lines=Backend+%26+AI+Systems+Engineer;Product+Builder;Python+%7C+FastAPI+%7C+Django;PostgreSQL+%7C+Docker+%7C+AWS;AI+Agents+%7C+RAG+%7C+Automation;Open+Source+Builder" alt="Typing SVG - English" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=007ACC&center=true&vCenter=true&width=600&lines=مطور+ويب+متكامل;مهندس+أنظمة+خلفية;خبير+أتمتة;مطور+بوتات+ذكاء+اصطناعي;معماري+حلول+مؤسسية" alt="Typing SVG - Arabic" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=007ACC&center=true&vCenter=true&width=600&lines=مهندس+أنظمة+Backend+وAI;باني+منتجات+رقمية;Python+وFastAPI+وDjango;PostgreSQL+وDocker+وAWS;وكلاء+ذكاء+اصطناعي+وأتمتة;مطور+مشاريع+مفتوحة+المصدر" alt="Typing SVG - Arabic" />
 </p>
 
 <p align="center">
@@ -97,11 +97,11 @@
 
 ## 🚀 Professional Summary / نبذة احترافية
 
-أنا مطور برمجيات متكامل (Full Stack Developer) بخبرة متقدمة في تطوير الواجهات الخلفية (Backend Development) باستخدام **Python**، وتصميم بنى واجهات برمجة التطبيقات (API Architecture)، وبناء أنظمة الأتمتة، وتطوير بوتات تيليجرام الذكية. أمتلك القدرة على تصميم وبناء حلول برمجية قابلة للتوسع، موثوقة، وجاهزة للإنتاج، مع تركيز قوي على الأداء، البنية النظيفة، وسهولة الصيانة. كما أن لدي خبرة في تطوير الواجهات الأمامية باستخدام **TypeScript** وتقنيات الويب الحديثة، مما يمكنني من تقديم حلول برمجية شاملة ومتكاملة.
+أنا مهندس أنظمة Backend وAI وباني منتجات، أركز على **Python** و**FastAPI** و**Django** و**PostgreSQL**، وأبني واجهات برمجية ومنصات أتمتة ومنتجات ذكاء اصطناعي موثوقة وقابلة للتشغيل في بيئات حقيقية. لدي أيضًا خبرة في تطوير الواجهات الأمامية باستخدام **React** و**TypeScript**، مما يساعدني على تحويل الفكرة إلى منتج متكامل من البنية الخلفية حتى تجربة المستخدم.
 
-I am Majid Al-Sakani, an advanced Full Stack Developer specializing in backend development, automation systems, and API architecture using Python and modern technologies. I design and build scalable, reliable, and production-ready software solutions with a strong focus on performance, clean architecture, and maintainability. Experienced in developing intelligent Telegram bot platforms, workflow automation systems, and web applications that solve real business problems.
+I am Majid Al-Sakani, a Backend & AI Systems Engineer and Product Builder focused on Python, FastAPI, Django, PostgreSQL, automation platforms, and practical AI systems. I build reliable APIs and production-minded products, with additional experience in React and TypeScript that helps me take ideas from backend architecture to user-facing products.
 
-> 💼 **Open to opportunities:** Remote roles, freelance projects & long-term collaboration — Backend / Full Stack / API & Automation.
+> 💼 **Open to opportunities:** Remote Backend Engineering, AI Application Engineering, and Product Engineering roles, freelance projects, and long-term collaboration.
 > 📩 Reach me at **majidalsakani@gmail.com**
 
 ---
@@ -175,7 +175,7 @@ contact: majidalsakani@gmail.com
 | ✨ | [Featured Projects / مشاريع مختارة](#-featured-projects--مشاريع-مختارة) | المنتجات الحقيقية |
 | 🎁 | [Live Open Source Metrics / مقاييس حيّة](#-open-source-projects--live-metrics--مقاييس-حيّة-للمشاريع-مفتوحة-المصدر) | أرقام تُحدَّث لحظيًا |
 | 📊 | [GitHub Stats / الإحصائيات](#-github-interactive-stats--إحصائيات-تفاعلية) | رسوم بيانية تفاعلية |
-| ⚡ | [Recent Activity / آخر نشاط](#-recent-activity--آخر-نشاط-برمجي) | مُحدَّث آليًا كل 6 ساعات |
+| ⚡ | [Recent Activity / آخر نشاط](#-recent-activity--آخر-نشاط-برمجي) | مُحدَّث عبر GitHub Actions |
 | ✍️ | [Writing / كتابات](#-writing--knowledge-sharing--كتابات-ومشاركة-المعرفة) | تقارير ودراسات حالة |
 | 🧩 | [Services / الخدمات](#-services-i-offer--الخدمات-التي-أقدمها) | ما يمكنني تنفيذه لك |
 | 📈 | [Engineering Approach / المنهجية](#-engineering-approach--منهجية-الهندسة-البرمجية) | كيف أبني الأنظمة |
@@ -202,6 +202,8 @@ contact: majidalsakani@gmail.com
 | **البنية والنشر** | REST API Design, JWT Auth, CI/CD, GitHub Actions, Docker, AWS ECS/EKS, Terraform, Kubernetes, Nginx, VPS & Cloud Deployment |
 | **الجودة** | Clean Architecture, Testing, Code Review, Performance Tuning, OpenTelemetry, Prometheus, Grafana |
 
+> **كيف أصف مستوى الخبرة:** أتعامل مع Python وFastAPI وDjango وPostgreSQL وDocker كأدوات أساسية. أستخدم AWS وGitHub Actions وTerraform وKubernetes وOpenTelemetry وPrometheus وGrafana ضمن مشاريع وتجارب تشغيلية موثقة، وأواصل تعميق خبرتي بها من خلال بناء أنظمة قابلة للنشر والمراقبة.
+
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white">
   <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white">
@@ -226,8 +228,8 @@ contact: majidalsakani@gmail.com
 
 ## 🛠️ My Favorite Tools / أدواتي المفضلة
 
-> كل شارة قابلة للنقر — تفتح مباشرة الكود الحقيقي المكتوب بهذه التقنية داخل حسابي.
-> Every badge is clickable and opens the real code written with that technology.
+> كل شارة تقود إلى مشروع أو مستودع أو دليل مرتبط بالتقنية حيثما كان ذلك متاحًا.
+> Each badge points to related work, repositories, searches, or technology evidence where available.
 
 ### 👨‍💻 Programming and Markup Languages / لغات البرمجة والترميز
 
@@ -253,32 +255,33 @@ contact: majidalsakani@gmail.com
 | :-- | :--- | :--- | :--- | :--- |
 | 🎓 | **Sini Al-Khafif / صيني عالخفيف** | AI-powered Chinese (HSK 1–6) learning platform for Arabic speakers | Python · FastAPI · React · AI | [Live](https://sinialkhafifapp.com) · [Repo](https://github.com/majid-alsakani/sini-alkhafif-app) |
 | 💼 | **Joobea / جوبيا** | Smart recruitment platform for Yemen with intelligent matching | Django · PostgreSQL · React | [Live](https://joobea.com) · [Repo](https://github.com/majid-alsakani/joobea-platform) |
-| 🚀 | **Enterprise Backend System** | Production-grade REST API, JWT auth, auto docs, clean architecture | FastAPI · PostgreSQL · Docker | [Repo](https://github.com/majid-alsakani/enterprise-backend-system) |
-| 🏨 | **Hotel Website (bsafina)** | Full production hotel website with booking & management | Python · Web | Repo & new domain — *site temporarily offline* |
+| 🚀 | **Enterprise Backend System** | Production-minded REST API, JWT auth, auto docs, clean architecture | FastAPI · PostgreSQL · Docker | [Repo](https://github.com/majid-alsakani/enterprise-backend-system) |
+| 🤖 | **Omni Agent AI** | Planner / Executor / Critic agent runtime with real-time SSE streaming | Python · AI Agents · SSE | [Repo](https://github.com/majid-alsakani/omni-agent-ai) |
+| 🏨 | **Hotel Website (bsafina)** | Production hotel website with booking and management; case-study material available on request | Python · Web | [Details](mailto:majidalsakani@gmail.com) |
 | 🤖 | **Telegram Automation Platforms** | Business workflow automation bots | Python · Telegram Bot API | [Repos](https://github.com/majid-alsakani?tab=repositories) |
 
 ### 🎓 صيني عالخفيف | Sini Al-Khafif - AI-Powered Language Learning
-- **Description:** An advanced AI-powered platform for Arabic speakers to learn Chinese (HSK 1-6), featuring adaptive learning, real-life context, and 5-skill integration.
+- **Description:** An AI-powered platform for Arabic speakers to learn Chinese (HSK 1-6), featuring adaptive learning, real-life context, and five-skill integration.
 - **Live Demo:** [https://sinialkhafifapp.com](https://sinialkhafifapp.com)
 - **Showcase Repository:** [https://github.com/majid-alsakani/sini-alkhafif-app](https://github.com/majid-alsakani/sini-alkhafif-app)
 
 ---
 
 ### 💼 جوبيا | Joobea - Smart Recruitment Platform
-- **Description:** A comprehensive, intelligent recruitment platform for Yemen, designed to connect job seekers with opportunities through smart matching and enterprise-grade management.
+- **Description:** A recruitment platform for Yemen designed to connect job seekers with opportunities through intelligent matching and structured platform management.
 - **Live Demo:** [https://joobea.com](https://joobea.com)
 - **Showcase Repository:** [https://github.com/majid-alsakani/joobea-platform](https://github.com/majid-alsakani/joobea-platform)
 
 ---
 
 ### 🚀 Enterprise Backend System / نظام خلفي للمؤسسات
-- **Description:** A high-performance, production-ready backend API built with FastAPI, showcasing advanced architecture, JWT authentication, and automated documentation.
+- **Description:** A production-minded backend API built with FastAPI, PostgreSQL, Docker, JWT authentication, clean architecture, and automated documentation.
 - **Repository:** [https://github.com/majid-alsakani/enterprise-backend-system](https://github.com/majid-alsakani/enterprise-backend-system)
 
 ---
 
 ### 🏨 Hotel Website - Production System / موقع فندق - نظام إنتاجي
-- Full production-ready hotel website with booking and management functionality.
+- Production hotel website with booking and management functionality; the public domain is currently offline, with screenshots or a case study available on request.
 - Live project: `https://bsafina.com` — ⚠️ *الموقع متوقف مؤقتًا حاليًا / temporarily offline (domain being renewed).*
 - 📩 للاطلاع على لقطات الشاشة أو نسخة تجريبية: [majidalsakani@gmail.com](mailto:majidalsakani@gmail.com)
 
@@ -593,18 +596,18 @@ contact: majidalsakani@gmail.com
 
 | Metric | Value |
 | --- | --- |
-| Public repositories | **11** |
-| Total commits | **173** |
-| Stars earned | **24** |
-| Forks | **1** |
-| Shipped in the last 30 days | **5** repositories |
-| Contribution streak | **1** days (longest **9**) |
-| Contributions this year | **101** |
-| Engineering footprint score | **54/100** |
+| Public repositories | **35** |
+| Total commits | **386** |
+| Stars earned | **86** |
+| Forks | **4** |
+| Shipped in the last 30 days | **21** repositories |
+| Contribution streak | **0** days (longest **9**) |
+| Contributions this year | **191** |
+| Engineering footprint score | **91/100** |
 
 ### 🧠 Language distribution
 
-**TypeScript** 68.3% · **Python** 21.8% · **JavaScript** 7.0% · **CSS** 2.3% · **HTML** 0.4% · **Dockerfile** 0.1%
+**TypeScript** 69.4% · **Python** 12.9% · **JavaScript** 8.6% · **HTML** 5.2% · **CSS** 1.9% · **PLpgSQL** 1.4%
 
 ### 🔥 Commit distribution — weekday × week
 
@@ -616,33 +619,33 @@ contact: majidalsakani@gmail.com
 
 | Weekday | Distribution | Contributions | Share |
 | --- | --- | --- | --- |
-| Mon | `█████████░░░` | 23 | 22.8% |
-| Tue | `███████████░` | 28 | 27.7% |
-| Wed | `████████████` | 31 | 30.7% |
-| Thu | `█░░░░░░░░░░░` | 2 | 2.0% |
-| Fri | `░░░░░░░░░░░░` | 1 | 1.0% |
-| Sat | `████░░░░░░░░` | 11 | 10.9% |
-| Sun | `██░░░░░░░░░░` | 5 | 5.0% |
+| Mon | `████████████` | 52 | 27.2% |
+| Tue | `█████████░░░` | 39 | 20.4% |
+| Wed | `████████░░░░` | 36 | 18.8% |
+| Thu | `██░░░░░░░░░░` | 9 | 4.7% |
+| Fri | `░░░░░░░░░░░░` | 1 | 0.5% |
+| Sat | `██████████░░` | 43 | 22.5% |
+| Sun | `███░░░░░░░░░` | 11 | 5.8% |
 
 | Rhythm signal | Value |
 | --- | --- |
-| Window | `2025-07-27` → `2026-08-01` (53 weeks) |
-| Days with activity | **16** (4.3% of the window) |
-| Daily average | **0.27** contributions |
-| Peak weekday | **Wed** · quietest **Fri** |
-| Weekend share | **15.8%** |
-| Busiest single day | **27** on `2026-07-29` |
+| Window | `2025-09-21` → `2026-09-22` (53 weeks) |
+| Days with activity | **27** (7.4% of the window) |
+| Daily average | **0.52** contributions |
+| Peak weekday | **Mon** · quietest **Fri** |
+| Weekend share | **28.3%** |
+| Busiest single day | **33** on `2026-08-01` |
 
 ### 🚀 Most active work
 
 | Repository | Language | Commits | Stars | Last push |
 | --- | --- | --- | --- | --- |
-| [`joobea-platform`](https://github.com/majid-alsakani/joobea-platform) | Other | 94 | 2 | 0d ago |
-| [`majid-alsakani`](https://github.com/majid-alsakani/majid-alsakani) | Python | 31 | 4 | 0d ago |
-| [`sini-alkhafif-app`](https://github.com/majid-alsakani/sini-alkhafif-app) | Other | 29 | 2 | 3d ago |
-| [`majid-portfolio`](https://github.com/majid-alsakani/majid-portfolio) | TypeScript | 5 | 4 | 2d ago |
-| [`awesome-saudi-tech`](https://github.com/majid-alsakani/awesome-saudi-tech) | Other | 1 | 4 | 111d ago |
-| [`supplyhub`](https://github.com/majid-alsakani/supplyhub) | TypeScript | 2 | 2 | 112d ago |
+| [`majid-alsakani`](https://github.com/majid-alsakani/majid-alsakani) | Python | 114 | 7 | 0d ago |
+| [`joobea-platform`](https://github.com/majid-alsakani/joobea-platform) | Other | 94 | 5 | 52d ago |
+| [`sini-alkhafif-app`](https://github.com/majid-alsakani/sini-alkhafif-app) | Other | 29 | 5 | 55d ago |
+| [`majid-alsakani-portfolio`](https://github.com/majid-alsakani/majid-alsakani-portfolio) | JavaScript | 52 | 2 | 25d ago |
+| [`majid-portfolio`](https://github.com/majid-alsakani/majid-portfolio) | TypeScript | 5 | 6 | 55d ago |
+| [`omni-agent-ai`](https://github.com/majid-alsakani/omni-agent-ai) | Python | 14 | 5 | 29d ago |
 
 ### 📈 Full interactive report
 
@@ -650,7 +653,7 @@ contact: majidalsakani@gmail.com
 
 <sub>Pipeline health · cache hit rate <b>0.0%</b> (0 hit / 1 miss)</sub>
 
-<sub>Recomputed automatically by a GitHub Actions workflow · last run <code>2026-08-01 16:48 UTC</code></sub>
+<sub>Recomputed automatically by a GitHub Actions workflow · last run <code>2026-09-22 20:13 UTC</code></sub>
 
 <!-- PROFILE-ENGINE:END -->
 
