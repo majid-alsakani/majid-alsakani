@@ -89,10 +89,6 @@
   <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=120&section=header&text=Welcome%20to%20my%20Tech%20World&fontSize=30" />
 </p>
 
-<p align="center">
-  <img src="https://socialify.git.ci/majid-alsakani/majid-alsakani/image?description=1&font=Source%20Code%20Pro&forks=1&issues=1&language=1&name=1&owner=1&pattern=Plus&pulls=1&stargazers=1&theme=Dark" width="88%" alt="Majid Al-Sakani profile card">
-</p>
-
 ---
 
 ## 🚀 Professional Summary / نبذة احترافية
@@ -597,7 +593,7 @@ contact: majidalsakani@gmail.com
 | Metric | Value |
 | --- | --- |
 | Public repositories | **35** |
-| Total commits | **386** |
+| Total commits | **387** |
 | Stars earned | **86** |
 | Forks | **4** |
 | Shipped in the last 30 days | **21** repositories |
@@ -629,8 +625,8 @@ contact: majidalsakani@gmail.com
 
 | Rhythm signal | Value |
 | --- | --- |
-| Window | `2025-09-21` → `2026-09-22` (53 weeks) |
-| Days with activity | **27** (7.4% of the window) |
+| Window | `2025-09-21` → `2026-09-23` (53 weeks) |
+| Days with activity | **27** (7.3% of the window) |
 | Daily average | **0.52** contributions |
 | Peak weekday | **Mon** · quietest **Fri** |
 | Weekend share | **28.3%** |
@@ -640,7 +636,7 @@ contact: majidalsakani@gmail.com
 
 | Repository | Language | Commits | Stars | Last push |
 | --- | --- | --- | --- | --- |
-| [`majid-alsakani`](https://github.com/majid-alsakani/majid-alsakani) | Python | 114 | 7 | 0d ago |
+| [`majid-alsakani`](https://github.com/majid-alsakani/majid-alsakani) | Python | 115 | 7 | 0d ago |
 | [`joobea-platform`](https://github.com/majid-alsakani/joobea-platform) | Other | 94 | 5 | 52d ago |
 | [`sini-alkhafif-app`](https://github.com/majid-alsakani/sini-alkhafif-app) | Other | 29 | 5 | 55d ago |
 | [`majid-alsakani-portfolio`](https://github.com/majid-alsakani/majid-alsakani-portfolio) | JavaScript | 52 | 2 | 25d ago |
@@ -653,7 +649,7 @@ contact: majidalsakani@gmail.com
 
 <sub>Pipeline health · cache hit rate <b>0.0%</b> (0 hit / 1 miss)</sub>
 
-<sub>Recomputed automatically by a GitHub Actions workflow · last run <code>2026-09-22 20:13 UTC</code></sub>
+<sub>Recomputed automatically by a GitHub Actions workflow · last run <code>2026-09-22 21:02 UTC</code></sub>
 
 <!-- PROFILE-ENGINE:END -->
 
