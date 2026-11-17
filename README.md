@@ -39,6 +39,9 @@
   <a href="https://github.com/majid-alsakani?tab=repositories">
     <img src="https://img.shields.io/badge/Open%20to-Work%20%26%20Freelance-2ea44f?style=for-the-badge" alt="Open to work">
   </a>
+  <a href="https://devimpact.osamamabkhot.dev/user/majid-alsakani">
+    <img src="https://img.shields.io/badge/DevImpact_Score-19.0-blue?style=flat-square&logo=github" alt="DevImpact Score: 19.0">
+  </a>
   <a href="https://github.com/majid-alsakani">
     <img src="https://komarev.com/ghpvc/?username=majid-alsakani&color=blue&style=for-the-badge&label=Profile+Views" alt="Profile views"/>
   </a>
