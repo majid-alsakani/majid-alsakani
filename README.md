@@ -40,7 +40,7 @@
     <img src="https://img.shields.io/badge/Open%20to-Work%20%26%20Freelance-2ea44f?style=for-the-badge" alt="Open to work">
   </a>
   <a href="https://devimpact.osamamabkhot.dev/user/majid-alsakani">
-    <img src="https://img.shields.io/badge/DevImpact_Score-19.0-blue?style=flat-square&logo=github" alt="DevImpact Score: 19.0">
+    <img src="https://img.shields.io/badge/DevImpact_Score-19.0-blue?style=flat-square&logo=github" alt="DevImpact Score: 19.0 (snapshot 2026-11-17)">
   </a>
   <a href="https://github.com/majid-alsakani">
     <img src="https://komarev.com/ghpvc/?username=majid-alsakani&color=blue&style=for-the-badge&label=Profile+Views" alt="Profile views"/>
@@ -184,7 +184,6 @@ contact: majidalsakani@gmail.com
 | 📈 | [Engineering Approach / المنهجية](#-engineering-approach--منهجية-الهندسة-البرمجية) | كيف أبني الأنظمة |
 | 📬 | [Contact / تواصل](#-contact--تواصل-معي) | ابدأ مشروعك معي |
 | 🌍 | [Where to find me / أين تجدني](#-where-to-find-me--أين-تجدني) | روابط رسمية |
-| 🔎 | [Keywords / كلمات مفتاحية](#-keywords--كلمات-مفتاحية) | فهرسة البحث |
 
 ---
 
@@ -283,6 +282,12 @@ contact: majidalsakani@gmail.com
 
 ---
 
+### 📚 Developer Roadmaps & Learning Labs / خرائط ومسارات تعلّم المطورين
+- **Description:** Interactive bilingual roadmaps and practical engineering lessons for developers, from foundations to advanced topics.
+- **المحتوى:** خرائط تفاعلية ودروس هندسية عملية بالعربية والإنجليزية، مع تمارين ومختبرات قابلة للتجربة.
+- **Live site:** [Developer Roadmaps](https://majid-alsakani.github.io/developer-roadmap/)
+- **Repository:** [majid-alsakani/developer-roadmap](https://github.com/majid-alsakani/developer-roadmap)
+---
 ### 🏨 Hotel Website - Production System / موقع فندق - نظام إنتاجي
 - Production hotel website with booking and management functionality; the public domain is currently offline, with screenshots or a case study available on request.
 - Live project: `https://bsafina.com` — ⚠️ *الموقع متوقف مؤقتًا حاليًا / temporarily offline (domain being renewed).*
@@ -298,8 +303,8 @@ contact: majidalsakani@gmail.com
 
 ## 🎁 Open Source Projects — Live Metrics / مقاييس حيّة للمشاريع مفتوحة المصدر
 
-> كل الأرقام في الجدول تُحدَّث تلقائيًا مباشرة من GitHub في كل مرة يُفتح فيها هذا الملف.
-> Every number below is fetched live from GitHub on each page view — no manual updates.
+> تعرض الشارات مؤشرات عامة من GitHub، وقد يخزّن مزوّد الشارات النتائج مؤقتًا.
+> These badges show public GitHub metrics; badge providers may cache their responses.
 
 | **🎁 Project / المشروع** | **⭐ Stars** | **🍴 Forks** | **🛎 Issues** | **📬 Pull Requests** | **🕒 Last Commit** |
 | :--- | :--- | :--- | :--- | :--- | :--- |
@@ -543,10 +548,6 @@ contact: majidalsakani@gmail.com
 </p>
 
 ---
-
-## 🔎 Keywords / كلمات مفتاحية
-
-`Majid Al-Sakani` · `ماجد السكني` · `Majid Alsakani developer` · `Full Stack Developer Yemen` · `مبرمج يمني` · `مطور ويب اليمن` · `Python Developer` · `مطور بايثون` · `FastAPI Developer` · `Django Developer` · `Flask` · `REST API Developer` · `Backend Engineer` · `مهندس باك اند` · `React Developer` · `Next.js` · `TypeScript` · `JavaScript` · `TailwindCSS` · `PostgreSQL` · `MySQL` · `MongoDB` · `Redis` · `Docker` · `Linux` · `Nginx` · `CI/CD` · `Microservices` · `JWT Authentication` · `Web Scraping` · `Workflow Automation` · `أتمتة` · `Telegram Bot Developer` · `مطور بوتات تيليجرام` · `AI Agents` · `Chatbot Development` · `SaaS Development` · `Recruitment Platform` · `EdTech` · `HSK Chinese Learning` · `Freelance Developer` · `Remote Software Engineer` · `Hire Python Developer` · `Middle East Developer` · `Arabic Developer` · `Sana'a` · `Yemen`
 
 ---
 
