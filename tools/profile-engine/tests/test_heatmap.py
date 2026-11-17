@@ -10,7 +10,10 @@ from profile_engine.models import ContributionDay
 
 
 def calendar(counts: list[int], *, start: date = date(2026, 1, 5)) -> list[ContributionDay]:
-    return [ContributionDay(day=start + timedelta(days=index), count=count) for index, count in enumerate(counts)]
+    return [
+        ContributionDay(day=start + timedelta(days=index), count=count)
+        for index, count in enumerate(counts)
+    ]
 
 
 def test_empty_calendar_is_safe() -> None:

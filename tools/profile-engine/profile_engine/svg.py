@@ -6,9 +6,9 @@ theme-aware and every dynamic value is escaped before it reaches the markup.
 
 from __future__ import annotations
 
+from collections.abc import Sequence
 from dataclasses import dataclass
 from html import escape
-from typing import Sequence
 
 from .metrics import LanguageShare, Snapshot
 
@@ -79,7 +79,7 @@ def stats_card(snapshot: Snapshot, *, theme: Theme = DARK, width: int = 470) -> 
   <rect x="0.5" y="0.5" rx="10" width="{width - 1}" height="{height - 1}" fill="{theme.background}" stroke="{theme.border}"/>
   <text x="28" y="40" class="title">{_t(snapshot.login)} · engineering footprint</text>
   {ring}
-  {''.join(lines)}
+  {"".join(lines)}
 </svg>
 """
 
@@ -135,7 +135,7 @@ def language_card(
   <rect x="0.5" y="0.5" rx="10" width="{width - 1}" height="{height - 1}" fill="{theme.background}" stroke="{theme.border}"/>
   <text x="28" y="36" class="title">Language distribution</text>
   <clipPath id="rounded"><rect x="28" y="56" width="{bar_width}" height="10" rx="5"/></clipPath>
-  <g clip-path="url(#rounded)">{''.join(segments)}</g>
-  {''.join(legend)}
+  <g clip-path="url(#rounded)">{"".join(segments)}</g>
+  {"".join(legend)}
 </svg>
 """

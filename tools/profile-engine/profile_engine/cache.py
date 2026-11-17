@@ -24,9 +24,10 @@ import logging
 import os
 import tempfile
 import time
+from collections.abc import Callable, Mapping
 from dataclasses import dataclass, field
 from pathlib import Path
-from typing import Any, Mapping
+from typing import Any, cast
 
 LOGGER = logging.getLogger("profile_engine.cache")
 
@@ -85,7 +86,6 @@ class CacheStats:
         }
 
 
-
 class ResponseCache:
     """Filesystem-backed TTL cache. Every failure mode degrades to a miss."""
 
@@ -94,7 +94,7 @@ class ResponseCache:
         directory: Path | str,
         *,
         ttl_seconds: int = DEFAULT_TTL_SECONDS,
-        clock=time.time,
+        clock: Callable[[], float] = time.time,
     ) -> None:
         self.directory = Path(directory)
         self.ttl_seconds = max(0, int(ttl_seconds))
@@ -134,7 +134,7 @@ class ResponseCache:
             return None
         self.stats.hits += 1
         LOGGER.debug("Cache hit %s (%.0fs old)", key[:8], age)
-        return entry["data"]
+        return cast(dict[str, Any], entry["data"])
 
     def stale(self, key: str) -> dict[str, Any] | None:
         """Return an expired payload — last resort when the API fails."""
@@ -143,7 +143,7 @@ class ResponseCache:
             return None
         self.stats.stale_hits += 1
         LOGGER.warning("Serving STALE cache entry %s — GitHub was unavailable.", key[:8])
-        return entry["data"]
+        return cast(dict[str, Any], entry["data"])
 
     def set(self, key: str, data: Mapping[str, Any]) -> None:
         """Persist a payload atomically; storage problems are non-fatal."""
