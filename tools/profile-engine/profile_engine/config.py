@@ -20,9 +20,10 @@ from __future__ import annotations
 
 import logging
 import tomllib
+from collections.abc import Mapping
 from dataclasses import dataclass, field, fields, replace
 from pathlib import Path
-from typing import Any, Mapping
+from typing import Any
 
 LOGGER = logging.getLogger("profile_engine.config")
 
@@ -46,7 +47,9 @@ class SelectionConfig:
     require_topics: tuple[str, ...] = ()
     min_stars: int = 0
 
-    def accepts(self, *, name: str, is_fork: bool, is_archived: bool, stars: int, topics: tuple[str, ...]) -> bool:
+    def accepts(
+        self, *, name: str, is_fork: bool, is_archived: bool, stars: int, topics: tuple[str, ...]
+    ) -> bool:
         if self.include and name not in self.include:
             return False
         if name in self.exclude:
@@ -57,9 +60,7 @@ class SelectionConfig:
             return False
         if stars < self.min_stars:
             return False
-        if self.require_topics and not set(self.require_topics) & set(topics):
-            return False
-        return True
+        return not (self.require_topics and not set(self.require_topics) & set(topics))
 
 
 @dataclass(frozen=True, slots=True)
@@ -81,7 +82,9 @@ class ThresholdConfig:
         for item in fields(self):
             value = getattr(self, item.name)
             if not isinstance(value, int) or value <= 0:
-                raise ConfigError(f"thresholds.{item.name} must be a positive integer, got {value!r}")
+                raise ConfigError(
+                    f"thresholds.{item.name} must be a positive integer, got {value!r}"
+                )
 
 
 @dataclass(frozen=True, slots=True)
@@ -167,7 +170,7 @@ def from_mapping(raw: Mapping[str, Any], *, source: str | None = None) -> Engine
         raise ConfigError(f"unknown top-level key(s): {', '.join(sorted(unknown))}")
 
     config = EngineConfig(
-        login=str(raw.get("login", EngineConfig.login)),
+        login=str(raw.get("login", EngineConfig().login)),
         selection=_build(SelectionConfig, _section(raw, "selection"), "selection"),
         thresholds=_build(ThresholdConfig, _section(raw, "thresholds"), "thresholds"),
         output=_build(OutputConfig, _section(raw, "output"), "output"),

@@ -5,9 +5,9 @@ Pure functions over :mod:`profile_engine.models` — no I/O, fully unit testable
 
 from __future__ import annotations
 
+from collections.abc import Iterable, Sequence
 from dataclasses import dataclass
 from datetime import date, timedelta
-from typing import Iterable, Sequence
 
 from .models import ContributionDay, Language, Profile, Repository
 
@@ -46,7 +46,9 @@ class Snapshot:
     impact_score: int
 
 
-def language_shares(repositories: Iterable[Repository], *, limit: int = 8) -> tuple[LanguageShare, ...]:
+def language_shares(
+    repositories: Iterable[Repository], *, limit: int = 8
+) -> tuple[LanguageShare, ...]:
     """Aggregate byte counts per language and normalise to percentages."""
     totals: dict[str, int] = {}
     colors: dict[str, str] = {}
@@ -133,7 +135,7 @@ def impact_score(profile: Profile) -> int:
         + saturate(documented / max(len(owned), 1) * 10, 10) * 15
         + saturate(len(owned), 15) * 10
     )
-    return int(round(score))
+    return round(score)
 
 
 def build_snapshot(profile: Profile, *, top: int = 6) -> Snapshot:

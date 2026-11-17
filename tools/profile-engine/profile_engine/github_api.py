@@ -14,7 +14,8 @@ import random
 import time
 import urllib.error
 import urllib.request
-from typing import Any, Mapping, Protocol
+from collections.abc import Callable, Mapping
+from typing import Any, Protocol, cast
 
 from .cache import NullCache, cache_key
 from .models import ContributionDay, Profile, Repository, parse_iso8601, repository_from_graphql
@@ -89,7 +90,7 @@ class GitHubClient:
         token: str,
         *,
         endpoint: str = ENDPOINT,
-        sleep=time.sleep,
+        sleep: Callable[[float], None] = time.sleep,
         cache: SupportsCache | None = None,
     ) -> None:
         if not token:
@@ -118,7 +119,7 @@ class GitHubClient:
             },
         )
         with urllib.request.urlopen(request, timeout=30) as response:
-            return json.loads(response.read().decode("utf-8"))
+            return cast(dict[str, Any], json.loads(response.read().decode("utf-8")))
 
     def execute(self, query: str, variables: Mapping[str, Any]) -> dict[str, Any]:
         """Run one query: cache first, then network with backoff, then stale cache."""
@@ -178,7 +179,6 @@ class GitHubClient:
         LOGGER.warning("Backing off %.1fs (attempt %d/%d)", delay, attempt, MAX_ATTEMPTS)
         self._sleep(delay)
 
-
     # -- domain ------------------------------------------------------------
     def fetch_profile(self, login: str) -> Profile:
         """Fetch the full profile, following every repository page."""
@@ -195,10 +195,8 @@ class GitHubClient:
             if not header:
                 header = user
                 calendar = (
-                    ((user.get("contributionsCollection") or {}).get("contributionCalendar") or {})
-                    .get("weeks")
-                    or []
-                )
+                    (user.get("contributionsCollection") or {}).get("contributionCalendar") or {}
+                ).get("weeks") or []
                 for week in calendar:
                     for day in week.get("contributionDays") or []:
                         contributions.append(
