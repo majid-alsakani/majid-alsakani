@@ -13,8 +13,10 @@ import logging
 import random
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from collections.abc import Callable, Mapping
+from dataclasses import replace
 from typing import Any, Protocol
 
 from .cache import NullCache, cache_key
@@ -63,7 +65,6 @@ query($login: String!, $cursor: String) {
       nodes {
         name description url diskUsage forkCount isFork isArchived
         createdAt pushedAt updatedAt
-        stargazers { totalCount }
         watchers { totalCount }
         issues(states: OPEN) { totalCount }
         repositoryTopics(first: 20) { nodes { topic { name } } }
@@ -188,6 +189,37 @@ class GitHubClient:
         LOGGER.warning("Backing off %.1fs (attempt %d/%d)", delay, attempt, MAX_ATTEMPTS)
         self._sleep(delay)
 
+    def _public_star_counts(self, login: str) -> dict[str, int]:
+        """Read public repository stars without the workflow token's repo scope."""
+        counts: dict[str, int] = {}
+        username = urllib.parse.quote(login, safe="")
+        page = 1
+        while True:
+            url = (
+                f"https://api.github.com/users/{username}/repos?type=owner&per_page=100&page={page}"
+            )
+            request = urllib.request.Request(
+                url,
+                headers={
+                    "Accept": "application/vnd.github+json",
+                    "User-Agent": "profile-engine/1.0 (+https://github.com/majid-alsakani)",
+                },
+            )
+            try:
+                with urllib.request.urlopen(request, timeout=30) as response:
+                    items = json.load(response)
+            except (urllib.error.URLError, ValueError) as exc:
+                raise GitHubError(f"Could not read public star counts: {exc}") from exc
+            if not isinstance(items, list):
+                raise GitHubError("GitHub returned an invalid public repository list")
+            for item in items:
+                if not isinstance(item, dict) or not isinstance(item.get("stargazers_count"), int):
+                    raise GitHubError("A public repository has no valid star count")
+                counts[str(item.get("name", "")).lower()] = item["stargazers_count"]
+            if len(items) < 100:
+                return counts
+            page += 1
+
     # -- domain ------------------------------------------------------------
     def fetch_profile(self, login: str) -> Profile:
         """Fetch the full profile, following every repository page."""
@@ -223,6 +255,15 @@ class GitHubClient:
             if not page.get("hasNextPage"):
                 break
             cursor = page.get("endCursor")
+
+        if repositories:
+            star_counts = self._public_star_counts(login)
+            missing = [repo.name for repo in repositories if repo.name.lower() not in star_counts]
+            if missing:
+                raise GitHubError(f"No public star count for: {', '.join(missing[:5])}")
+            repositories = [
+                replace(repo, stars=star_counts[repo.name.lower()]) for repo in repositories
+            ]
 
         return Profile(
             login=str(header.get("login") or login),

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from io import BytesIO
 
 import pytest
 
@@ -52,6 +53,20 @@ def test_client_requires_token():
         GitHubClient("")
 
 
+def test_public_star_counts_use_public_endpoint(monkeypatch):
+    requested = []
+
+    def fake_open(request, timeout):
+        requested.append(request)
+        return BytesIO(json.dumps([{"name": "Example", "stargazers_count": 7}]).encode())
+
+    monkeypatch.setattr("urllib.request.urlopen", fake_open)
+    client = GitHubClient("workflow-token")
+    assert client._public_star_counts("u") == {"example": 7}
+    assert "/users/u/repos?type=owner" in requested[0].full_url
+    assert not requested[0].has_header("Authorization")
+
+
 class FakeClient(GitHubClient):
     def __init__(self, responses):
         super().__init__("token", sleep=lambda _: None)
@@ -61,6 +76,9 @@ class FakeClient(GitHubClient):
     def _post(self, payload):  # type: ignore[override]
         self.calls += 1
         return self._responses.pop(0)
+
+    def _public_star_counts(self, login):  # type: ignore[override]
+        return {"joobea-platform": 2, "second": 4}
 
 
 def test_execute_retries_on_rate_limit_then_succeeds():
@@ -114,6 +132,7 @@ def test_fetch_profile_follows_pagination():
     profile = client.fetch_profile("u")
     assert [repo.name for repo in profile.repositories] == ["joobea-platform", "second"]
     assert profile.followers == 9
+    assert [repo.stars for repo in profile.repositories] == [2, 4]
     assert profile.contributions[0].count == 3
 
 

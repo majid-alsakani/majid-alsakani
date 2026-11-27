@@ -139,6 +139,9 @@ class CountingClient(GitHubClient):
             raise response
         return response
 
+    def _public_star_counts(self, login):  # type: ignore[override]
+        return {"joobea-platform": 2}
+
 
 def test_second_identical_query_skips_the_network(tmp_path):
     cache, _ = make_cache(tmp_path)
@@ -240,4 +243,4 @@ def test_fetch_profile_pages_are_cached_individually(tmp_path):
 
     warm = CountingClient([], cache=cache)
     warm.fetch_profile("u")
-    assert warm.calls == 0  # a full re-run costs zero API points
+    assert warm.calls == 0  # a warm run costs zero GraphQL points
