@@ -75,8 +75,10 @@ def test_execute_retries_on_rate_limit_then_succeeds():
 
 
 def test_execute_raises_on_fatal_error():
-    client = FakeClient([{"errors": [{"type": "NOT_FOUND", "message": "missing"}]}])
-    with pytest.raises(GitHubError, match="missing"):
+    client = FakeClient(
+        [{"errors": [{"type": "NOT_FOUND", "message": "missing", "path": ["user", "repos"]}]}]
+    )
+    with pytest.raises(GitHubError, match="missing at \\['user', 'repos'\\]"):
         client.execute("query {}", {})
 
 

@@ -149,7 +149,13 @@ class GitHubClient:
             errors = document.get("errors") or []
             fatal = [error for error in errors if error.get("type") != "RATE_LIMITED"]
             if fatal:
-                raise GitHubError("; ".join(str(error.get("message")) for error in fatal))
+                details = []
+                for error in fatal[:3]:
+                    path = error.get("path")
+                    location = f" at {path!r}" if path else ""
+                    details.append(f"{error.get('message')}{location}")
+                remaining = f" (+{len(fatal) - 3} more)" if len(fatal) > 3 else ""
+                raise GitHubError("; ".join(details) + remaining)
             if errors:
                 self._backoff(attempt)
                 continue
