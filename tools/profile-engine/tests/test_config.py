@@ -21,6 +21,10 @@ def test_defaults_are_complete_and_valid() -> None:
     assert config.cache.enabled is True
 
 
+def test_mapping_without_login_uses_default_login() -> None:
+    assert from_mapping({}).login == "majid-alsakani"
+
+
 def test_missing_file_falls_back_to_defaults(tmp_path) -> None:
     config = load(search_from=tmp_path)
     assert config.source_path is None
@@ -77,11 +81,15 @@ def test_selection_filters() -> None:
     assert not selection.accepts(name="junk", stars=5, topics=("ai",), **common)
     assert not selection.accepts(name="low", stars=1, topics=("ai",), **common)
     assert not selection.accepts(name="offtopic", stars=5, topics=("web",), **common)
-    assert not selection.accepts(name="fork", stars=5, topics=("ai",), is_fork=True, is_archived=False)
+    assert not selection.accepts(
+        name="fork", stars=5, topics=("ai",), is_fork=True, is_archived=False
+    )
 
 
 def test_overrides_route_to_the_right_section() -> None:
-    config = with_overrides(EngineConfig(), login="new", report_dir="out", ttl_seconds=60, readme=None)
+    config = with_overrides(
+        EngineConfig(), login="new", report_dir="out", ttl_seconds=60, readme=None
+    )
     assert config.login == "new"
     assert config.output.report_dir == "out"
     assert config.cache.ttl_seconds == 60

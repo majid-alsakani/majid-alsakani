@@ -1,14 +1,11 @@
 from __future__ import annotations
 
 import json
-from datetime import timezone
 
 import pytest
 
 from profile_engine.github_api import GitHubClient, GitHubError
 from profile_engine.models import parse_iso8601, repository_from_graphql
-
-UTC = timezone.utc
 
 NODE = {
     "name": "joobea-platform",

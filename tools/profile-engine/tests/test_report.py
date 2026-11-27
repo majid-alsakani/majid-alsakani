@@ -3,15 +3,13 @@
 from __future__ import annotations
 
 import json
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 
 from profile_engine.config import EngineConfig, OutputConfig
 from profile_engine.heatmap import build_heatmap
 from profile_engine.metrics import LanguageShare, Snapshot, Streak
 from profile_engine.models import ContributionDay, Language, Repository
 from profile_engine.report import SCHEMA_VERSION, build_payload, render_html, render_json
-
-UTC = timezone.utc
 
 
 def text_between(haystack: str, start: str, end: str) -> str:
@@ -55,7 +53,9 @@ def make_snapshot() -> Snapshot:
 def make_heatmap():
     from datetime import date
 
-    days = [ContributionDay(day=date(2026, 1, 5) + timedelta(days=i), count=i % 5) for i in range(30)]
+    days = [
+        ContributionDay(day=date(2026, 1, 5) + timedelta(days=i), count=i % 5) for i in range(30)
+    ]
     return build_heatmap(days)
 
 
@@ -65,7 +65,15 @@ def test_payload_shape_is_stable() -> None:
     assert payload["totals"]["commits"] == 170
     assert payload["heatmap"]["weeks"] >= 4
     assert len(payload["heatmap"]["days"]) == 30
-    assert set(payload["heatmap"]["per_weekday"]) == {"Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"}
+    assert set(payload["heatmap"]["per_weekday"]) == {
+        "Mon",
+        "Tue",
+        "Wed",
+        "Thu",
+        "Fri",
+        "Sat",
+        "Sun",
+    }
 
 
 def test_json_round_trips_and_is_sorted() -> None:
@@ -83,7 +91,7 @@ def test_html_is_self_contained_and_seo_ready() -> None:
     assert html.startswith("<!doctype html>")
     assert "https://cdn" not in html and "<script src=" not in html
     assert 'rel="canonical"' in html
-    assert 'application/ld+json' in html
+    assert "application/ld+json" in html
     assert 'property="og:title"' in html
     assert "window.__REPORT__" in html
     assert json.loads(text_between(html, "window.__REPORT__ = ", ";</script>"))["login"]
@@ -93,14 +101,18 @@ def test_html_survives_hostile_values() -> None:
     snapshot = make_snapshot()
     hostile = snapshot.top_repositories[0].__class__(
         **{
-            **{f.name: getattr(snapshot.top_repositories[0], f.name)
-               for f in snapshot.top_repositories[0].__dataclass_fields__.values()},
+            **{
+                f.name: getattr(snapshot.top_repositories[0], f.name)
+                for f in snapshot.top_repositories[0].__dataclass_fields__.values()
+            },
             "name": '<img src=x onerror="alert(1)">',
         }
     )
     snapshot = Snapshot(
-        **{**{f: getattr(snapshot, f) for f in snapshot.__dataclass_fields__},
-           "top_repositories": (hostile,)}
+        **{
+            **{f: getattr(snapshot, f) for f in snapshot.__dataclass_fields__},
+            "top_repositories": (hostile,),
+        }
     )
     html = render_html(build_payload(snapshot, make_heatmap()))
     markup = html.split("window.__REPORT__")[0]
