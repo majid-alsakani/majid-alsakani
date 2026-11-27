@@ -14,9 +14,10 @@ instantly, and can never break because a third-party script went away.
 from __future__ import annotations
 
 import json
-from datetime import datetime, timezone
+from collections.abc import Mapping
+from datetime import UTC, datetime
 from html import escape
-from typing import Any, Mapping
+from typing import Any
 
 from .config import EngineConfig
 from .heatmap import WEEKDAY_NAMES, Heatmap
@@ -38,7 +39,7 @@ def build_payload(
     cache_stats: Mapping[str, Any] | None = None,
 ) -> dict[str, Any]:
     """Assemble the canonical, machine-readable report."""
-    stamp = (generated_at or datetime.now(tz=timezone.utc)).replace(microsecond=0)
+    stamp = (generated_at or datetime.now(tz=UTC)).replace(microsecond=0)
 
     return {
         "schema_version": SCHEMA_VERSION,
@@ -188,7 +189,7 @@ document.querySelectorAll('[data-count]').forEach(el=>{
 def render_html(payload: Mapping[str, Any], *, config: EngineConfig | None = None) -> str:
     """Render the interactive dashboard page for GitHub Pages."""
     output = config.output if config else None
-    title = (output.site_title if output else "Engineering Report")
+    title = output.site_title if output else "Engineering Report"
     site_url = (output.site_url if output else "") or ""
     login = str(payload.get("login", ""))
     totals = payload.get("totals", {})
@@ -218,37 +219,46 @@ def render_html(payload: Mapping[str, Any], *, config: EngineConfig | None = Non
         )
     )
 
-    lang_bar = "".join(
-        f'<span style="width:{float(entry.get("percent", 0)):.2f}%;background:{_t(entry.get("color", "#8b949e"))}"></span>'
-        for entry in languages
-    ) or '<span style="width:100%;background:#30363d"></span>'
+    lang_bar = (
+        "".join(
+            f'<span style="width:{float(entry.get("percent", 0)):.2f}%;background:{_t(entry.get("color", "#8b949e"))}"></span>'
+            for entry in languages
+        )
+        or '<span style="width:100%;background:#30363d"></span>'
+    )
 
-    lang_legend = "".join(
-        f'<span><i class="dot" style="background:{_t(entry.get("color", "#8b949e"))}"></i>'
-        f'{_t(entry.get("name", "?"))} {float(entry.get("percent", 0)):.1f}%</span>'
-        for entry in languages
-    ) or "<span>No language data</span>"
+    lang_legend = (
+        "".join(
+            f'<span><i class="dot" style="background:{_t(entry.get("color", "#8b949e"))}"></i>'
+            f"{_t(entry.get('name', '?'))} {float(entry.get('percent', 0)):.1f}%</span>"
+            for entry in languages
+        )
+        or "<span>No language data</span>"
+    )
 
     per_weekday = heat.get("per_weekday", {})
     peak = max(per_weekday.values()) if per_weekday else 0
     weekday_rows = "".join(
         f'<div class="wk"><b>{_t(name)}</b><div class="t"><i style="width:'
         f'{(0 if peak <= 0 else count * 100 / peak):.1f}%"></i></div>'
-        f'<span>{int(count)}</span></div>'
+        f"<span>{int(count)}</span></div>"
         for name, count in per_weekday.items()
     )
 
-    repo_rows = "".join(
-        "<tr>"
-        f'<td><a href="{_t(repo.get("url", "#"))}" rel="noopener">{_t(repo.get("name", ""))}</a></td>'
-        f'<td>{_t(repo.get("language", "—"))}</td>'
-        f'<td>{int(repo.get("commits", 0))}</td>'
-        f'<td>{int(repo.get("stars", 0))}</td>'
-        f'<td>{int(repo.get("open_issues", 0))}</td>'
-        f'<td>{int(repo.get("days_since_push", 0))}d</td>'
-        "</tr>"
-        for repo in repositories
-    ) or '<tr><td colspan="6">No repositories matched the configured filters.</td></tr>'
+    repo_rows = (
+        "".join(
+            "<tr>"
+            f'<td><a href="{_t(repo.get("url", "#"))}" rel="noopener">{_t(repo.get("name", ""))}</a></td>'
+            f"<td>{_t(repo.get('language', '—'))}</td>"
+            f"<td>{int(repo.get('commits', 0))}</td>"
+            f"<td>{int(repo.get('stars', 0))}</td>"
+            f"<td>{int(repo.get('open_issues', 0))}</td>"
+            f"<td>{int(repo.get('days_since_push', 0))}d</td>"
+            "</tr>"
+            for repo in repositories
+        )
+        or '<tr><td colspan="6">No repositories matched the configured filters.</td></tr>'
+    )
 
     json_ld = json.dumps(
         {
@@ -290,7 +300,7 @@ def render_html(payload: Mapping[str, Any], *, config: EngineConfig | None = Non
   <meta name="twitter:title" content="{_t(page_title)}" />
   <meta name="twitter:description" content="{_t(description)}" />
   <meta name="theme-color" content="#0b0f14" />
-  <link rel="alternate" type="application/json" href="./{_t(output.json_name if output else 'profile-report.json')}" title="Raw report data" />
+  <link rel="alternate" type="application/json" href="./{_t(output.json_name if output else "profile-report.json")}" title="Raw report data" />
   <script type="application/ld+json">{json_ld}</script>
   <style>{_CSS}</style>
 </head>
@@ -334,7 +344,7 @@ def render_html(payload: Mapping[str, Any], *, config: EngineConfig | None = Non
 
     <footer>
       Built by <code>tools/profile-engine</code> — standard library only, no runtime dependencies.
-      <br /><a href="./{_t(output.json_name if output else 'profile-report.json')}">Download the raw JSON</a> ·
+      <br /><a href="./{_t(output.json_name if output else "profile-report.json")}">Download the raw JSON</a> ·
       <a href="https://github.com/{_t(login)}/{_t(login)}" rel="noopener">Source</a>
     </footer>
   </div>

@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import date, datetime, timedelta, timezone
+from datetime import UTC, date, datetime, timedelta
 
 from profile_engine.metrics import (
     build_snapshot,
@@ -10,27 +10,25 @@ from profile_engine.metrics import (
 )
 from profile_engine.models import ContributionDay, Language, Profile, Repository
 
-UTC = timezone.utc
-
 
 def make_repo(name: str, **overrides) -> Repository:
-    base = dict(
-        name=name,
-        description="a repo",
-        stars=3,
-        forks=1,
-        watchers=1,
-        issues=0,
-        commits=10,
-        disk_usage_kb=100,
-        topics=("python",),
-        pushed_at=datetime.now(tz=UTC) - timedelta(days=2),
-        created_at=datetime.now(tz=UTC) - timedelta(days=400),
-        is_fork=False,
-        is_archived=False,
-        languages=(Language("Python", "#3572A5", 1000),),
-        url=f"https://github.com/x/{name}",
-    )
+    base = {
+        "name": name,
+        "description": "a repo",
+        "stars": 3,
+        "forks": 1,
+        "watchers": 1,
+        "issues": 0,
+        "commits": 10,
+        "disk_usage_kb": 100,
+        "topics": ("python",),
+        "pushed_at": datetime.now(tz=UTC) - timedelta(days=2),
+        "created_at": datetime.now(tz=UTC) - timedelta(days=400),
+        "is_fork": False,
+        "is_archived": False,
+        "languages": (Language("Python", "#3572A5", 1000),),
+        "url": f"https://github.com/x/{name}",
+    }
     base.update(overrides)
     return Repository(**base)
 
