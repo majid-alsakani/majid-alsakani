@@ -8,329 +8,14 @@
     "writes": 1
   },
   "config_source": "tools/profile-engine/profile-engine.toml",
-  "generated_at": "2026-09-22T21:02:43+00:00",
+  "generated_at": "2026-11-27T23:22:23+00:00",
   "heatmap": {
-    "active_days": 27,
+    "active_days": 32,
     "busiest_day": "2026-08-01",
     "busiest_day_count": 33,
-    "consistency_percent": 7.3,
-    "daily_average": 0.52,
+    "consistency_percent": 8.6,
+    "daily_average": 0.55,
     "days": [
-      {
-        "count": 0,
-        "date": "2025-09-21",
-        "weekday": 6
-      },
-      {
-        "count": 0,
-        "date": "2025-09-22",
-        "weekday": 0
-      },
-      {
-        "count": 0,
-        "date": "2025-09-23",
-        "weekday": 1
-      },
-      {
-        "count": 0,
-        "date": "2025-09-24",
-        "weekday": 2
-      },
-      {
-        "count": 0,
-        "date": "2025-09-25",
-        "weekday": 3
-      },
-      {
-        "count": 0,
-        "date": "2025-09-26",
-        "weekday": 4
-      },
-      {
-        "count": 0,
-        "date": "2025-09-27",
-        "weekday": 5
-      },
-      {
-        "count": 0,
-        "date": "2025-09-28",
-        "weekday": 6
-      },
-      {
-        "count": 0,
-        "date": "2025-09-29",
-        "weekday": 0
-      },
-      {
-        "count": 0,
-        "date": "2025-09-30",
-        "weekday": 1
-      },
-      {
-        "count": 0,
-        "date": "2025-10-01",
-        "weekday": 2
-      },
-      {
-        "count": 0,
-        "date": "2025-10-02",
-        "weekday": 3
-      },
-      {
-        "count": 0,
-        "date": "2025-10-03",
-        "weekday": 4
-      },
-      {
-        "count": 0,
-        "date": "2025-10-04",
-        "weekday": 5
-      },
-      {
-        "count": 0,
-        "date": "2025-10-05",
-        "weekday": 6
-      },
-      {
-        "count": 0,
-        "date": "2025-10-06",
-        "weekday": 0
-      },
-      {
-        "count": 0,
-        "date": "2025-10-07",
-        "weekday": 1
-      },
-      {
-        "count": 0,
-        "date": "2025-10-08",
-        "weekday": 2
-      },
-      {
-        "count": 0,
-        "date": "2025-10-09",
-        "weekday": 3
-      },
-      {
-        "count": 0,
-        "date": "2025-10-10",
-        "weekday": 4
-      },
-      {
-        "count": 0,
-        "date": "2025-10-11",
-        "weekday": 5
-      },
-      {
-        "count": 0,
-        "date": "2025-10-12",
-        "weekday": 6
-      },
-      {
-        "count": 0,
-        "date": "2025-10-13",
-        "weekday": 0
-      },
-      {
-        "count": 0,
-        "date": "2025-10-14",
-        "weekday": 1
-      },
-      {
-        "count": 0,
-        "date": "2025-10-15",
-        "weekday": 2
-      },
-      {
-        "count": 0,
-        "date": "2025-10-16",
-        "weekday": 3
-      },
-      {
-        "count": 0,
-        "date": "2025-10-17",
-        "weekday": 4
-      },
-      {
-        "count": 0,
-        "date": "2025-10-18",
-        "weekday": 5
-      },
-      {
-        "count": 0,
-        "date": "2025-10-19",
-        "weekday": 6
-      },
-      {
-        "count": 0,
-        "date": "2025-10-20",
-        "weekday": 0
-      },
-      {
-        "count": 0,
-        "date": "2025-10-21",
-        "weekday": 1
-      },
-      {
-        "count": 0,
-        "date": "2025-10-22",
-        "weekday": 2
-      },
-      {
-        "count": 0,
-        "date": "2025-10-23",
-        "weekday": 3
-      },
-      {
-        "count": 0,
-        "date": "2025-10-24",
-        "weekday": 4
-      },
-      {
-        "count": 0,
-        "date": "2025-10-25",
-        "weekday": 5
-      },
-      {
-        "count": 0,
-        "date": "2025-10-26",
-        "weekday": 6
-      },
-      {
-        "count": 0,
-        "date": "2025-10-27",
-        "weekday": 0
-      },
-      {
-        "count": 0,
-        "date": "2025-10-28",
-        "weekday": 1
-      },
-      {
-        "count": 0,
-        "date": "2025-10-29",
-        "weekday": 2
-      },
-      {
-        "count": 0,
-        "date": "2025-10-30",
-        "weekday": 3
-      },
-      {
-        "count": 0,
-        "date": "2025-10-31",
-        "weekday": 4
-      },
-      {
-        "count": 0,
-        "date": "2025-11-01",
-        "weekday": 5
-      },
-      {
-        "count": 0,
-        "date": "2025-11-02",
-        "weekday": 6
-      },
-      {
-        "count": 0,
-        "date": "2025-11-03",
-        "weekday": 0
-      },
-      {
-        "count": 0,
-        "date": "2025-11-04",
-        "weekday": 1
-      },
-      {
-        "count": 0,
-        "date": "2025-11-05",
-        "weekday": 2
-      },
-      {
-        "count": 0,
-        "date": "2025-11-06",
-        "weekday": 3
-      },
-      {
-        "count": 0,
-        "date": "2025-11-07",
-        "weekday": 4
-      },
-      {
-        "count": 0,
-        "date": "2025-11-08",
-        "weekday": 5
-      },
-      {
-        "count": 0,
-        "date": "2025-11-09",
-        "weekday": 6
-      },
-      {
-        "count": 0,
-        "date": "2025-11-10",
-        "weekday": 0
-      },
-      {
-        "count": 0,
-        "date": "2025-11-11",
-        "weekday": 1
-      },
-      {
-        "count": 0,
-        "date": "2025-11-12",
-        "weekday": 2
-      },
-      {
-        "count": 0,
-        "date": "2025-11-13",
-        "weekday": 3
-      },
-      {
-        "count": 0,
-        "date": "2025-11-14",
-        "weekday": 4
-      },
-      {
-        "count": 0,
-        "date": "2025-11-15",
-        "weekday": 5
-      },
-      {
-        "count": 0,
-        "date": "2025-11-16",
-        "weekday": 6
-      },
-      {
-        "count": 0,
-        "date": "2025-11-17",
-        "weekday": 0
-      },
-      {
-        "count": 0,
-        "date": "2025-11-18",
-        "weekday": 1
-      },
-      {
-        "count": 0,
-        "date": "2025-11-19",
-        "weekday": 2
-      },
-      {
-        "count": 0,
-        "date": "2025-11-20",
-        "weekday": 3
-      },
-      {
-        "count": 0,
-        "date": "2025-11-21",
-        "weekday": 4
-      },
-      {
-        "count": 0,
-        "date": "2025-11-22",
-        "weekday": 5
-      },
       {
         "count": 0,
         "date": "2025-11-23",
@@ -1002,12 +687,12 @@
         "weekday": 6
       },
       {
-        "count": 4,
+        "count": 5,
         "date": "2026-04-06",
         "weekday": 0
       },
       {
-        "count": 3,
+        "count": 2,
         "date": "2026-04-07",
         "weekday": 1
       },
@@ -1027,22 +712,22 @@
         "weekday": 4
       },
       {
-        "count": 6,
+        "count": 9,
         "date": "2026-04-11",
         "weekday": 5
       },
       {
-        "count": 3,
+        "count": 0,
         "date": "2026-04-12",
         "weekday": 6
       },
       {
-        "count": 5,
+        "count": 6,
         "date": "2026-04-13",
         "weekday": 0
       },
       {
-        "count": 2,
+        "count": 1,
         "date": "2026-04-14",
         "weekday": 1
       },
@@ -1607,22 +1292,22 @@
         "weekday": 1
       },
       {
-        "count": 0,
+        "count": 1,
         "date": "2026-08-05",
         "weekday": 2
       },
       {
-        "count": 2,
+        "count": 1,
         "date": "2026-08-06",
         "weekday": 3
       },
       {
-        "count": 0,
+        "count": 1,
         "date": "2026-08-07",
         "weekday": 4
       },
       {
-        "count": 4,
+        "count": 3,
         "date": "2026-08-08",
         "weekday": 5
       },
@@ -1707,12 +1392,12 @@
         "weekday": 0
       },
       {
-        "count": 13,
+        "count": 14,
         "date": "2026-08-25",
         "weekday": 1
       },
       {
-        "count": 1,
+        "count": 0,
         "date": "2026-08-26",
         "weekday": 2
       },
@@ -1855,21 +1540,337 @@
         "count": 0,
         "date": "2026-09-23",
         "weekday": 2
+      },
+      {
+        "count": 0,
+        "date": "2026-09-24",
+        "weekday": 3
+      },
+      {
+        "count": 0,
+        "date": "2026-09-25",
+        "weekday": 4
+      },
+      {
+        "count": 0,
+        "date": "2026-09-26",
+        "weekday": 5
+      },
+      {
+        "count": 0,
+        "date": "2026-09-27",
+        "weekday": 6
+      },
+      {
+        "count": 0,
+        "date": "2026-09-28",
+        "weekday": 0
+      },
+      {
+        "count": 0,
+        "date": "2026-09-29",
+        "weekday": 1
+      },
+      {
+        "count": 0,
+        "date": "2026-09-30",
+        "weekday": 2
+      },
+      {
+        "count": 0,
+        "date": "2026-10-01",
+        "weekday": 3
+      },
+      {
+        "count": 0,
+        "date": "2026-10-02",
+        "weekday": 4
+      },
+      {
+        "count": 0,
+        "date": "2026-10-03",
+        "weekday": 5
+      },
+      {
+        "count": 0,
+        "date": "2026-10-04",
+        "weekday": 6
+      },
+      {
+        "count": 0,
+        "date": "2026-10-05",
+        "weekday": 0
+      },
+      {
+        "count": 0,
+        "date": "2026-10-06",
+        "weekday": 1
+      },
+      {
+        "count": 0,
+        "date": "2026-10-07",
+        "weekday": 2
+      },
+      {
+        "count": 0,
+        "date": "2026-10-08",
+        "weekday": 3
+      },
+      {
+        "count": 0,
+        "date": "2026-10-09",
+        "weekday": 4
+      },
+      {
+        "count": 0,
+        "date": "2026-10-10",
+        "weekday": 5
+      },
+      {
+        "count": 0,
+        "date": "2026-10-11",
+        "weekday": 6
+      },
+      {
+        "count": 0,
+        "date": "2026-10-12",
+        "weekday": 0
+      },
+      {
+        "count": 0,
+        "date": "2026-10-13",
+        "weekday": 1
+      },
+      {
+        "count": 0,
+        "date": "2026-10-14",
+        "weekday": 2
+      },
+      {
+        "count": 0,
+        "date": "2026-10-15",
+        "weekday": 3
+      },
+      {
+        "count": 0,
+        "date": "2026-10-16",
+        "weekday": 4
+      },
+      {
+        "count": 0,
+        "date": "2026-10-17",
+        "weekday": 5
+      },
+      {
+        "count": 0,
+        "date": "2026-10-18",
+        "weekday": 6
+      },
+      {
+        "count": 0,
+        "date": "2026-10-19",
+        "weekday": 0
+      },
+      {
+        "count": 0,
+        "date": "2026-10-20",
+        "weekday": 1
+      },
+      {
+        "count": 0,
+        "date": "2026-10-21",
+        "weekday": 2
+      },
+      {
+        "count": 0,
+        "date": "2026-10-22",
+        "weekday": 3
+      },
+      {
+        "count": 2,
+        "date": "2026-10-23",
+        "weekday": 4
+      },
+      {
+        "count": 0,
+        "date": "2026-10-24",
+        "weekday": 5
+      },
+      {
+        "count": 0,
+        "date": "2026-10-25",
+        "weekday": 6
+      },
+      {
+        "count": 0,
+        "date": "2026-10-26",
+        "weekday": 0
+      },
+      {
+        "count": 0,
+        "date": "2026-10-27",
+        "weekday": 1
+      },
+      {
+        "count": 0,
+        "date": "2026-10-28",
+        "weekday": 2
+      },
+      {
+        "count": 1,
+        "date": "2026-10-29",
+        "weekday": 3
+      },
+      {
+        "count": 0,
+        "date": "2026-10-30",
+        "weekday": 4
+      },
+      {
+        "count": 1,
+        "date": "2026-10-31",
+        "weekday": 5
+      },
+      {
+        "count": 0,
+        "date": "2026-11-01",
+        "weekday": 6
+      },
+      {
+        "count": 0,
+        "date": "2026-11-02",
+        "weekday": 0
+      },
+      {
+        "count": 0,
+        "date": "2026-11-03",
+        "weekday": 1
+      },
+      {
+        "count": 0,
+        "date": "2026-11-04",
+        "weekday": 2
+      },
+      {
+        "count": 0,
+        "date": "2026-11-05",
+        "weekday": 3
+      },
+      {
+        "count": 0,
+        "date": "2026-11-06",
+        "weekday": 4
+      },
+      {
+        "count": 0,
+        "date": "2026-11-07",
+        "weekday": 5
+      },
+      {
+        "count": 0,
+        "date": "2026-11-08",
+        "weekday": 6
+      },
+      {
+        "count": 0,
+        "date": "2026-11-09",
+        "weekday": 0
+      },
+      {
+        "count": 0,
+        "date": "2026-11-10",
+        "weekday": 1
+      },
+      {
+        "count": 0,
+        "date": "2026-11-11",
+        "weekday": 2
+      },
+      {
+        "count": 0,
+        "date": "2026-11-12",
+        "weekday": 3
+      },
+      {
+        "count": 0,
+        "date": "2026-11-13",
+        "weekday": 4
+      },
+      {
+        "count": 0,
+        "date": "2026-11-14",
+        "weekday": 5
+      },
+      {
+        "count": 0,
+        "date": "2026-11-15",
+        "weekday": 6
+      },
+      {
+        "count": 0,
+        "date": "2026-11-16",
+        "weekday": 0
+      },
+      {
+        "count": 6,
+        "date": "2026-11-17",
+        "weekday": 1
+      },
+      {
+        "count": 1,
+        "date": "2026-11-18",
+        "weekday": 2
+      },
+      {
+        "count": 0,
+        "date": "2026-11-19",
+        "weekday": 3
+      },
+      {
+        "count": 0,
+        "date": "2026-11-20",
+        "weekday": 4
+      },
+      {
+        "count": 0,
+        "date": "2026-11-21",
+        "weekday": 5
+      },
+      {
+        "count": 0,
+        "date": "2026-11-22",
+        "weekday": 6
+      },
+      {
+        "count": 0,
+        "date": "2026-11-23",
+        "weekday": 0
+      },
+      {
+        "count": 0,
+        "date": "2026-11-24",
+        "weekday": 1
+      },
+      {
+        "count": 0,
+        "date": "2026-11-25",
+        "weekday": 2
+      },
+      {
+        "count": 0,
+        "date": "2026-11-26",
+        "weekday": 3
+      },
+      {
+        "count": 0,
+        "date": "2026-11-27",
+        "weekday": 4
       }
     ],
-    "end": "2026-09-23",
+    "end": "2026-11-27",
     "max_day": 33,
     "peak_weekday": "Mon",
     "per_week": [
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
-      0,
       0,
       0,
       0,
@@ -1889,8 +1890,8 @@
       0,
       0,
       0,
-      20,
-      10,
+      23,
+      7,
       0,
       0,
       0,
@@ -1913,77 +1914,86 @@
       0,
       0,
       0,
+      0,
+      0,
+      0,
+      0,
+      2,
+      2,
+      0,
+      0,
+      7,
       0
     ],
     "per_weekday": {
-      "Fri": 1,
-      "Mon": 52,
-      "Sat": 43,
-      "Sun": 11,
+      "Fri": 4,
+      "Mon": 54,
+      "Sat": 46,
+      "Sun": 8,
       "Thu": 9,
-      "Tue": 39,
-      "Wed": 36
+      "Tue": 44,
+      "Wed": 37
     },
     "quietest_weekday": "Fri",
-    "start": "2025-09-21",
-    "total": 191,
-    "weekend_share_percent": 28.3,
+    "start": "2025-11-23",
+    "total": 202,
+    "weekend_share_percent": 26.7,
     "weeks": 53
   },
   "languages": [
     {
-      "bytes": 1603796,
+      "bytes": 785117,
       "color": "#3178c6",
       "name": "TypeScript",
-      "percent": 69.4
+      "percent": 58.43
     },
     {
-      "bytes": 298305,
+      "bytes": 255313,
       "color": "#3572A5",
       "name": "Python",
-      "percent": 12.91
+      "percent": 19.0
     },
     {
-      "bytes": 199464,
+      "bytes": 149128,
       "color": "#f1e05a",
       "name": "JavaScript",
-      "percent": 8.63
+      "percent": 11.1
     },
     {
-      "bytes": 119559,
+      "bytes": 117654,
       "color": "#e34c26",
       "name": "HTML",
-      "percent": 5.17
+      "percent": 8.76
     },
     {
-      "bytes": 44043,
+      "bytes": 15288,
       "color": "#663399",
       "name": "CSS",
-      "percent": 1.91
-    },
-    {
-      "bytes": 32598,
-      "color": "#336790",
-      "name": "PLpgSQL",
-      "percent": 1.41
+      "percent": 1.14
     },
     {
       "bytes": 8514,
       "color": "#ff3670",
       "name": "Mermaid",
-      "percent": 0.37
+      "percent": 0.63
+    },
+    {
+      "bytes": 8297,
+      "color": "#336790",
+      "name": "PLpgSQL",
+      "percent": 0.62
     },
     {
       "bytes": 3661,
       "color": "#89e051",
       "name": "Shell",
-      "percent": 0.16
+      "percent": 0.27
     }
   ],
   "login": "majid-alsakani",
   "repositories": [
     {
-      "commits": 115,
+      "commits": 188,
       "days_since_push": 0,
       "description": "Backend & AI Systems Engineer and Product Builder building reliable Python APIs, automation platforms, and practical AI products.",
       "forks": 1,
@@ -1999,7 +2009,6 @@
         "github-profile",
         "portfolio",
         "python",
-        "readme",
         "api",
         "automation",
         "developer-portfolio",
@@ -2009,13 +2018,17 @@
         "react",
         "typescript",
         "yemen",
-        "majid-alsakani"
+        "majid-alsakani",
+        "ai-systems",
+        "kubernetes",
+        "product-builder",
+        "terraform"
       ],
       "url": "https://github.com/majid-alsakani/majid-alsakani"
     },
     {
       "commits": 94,
-      "days_since_push": 52,
+      "days_since_push": 118,
       "description": "Joobea — I'm Majid Al-Sakani, a Yemeni Full Stack developer, and I built this AI recruitment platform to fight unemployment in Yemen: smart job matching, ATS CV analyzer, employer dashboards, freelance & mentorship, Arabic-first RTL. Live at joobea.com",
       "forks": 1,
       "is_active": false,
@@ -2048,11 +2061,11 @@
       "url": "https://github.com/majid-alsakani/joobea-platform"
     },
     {
-      "commits": 29,
-      "days_since_push": 55,
-      "description": "AI-powered Chinese language learning platform for Arabic speakers. Features adaptive learning, HSK curriculum, and interactive lessons.",
+      "commits": 36,
+      "days_since_push": 4,
+      "description": "منصة عربية لتعلّم الصينية عبر مسار HSK 1–9، بدروس قصيرة ومفردات وقاموس صيني–عربي. يضم هذا المستودع التوثيق والشعار ولقطات الموقع وخطة التسويق.",
       "forks": 1,
-      "is_active": false,
+      "is_active": true,
       "language": "Other",
       "name": "sini-alkhafif-app",
       "open_issues": 0,
@@ -2083,10 +2096,10 @@
     },
     {
       "commits": 52,
-      "days_since_push": 25,
+      "days_since_push": 92,
       "description": "Majid Al-Sakani | ماجد السكني — Full Stack Developer (Python, FastAPI, Django, React) from Yemen. Official personal portfolio and profile site.",
       "forks": 0,
-      "is_active": true,
+      "is_active": false,
       "language": "JavaScript",
       "name": "majid-alsakani-portfolio",
       "open_issues": 0,
@@ -2107,7 +2120,7 @@
     },
     {
       "commits": 5,
-      "days_since_push": 55,
+      "days_since_push": 121,
       "description": "A modern web portfolio showcasing Full Stack development skills with TypeScript, React, and TailwindCSS. Demonstrates responsive design and interactive UI/UX.",
       "forks": 0,
       "is_active": false,
@@ -2124,41 +2137,50 @@
       "url": "https://github.com/majid-alsakani/majid-portfolio"
     },
     {
-      "commits": 14,
-      "days_since_push": 29,
-      "description": "Omni-Agent: The Autonomous Business Intelligence Hub. AI-powered automation, real-time analytics, and enterprise-grade security.",
+      "commits": 24,
+      "days_since_push": 10,
+      "description": "🧭 Interactive bilingual (AR/EN) developer roadmaps by Majid Al-Sakani (ماجد السكني) — 9 paths incl. Professional Software Engineer, 225 topics, progress tracking. خرائط تعلّم البرمجة التفاعلية.",
       "forks": 0,
       "is_active": true,
       "language": "Python",
-      "name": "omni-agent-ai",
+      "name": "developer-roadmap",
       "open_issues": 0,
-      "stars": 5,
+      "stars": 4,
       "topics": [
         "ai-agents",
-        "analytics",
-        "automation",
-        "business-intelligence",
-        "llm",
-        "python"
+        "arabic",
+        "backend",
+        "bilingual",
+        "developer-roadmap",
+        "devops",
+        "frontend",
+        "learning-path",
+        "python",
+        "roadmap",
+        "study-plan",
+        "majid-alsakani",
+        "professional-development",
+        "software-engineering",
+        "yemen"
       ],
-      "url": "https://github.com/majid-alsakani/omni-agent-ai"
+      "url": "https://github.com/majid-alsakani/developer-roadmap"
     }
   ],
   "schema_version": 2,
   "streak": {
     "best_day": 33,
     "current": 0,
-    "longest": 9,
-    "total": 191
+    "longest": 7,
+    "total": 202
   },
   "totals": {
-    "active_repositories": 21,
-    "commits": 387,
-    "disk_usage_kb": 76254,
-    "followers": 9,
-    "forks": 4,
-    "impact_score": 91,
-    "public_repositories": 35,
-    "stars": 86
+    "active_repositories": 4,
+    "commits": 461,
+    "disk_usage_kb": 76949,
+    "followers": 8,
+    "forks": 6,
+    "impact_score": 87,
+    "public_repositories": 30,
+    "stars": 87
   }
 }
