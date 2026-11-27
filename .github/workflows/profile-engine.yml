@@ -9,11 +9,17 @@ on:
     paths:
       - "tools/profile-engine/**"
       - ".github/workflows/profile-engine.yml"
+  pull_request:
+    branches: [main]
+    paths:
+      - "tools/profile-engine/**"
+      - ".github/scripts/recent_activity.py"
+      - ".github/scripts/test_recent_activity.py"
+      - ".github/workflows/profile-engine.yml"
+      - ".github/workflows/update-gh-activity.yml"
 
 permissions:
-  contents: write
-  pages: write
-  id-token: write
+  contents: read
 
 concurrency:
   group: profile-readme-writers
@@ -38,15 +44,19 @@ jobs:
       - name: Mypy
         working-directory: tools/profile-engine
         run: mypy profile_engine
-        continue-on-error: true
       - name: Pytest
         working-directory: tools/profile-engine
         run: pytest
+      - name: Recent activity renderer tests
+        run: python -m unittest discover -s .github/scripts -p 'test_*.py'
 
   refresh:
     name: Recompute profile metrics and report
     needs: quality
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     outputs:
       published: ${{ steps.commit.outputs.published }}
     steps:
@@ -105,7 +115,12 @@ jobs:
   pages:
     name: Publish the report to GitHub Pages
     needs: refresh
+    if: github.event_name != 'pull_request'
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deploy.outputs.page_url }}

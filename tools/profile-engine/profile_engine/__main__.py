@@ -24,7 +24,9 @@ LOGGER = logging.getLogger("profile_engine")
 def build_parser() -> argparse.ArgumentParser:
     parser = argparse.ArgumentParser(
         prog="profile_engine",
-        description="Recompute the live metrics block, SVG cards and HTML/JSON report of a GitHub profile.",
+        description=(
+            "Recompute the live metrics block, SVG cards and HTML/JSON report of a GitHub profile."
+        ),
     )
     parser.add_argument("--config", type=Path, default=None, help="Path to profile-engine.toml.")
     parser.add_argument("--login", default=os.environ.get("PROFILE_LOGIN") or None)
@@ -162,7 +164,8 @@ def main(argv: list[str] | None = None) -> int:
     heatmap = build_heatmap(profile.contributions)
 
     LOGGER.info(
-        "%s · %d repos · %d commits · %d stars · score %d · heatmap %d weeks / %d contributions (peak %s)",
+        "%s · %d repos · %d commits · %d stars · score %d · "
+        "heatmap %d weeks / %d contributions (peak %s)",
         snapshot.login,
         snapshot.public_repos,
         snapshot.total_commits,
