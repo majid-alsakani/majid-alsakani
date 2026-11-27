@@ -8,9 +8,9 @@ produces the same file as running it once.
 from __future__ import annotations
 
 import re
-from datetime import datetime, timezone
-
-from typing import Any, Mapping
+from collections.abc import Mapping
+from datetime import UTC, datetime
+from typing import Any
 
 from .heatmap import Heatmap, weekday_table
 from .metrics import Snapshot
@@ -42,18 +42,22 @@ def render_section(
     Optional inputs degrade gracefully: without a heatmap or report URL the
     block renders exactly as it did before, so old call sites keep working.
     """
-    stamp = (generated_at or datetime.now(tz=timezone.utc)).strftime("%Y-%m-%d %H:%M UTC")
+    stamp = (generated_at or datetime.now(tz=UTC)).strftime("%Y-%m-%d %H:%M UTC")
     streak = snapshot.streak
 
-    table = "\n".join(
-        f"| [`{repo.name}`]({repo.url}) | {repo.primary_language} | {repo.commits} | "
-        f"{repo.stars} | {repo.days_since_push}d ago |"
-        for repo in snapshot.top_repositories
-    ) or "| _no repositories_ | – | – | – | – |"
+    table = (
+        "\n".join(
+            f"| [`{repo.name}`]({repo.url}) | {repo.primary_language} | {repo.commits} | "
+            f"{repo.stars} | {repo.days_since_push}d ago |"
+            for repo in snapshot.top_repositories
+        )
+        or "| _no repositories_ | – | – | – | – |"
+    )
 
-    languages = " · ".join(
-        f"**{share.name}** {share.percent:.1f}%" for share in snapshot.languages[:6]
-    ) or "_no language data_"
+    languages = (
+        " · ".join(f"**{share.name}** {share.percent:.1f}%" for share in snapshot.languages[:6])
+        or "_no language data_"
+    )
 
     heat_block = ""
     if heatmap is not None and heatmap.total > 0:

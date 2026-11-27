@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import datetime, timedelta, timezone
+from datetime import UTC, datetime, timedelta
 
 import pytest
 
@@ -8,8 +8,6 @@ from profile_engine.metrics import LanguageShare, Snapshot, Streak
 from profile_engine.models import Language, Repository
 from profile_engine.readme import END, START, MarkerError, inject, render_section
 from profile_engine.svg import language_card, stats_card
-
-UTC = timezone.utc
 
 
 def make_snapshot() -> Snapshot:

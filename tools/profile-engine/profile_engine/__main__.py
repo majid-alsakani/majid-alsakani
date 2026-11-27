@@ -9,7 +9,8 @@ import sys
 from pathlib import Path
 
 from .cache import NullCache, ResponseCache
-from .config import ConfigError, EngineConfig, load as load_config, with_overrides
+from .config import ConfigError, EngineConfig, with_overrides
+from .config import load as load_config
 from .github_api import GitHubClient, GitHubError
 from .heatmap import build_heatmap, heatmap_svg
 from .metrics import build_snapshot
@@ -29,19 +30,43 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--login", default=os.environ.get("PROFILE_LOGIN") or None)
     parser.add_argument("--readme", default=None)
     parser.add_argument("--assets", dest="assets_dir", default=None)
-    parser.add_argument("--report-dir", dest="report_dir", default=None,
-                        help="Directory for the HTML/JSON report (GitHub Pages ready).")
+    parser.add_argument(
+        "--report-dir",
+        dest="report_dir",
+        default=None,
+        help="Directory for the HTML/JSON report (GitHub Pages ready).",
+    )
     parser.add_argument("--no-report", action="store_true", help="Skip HTML and JSON output.")
-    parser.add_argument("--report-only", action="store_true", help="Only write the report; leave README and SVGs alone.")
+    parser.add_argument(
+        "--report-only",
+        action="store_true",
+        help="Only write the report; leave README and SVGs alone.",
+    )
     parser.add_argument("--dry-run", action="store_true", help="Print, do not write.")
     parser.add_argument("--verbose", action="store_true")
-    parser.add_argument("--print-config", action="store_true", help="Show the effective configuration and exit.")
-    parser.add_argument("--cache-dir", dest="directory", type=str, default=None,
-                        help="Where GraphQL responses are stored between runs.")
-    parser.add_argument("--cache-ttl", dest="ttl_seconds", type=int, default=None,
-                        help="Seconds a cached response stays fresh.")
-    parser.add_argument("--no-cache", action="store_true", help="Bypass the response cache entirely.")
-    parser.add_argument("--clear-cache", action="store_true", help="Purge cached responses before running.")
+    parser.add_argument(
+        "--print-config", action="store_true", help="Show the effective configuration and exit."
+    )
+    parser.add_argument(
+        "--cache-dir",
+        dest="directory",
+        type=str,
+        default=None,
+        help="Where GraphQL responses are stored between runs.",
+    )
+    parser.add_argument(
+        "--cache-ttl",
+        dest="ttl_seconds",
+        type=int,
+        default=None,
+        help="Seconds a cached response stays fresh.",
+    )
+    parser.add_argument(
+        "--no-cache", action="store_true", help="Bypass the response cache entirely."
+    )
+    parser.add_argument(
+        "--clear-cache", action="store_true", help="Purge cached responses before running."
+    )
     return parser
 
 
@@ -126,7 +151,9 @@ def main(argv: list[str] | None = None) -> int:
     )
     skipped = len(profile.repositories) - len(selected)
     if skipped:
-        LOGGER.info("Selection filters excluded %d repositor%s.", skipped, "y" if skipped == 1 else "ies")
+        LOGGER.info(
+            "Selection filters excluded %d repositor%s.", skipped, "y" if skipped == 1 else "ies"
+        )
 
     from dataclasses import replace as _replace
 
@@ -187,7 +214,9 @@ def main(argv: list[str] | None = None) -> int:
         report_dir.mkdir(parents=True, exist_ok=True)
         (report_dir / ".nojekyll").write_text("", encoding="utf-8")
         if config.output.write_json:
-            (report_dir / config.output.json_name).write_text(render_json(payload), encoding="utf-8")
+            (report_dir / config.output.json_name).write_text(
+                render_json(payload), encoding="utf-8"
+            )
         if config.output.write_html:
             (report_dir / config.output.html_name).write_text(
                 render_html(payload, config=config), encoding="utf-8"

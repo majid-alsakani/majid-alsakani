@@ -16,8 +16,8 @@ permissions:
   id-token: write
 
 concurrency:
-  group: profile-engine
-  cancel-in-progress: true
+  group: profile-readme-writers
+  cancel-in-progress: false
 
 jobs:
   quality:

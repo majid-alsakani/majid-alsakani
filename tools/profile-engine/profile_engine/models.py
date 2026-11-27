@@ -6,13 +6,14 @@ so the renderer can never be handed a raw, unvalidated API payload.
 
 from __future__ import annotations
 
+from collections.abc import Iterable, Mapping
 from dataclasses import dataclass, field
-from datetime import date, datetime, timezone
-from typing import Any, Iterable, Mapping
+from datetime import UTC, date, datetime
+from typing import Any
 
 
 def _utc_now() -> datetime:
-    return datetime.now(tz=timezone.utc)
+    return datetime.now(tz=UTC)
 
 
 @dataclass(frozen=True, slots=True)
@@ -107,8 +108,8 @@ def parse_iso8601(value: str) -> datetime:
     normalised = value.replace("Z", "+00:00")
     parsed = datetime.fromisoformat(normalised)
     if parsed.tzinfo is None:
-        parsed = parsed.replace(tzinfo=timezone.utc)
-    return parsed.astimezone(timezone.utc)
+        parsed = parsed.replace(tzinfo=UTC)
+    return parsed.astimezone(UTC)
 
 
 def _int(value: Any, default: int = 0) -> int:
@@ -120,9 +121,7 @@ def _int(value: Any, default: int = 0) -> int:
 
 def repository_from_graphql(node: Mapping[str, Any]) -> Repository:
     """Map one GraphQL repository node onto :class:`Repository` defensively."""
-    languages_edges: Iterable[Mapping[str, Any]] = (
-        (node.get("languages") or {}).get("edges") or []
-    )
+    languages_edges: Iterable[Mapping[str, Any]] = (node.get("languages") or {}).get("edges") or []
     languages = tuple(
         Language(
             name=str((edge.get("node") or {}).get("name") or "Other"),
@@ -148,7 +147,9 @@ def repository_from_graphql(node: Mapping[str, Any]) -> Repository:
         commits=_int(history.get("totalCount")),
         disk_usage_kb=_int(node.get("diskUsage")),
         topics=tuple(topic for topic in topics if topic),
-        pushed_at=parse_iso8601(str(node.get("pushedAt") or node.get("updatedAt") or "1970-01-01T00:00:00Z")),
+        pushed_at=parse_iso8601(
+            str(node.get("pushedAt") or node.get("updatedAt") or "1970-01-01T00:00:00Z")
+        ),
         created_at=parse_iso8601(str(node.get("createdAt") or "1970-01-01T00:00:00Z")),
         is_fork=bool(node.get("isFork")),
         is_archived=bool(node.get("isArchived")),

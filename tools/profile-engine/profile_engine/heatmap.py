@@ -11,10 +11,10 @@ Standard library only, no I/O, fully unit tested.
 
 from __future__ import annotations
 
+from collections.abc import Sequence
 from dataclasses import dataclass
 from datetime import date, timedelta
 from html import escape
-from typing import Sequence
 
 from .models import ContributionDay
 
@@ -22,8 +22,18 @@ WEEKDAY_NAMES = ("Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun")
 """Index 0..6 matches :meth:`datetime.date.weekday`."""
 
 MONTH_NAMES = (
-    "Jan", "Feb", "Mar", "Apr", "May", "Jun",
-    "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct",
+    "Nov",
+    "Dec",
 )
 
 
@@ -123,9 +133,16 @@ def build_heatmap(
     if not days:
         today = date.today()
         return Heatmap(
-            cells=(), weeks=0, start=today, end=today,
-            per_weekday=(0,) * 7, per_week=(), total=0,
-            busiest_day=None, busiest_day_count=0, max_cell=0,
+            cells=(),
+            weeks=0,
+            start=today,
+            end=today,
+            per_weekday=(0,) * 7,
+            per_week=(),
+            total=0,
+            busiest_day=None,
+            busiest_day_count=0,
+            max_cell=0,
         )
 
     ordered = sorted(days, key=lambda entry: entry.day)
@@ -149,7 +166,9 @@ def build_heatmap(
         week_index = (entry.day - grid_origin).days // 7
         weekday = entry.day.weekday()
 
-        cells.append(HeatmapCell(day=entry.day, count=count, week_index=week_index, weekday=weekday))
+        cells.append(
+            HeatmapCell(day=entry.day, count=count, week_index=week_index, weekday=weekday)
+        )
         per_weekday[weekday] += count
         per_week_map[week_index] = per_week_map.get(week_index, 0) + count
         total += count
@@ -211,7 +230,9 @@ def heatmap_svg(
         y = top + entry.weekday * step
         level = heatmap.level(entry.count, buckets=len(palette) - 1)
         color = palette[min(level, len(palette) - 1)]
-        label = f"{entry.day.isoformat()} · {entry.count} contribution{'s' if entry.count != 1 else ''}"
+        label = (
+            f"{entry.day.isoformat()} · {entry.count} contribution{'s' if entry.count != 1 else ''}"
+        )
         rects.append(
             f'<rect x="{x}" y="{y}" width="{cell}" height="{cell}" rx="2" fill="{color}" '
             f'class="cell l{level}"><title>{_t(label)}</title></rect>'
@@ -263,9 +284,9 @@ def heatmap_svg(
   </style>
   <rect x="0.5" y="0.5" rx="10" width="{width - 1}" height="{height - 1}" fill="{background}" stroke="{border}"/>
   <text x="{left - 12}" y="32" class="title">Commit distribution · {_t(heatmap.start.isoformat())} → {_t(heatmap.end.isoformat())}</text>
-  {''.join(month_labels)}
+  {"".join(month_labels)}
   {day_labels}
-  {''.join(rects)}
+  {"".join(rects)}
   {legend}
   <text x="{left - 12}" y="{height - 16}" class="foot">{_t(footer)}</text>
 </svg>

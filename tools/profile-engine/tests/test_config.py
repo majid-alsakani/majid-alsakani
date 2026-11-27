@@ -77,11 +77,15 @@ def test_selection_filters() -> None:
     assert not selection.accepts(name="junk", stars=5, topics=("ai",), **common)
     assert not selection.accepts(name="low", stars=1, topics=("ai",), **common)
     assert not selection.accepts(name="offtopic", stars=5, topics=("web",), **common)
-    assert not selection.accepts(name="fork", stars=5, topics=("ai",), is_fork=True, is_archived=False)
+    assert not selection.accepts(
+        name="fork", stars=5, topics=("ai",), is_fork=True, is_archived=False
+    )
 
 
 def test_overrides_route_to_the_right_section() -> None:
-    config = with_overrides(EngineConfig(), login="new", report_dir="out", ttl_seconds=60, readme=None)
+    config = with_overrides(
+        EngineConfig(), login="new", report_dir="out", ttl_seconds=60, readme=None
+    )
     assert config.login == "new"
     assert config.output.report_dir == "out"
     assert config.cache.ttl_seconds == 60

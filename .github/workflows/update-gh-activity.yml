@@ -8,6 +8,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: profile-readme-writers
+  cancel-in-progress: false
+
 jobs:
   build:
     name: Update README with recent GitHub activity
@@ -15,9 +19,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Render recent activity
-        uses: jamesgeorge007/github-activity-readme@master
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          COMMIT_MSG: "chore(readme): refresh recent GitHub activity"
-          MAX_LINES: 10
+          PROFILE_LOGIN: ${{ github.repository_owner }}
+        run: python .github/scripts/recent_activity.py
+      - name: Commit updated README (signed via GitHub API)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python .github/scripts/signed_commit.py \
+            "chore(readme): refresh recent GitHub activity [skip ci]" README.md
