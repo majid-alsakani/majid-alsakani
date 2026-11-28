@@ -610,17 +610,17 @@ contact: majidalsakani@gmail.com
 | Metric | Value |
 | --- | --- |
 | Public repositories | **30** |
-| Total commits | **461** |
+| Total commits | **464** |
 | Stars earned | **87** |
 | Forks | **6** |
 | Shipped in the last 30 days | **4** repositories |
-| Contribution streak | **0** days (longest **7**) |
-| Contributions this year | **202** |
+| Contribution streak | **1** days (longest **7**) |
+| Contributions this year | **210** |
 | Engineering footprint score | **87/100** |
 
 ### 🧠 Language distribution
 
-**TypeScript** 58.4% · **Python** 19.0% · **JavaScript** 11.1% · **HTML** 8.8% · **CSS** 1.1% · **Mermaid** 0.6%
+**TypeScript** 58.2% · **Python** 19.2% · **JavaScript** 11.1% · **HTML** 8.7% · **CSS** 1.1% · **Mermaid** 0.6%
 
 ### 🔥 Commit distribution — weekday × week
 
@@ -632,30 +632,30 @@ contact: majidalsakani@gmail.com
 
 | Weekday | Distribution | Contributions | Share |
 | --- | --- | --- | --- |
-| Mon | `████████████` | 54 | 26.7% |
-| Tue | `██████████░░` | 44 | 21.8% |
-| Wed | `████████░░░░` | 37 | 18.3% |
-| Thu | `██░░░░░░░░░░` | 9 | 4.5% |
-| Fri | `█░░░░░░░░░░░` | 4 | 2.0% |
-| Sat | `██████████░░` | 46 | 22.8% |
-| Sun | `██░░░░░░░░░░` | 8 | 4.0% |
+| Mon | `████████████` | 54 | 25.7% |
+| Tue | `██████████░░` | 44 | 21.0% |
+| Wed | `████████░░░░` | 37 | 17.6% |
+| Thu | `██░░░░░░░░░░` | 9 | 4.3% |
+| Fri | `█░░░░░░░░░░░` | 4 | 1.9% |
+| Sat | `████████████` | 54 | 25.7% |
+| Sun | `██░░░░░░░░░░` | 8 | 3.8% |
 
 | Rhythm signal | Value |
 | --- | --- |
-| Window | `2025-11-23` → `2026-11-27` (53 weeks) |
-| Days with activity | **32** (8.6% of the window) |
-| Daily average | **0.55** contributions |
+| Window | `2025-11-23` → `2026-11-28` (53 weeks) |
+| Days with activity | **33** (8.9% of the window) |
+| Daily average | **0.57** contributions |
 | Peak weekday | **Mon** · quietest **Fri** |
-| Weekend share | **26.7%** |
+| Weekend share | **29.5%** |
 | Busiest single day | **33** on `2026-08-01` |
 
 ### 🚀 Most active work
 
 | Repository | Language | Commits | Stars | Last push |
 | --- | --- | --- | --- | --- |
-| [`majid-alsakani`](https://github.com/majid-alsakani/majid-alsakani) | Python | 188 | 7 | 0d ago |
+| [`majid-alsakani`](https://github.com/majid-alsakani/majid-alsakani) | Python | 191 | 7 | 0d ago |
 | [`joobea-platform`](https://github.com/majid-alsakani/joobea-platform) | Other | 94 | 5 | 118d ago |
-| [`sini-alkhafif-app`](https://github.com/majid-alsakani/sini-alkhafif-app) | Other | 36 | 5 | 4d ago |
+| [`sini-alkhafif-app`](https://github.com/majid-alsakani/sini-alkhafif-app) | Other | 36 | 5 | 5d ago |
 | [`majid-alsakani-portfolio`](https://github.com/majid-alsakani/majid-alsakani-portfolio) | JavaScript | 52 | 2 | 92d ago |
 | [`majid-portfolio`](https://github.com/majid-alsakani/majid-portfolio) | TypeScript | 5 | 6 | 121d ago |
 | [`developer-roadmap`](https://github.com/majid-alsakani/developer-roadmap) | Python | 24 | 4 | 10d ago |
@@ -666,7 +666,7 @@ contact: majidalsakani@gmail.com
 
 <sub>Pipeline health · cache hit rate <b>0.0%</b> (0 hit / 1 miss)</sub>
 
-<sub>Recomputed automatically by a GitHub Actions workflow · last run <code>2026-11-27 23:22 UTC</code></sub>
+<sub>Recomputed automatically by a GitHub Actions workflow · last run <code>2026-11-28 07:43 UTC</code></sub>
 
 <!-- PROFILE-ENGINE:END -->
 

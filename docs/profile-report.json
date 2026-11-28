@@ -8,13 +8,13 @@
     "writes": 1
   },
   "config_source": "tools/profile-engine/profile-engine.toml",
-  "generated_at": "2026-11-27T23:22:23+00:00",
+  "generated_at": "2026-11-28T07:43:04+00:00",
   "heatmap": {
-    "active_days": 32,
+    "active_days": 33,
     "busiest_day": "2026-08-01",
     "busiest_day_count": 33,
-    "consistency_percent": 8.6,
-    "daily_average": 0.55,
+    "consistency_percent": 8.9,
+    "daily_average": 0.57,
     "days": [
       {
         "count": 0,
@@ -1865,9 +1865,14 @@
         "count": 0,
         "date": "2026-11-27",
         "weekday": 4
+      },
+      {
+        "count": 8,
+        "date": "2026-11-28",
+        "weekday": 5
       }
     ],
-    "end": "2026-11-27",
+    "end": "2026-11-28",
     "max_day": 33,
     "peak_weekday": "Mon",
     "per_week": [
@@ -1923,12 +1928,12 @@
       0,
       0,
       7,
-      0
+      8
     ],
     "per_weekday": {
       "Fri": 4,
       "Mon": 54,
-      "Sat": 46,
+      "Sat": 54,
       "Sun": 8,
       "Thu": 9,
       "Tue": 44,
@@ -1936,8 +1941,8 @@
     },
     "quietest_weekday": "Fri",
     "start": "2025-11-23",
-    "total": 202,
-    "weekend_share_percent": 26.7,
+    "total": 210,
+    "weekend_share_percent": 29.5,
     "weeks": 53
   },
   "languages": [
@@ -1945,31 +1950,31 @@
       "bytes": 785117,
       "color": "#3178c6",
       "name": "TypeScript",
-      "percent": 58.43
+      "percent": 58.25
     },
     {
-      "bytes": 255313,
+      "bytes": 259546,
       "color": "#3572A5",
       "name": "Python",
-      "percent": 19.0
+      "percent": 19.25
     },
     {
       "bytes": 149128,
       "color": "#f1e05a",
       "name": "JavaScript",
-      "percent": 11.1
+      "percent": 11.06
     },
     {
       "bytes": 117654,
       "color": "#e34c26",
       "name": "HTML",
-      "percent": 8.76
+      "percent": 8.73
     },
     {
       "bytes": 15288,
       "color": "#663399",
       "name": "CSS",
-      "percent": 1.14
+      "percent": 1.13
     },
     {
       "bytes": 8514,
@@ -1993,7 +1998,7 @@
   "login": "majid-alsakani",
   "repositories": [
     {
-      "commits": 188,
+      "commits": 191,
       "days_since_push": 0,
       "description": "Backend & AI Systems Engineer and Product Builder building reliable Python APIs, automation platforms, and practical AI products.",
       "forks": 1,
@@ -2062,7 +2067,7 @@
     },
     {
       "commits": 36,
-      "days_since_push": 4,
+      "days_since_push": 5,
       "description": "منصة عربية لتعلّم الصينية عبر مسار HSK 1–9، بدروس قصيرة ومفردات وقاموس صيني–عربي. يضم هذا المستودع التوثيق والشعار ولقطات الموقع وخطة التسويق.",
       "forks": 1,
       "is_active": true,
@@ -2169,14 +2174,14 @@
   "schema_version": 2,
   "streak": {
     "best_day": 33,
-    "current": 0,
+    "current": 1,
     "longest": 7,
-    "total": 202
+    "total": 210
   },
   "totals": {
     "active_repositories": 4,
-    "commits": 461,
-    "disk_usage_kb": 76949,
+    "commits": 464,
+    "disk_usage_kb": 77051,
     "followers": 8,
     "forks": 6,
     "impact_score": 87,
